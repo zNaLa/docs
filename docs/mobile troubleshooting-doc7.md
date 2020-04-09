@@ -1,5 +1,5 @@
 ---
-id: doc7
+id: mobile_troubleshooting
 title: Mobile Troubleshooting
 ---
 

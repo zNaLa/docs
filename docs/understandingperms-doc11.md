@@ -1,5 +1,5 @@
 ---
-id: doc11
+id: permissions
 title: Understanding Rythm's Permissions
 ---
 

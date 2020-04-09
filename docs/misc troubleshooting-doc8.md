@@ -1,5 +1,5 @@
 ---
-id: doc8
+id: misc_help
 title: Miscellaneous Help Options
 ---
 

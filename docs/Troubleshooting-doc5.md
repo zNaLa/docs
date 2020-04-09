@@ -1,5 +1,5 @@
 ---
-id: doc5
+id: basic_troubleshooting
 title: Basic Troubleshooting
 ---
 

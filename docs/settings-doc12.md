@@ -1,5 +1,5 @@
 ---
-id: doc12
+id: settings
 title: Rythm's Settings and How They Work
 ---
 

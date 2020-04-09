@@ -1,5 +1,5 @@
 ---
-id: 'doc1'
+id: 'whatisrythm'
 title: What is Rythm?
 sidebar_label: What is Rythm?
 ---

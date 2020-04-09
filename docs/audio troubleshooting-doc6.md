@@ -1,5 +1,5 @@
 ---
-id: doc6
+id: audio_troubleshooting
 title: Audio Troubleshooting
 ---
 
