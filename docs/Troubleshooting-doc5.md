@@ -9,7 +9,7 @@ title: Basic Troubleshooting
 You must have a role with the “Administrator” or the “Manage Server” permission to be able to add Rythm to a Discord Server. 
 *If you are able to change the name of the server, you have one of these permissions.*
 
-If you have the correct permission and still can’t see your server in the list, make sure you’re logged into the correct Discord account in your web browser which you can check by going [here](https://discordapp.com/channels/@me).
+If you have the correct permission and still can’t see your server in the list, make sure you’re logged into the correct Discord account in your web browser which you can check by going [here](https://discord.com/channels/@me).
 
 Note: If that still doesn't work, we suggest trying **Incognito Mode** in your web browser or a different browser to invite Rythm to your server. An incognito guide/table will be below:
 
