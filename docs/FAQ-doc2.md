@@ -70,7 +70,18 @@ How to change Rythms nickname in your server. Continue reading below.
 
 1. Make sure you havr the `Manage Nickname` permission.
 2. Then you will have to **Right Click** Rythms name.
-3. A menu will pop up looking like this [Picture Here]
+3. A menu will pop up looking like this:
+
+![NicknameMenu](/static/img/nickname-menu.png)
+
+4. Type in your desired nickname.
+5. Finally you can press `"Save"` and you're good to go.
+
+### How can I donate to Support Rythm?
+Do you enjoy/love Rythm? Want to help Rythm in funds? You can donate to us today!
+
+1. You can donate by [clicking here](https://rythmbot.co/donate?d)
++ You will get awesome perks such as **Play songs that are longer than 3 hours** and **Get a cool donators role on the official bots discord .** You'll unlock more perks when you upgrade to different Tiers.
 
 ## Limitations/Restrictions
 
