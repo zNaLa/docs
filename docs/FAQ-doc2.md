@@ -121,9 +121,9 @@ Due to high demand we have added the ability to add a second Rythm to your serve
 1. If you are in need of a Second Rythm within your server you can invite Rythm 2 by [clicking here](https://rythmbot.co/rythm2).
 
 ### How can I change the location of Rythm Announcing Songs?
-Rythm announces the songs where it was originally started playing from when you used `!play Song_URL` and/or `!summon`. Look below to see how to change the location of the announces of songs.
+Rythm will announce songs in the channel the command is used. Look below to see how to change the location of the announces of songs.
 
-1. Let's say you used the `!play Song_URL` and/or `!summon` command in the channel `#music-commands`. In `#music-command` Rythm will start announcing songs in that channel you used `!play Song_URL` and/or `!summon`. 
+1. Let's say you used the `!play Song_URL` and/or `!summon` command in the channel `#music-commands`. In `#music-command` Rythm will start announcing songs in the channel in which you used the command. 
 2. If you would like to change th location of the song announcements, you can do `!disconnect` and use `!play Song_URL` and/or `!summon` in a different channel within your server.
 
 ### How can I view more than page using the queue command?
