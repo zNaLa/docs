@@ -83,6 +83,62 @@ Do you enjoy/love Rythm? Want to help Rythm in funds? You can donate to us today
 1. You can donate by [clicking here](https://rythmbot.co/donate?d)
 + You will get awesome perks such as **Play songs that are longer than 3 hours** and **Get a cool donators role on the official bots discord .** You'll unlock more perks when you upgrade to different Tiers.
 
+### What do I get when I donate to Rythm?
+Donating to Rythm helps us a lot. If you're interested in donating [click here](https://patreon.com/rythm).
+
+**Starter Pack ($5)**
++ Know that you are awesome!
++ Activate rewards for **1** server or user
++ AutoPlay™
++ Play songs that are longer than **3 hours**.
++ Get a cool donators role on the official bots discord
+
+**Supporter Pack ($10)**
++ Know that you are awesome!
++ Activate rewards for **2** servers or users
++ AutoPlay™
++ Play songs that are longer than **3 hours**.
++ Get a cool donators role on the official bots discord
+
+**Awesome Pack ($15)**
++ Know that you are awesome!
++ Activate rewards for **5** servers or users
++ Get to test BETA features (No promises on anything interesting)
++ AutoPlay™
++ Get global donator perks
++ Play songs that are longer than **3 hours**.
++ Get a cool donators role on the official bots discord
+
+### How can I see all of Rythms Commands?
+You can see all of Rythms commands by either doing `!help` or `!commands`.
+
+1. You can also visit our commands page by [clicking here](https://rythmbot.co/commands).
+2. In order for __any__ commands to work hile using Rythm __you must__ make sure that the prefix is at the beginning of any command you use. Rythms default prefix is known to be `!`.
+
+### How can I add a Second Rythm to my server?
+Due to high demand we have added the ability to add a second Rythm to your server allowing for twice the music.
+
+1. If you are in need of a Second Rythm within your server you can invite Rythm 2 by [clicking here](https://rythmbot.co/rythm2).
+
+### How can I change the location of Rythm Announcing Songs?
+Rythm announces the songs where it was originally started playing from when you used `!play Song_URL` and/or `!summon`. Look below to see how to change the location of the announces of songs.
+
+1. Let's say you used the `!play Song_URL` and/or `!summon` command in the channel `#music-commands`. In `#music-command` Rythm will start announcing songs in that channel you used `!play Song_URL` and/or `!summon`. 
+2. If you would like to change th location of the song announcements, you can do `!disconnect` and use `!play Song_URL` and/or `!summon` in a different channel within your server.
+
+### How can I view more than page using the queue command?
+You can view more than one queue pages by doing the following below.
+
+1. To view more queue pages `!queue Page_Number`.
+    + **Example:** `!queue 2`
+    + **Example:** `!queue 3`
+
+### How can I remove duplicate songs from the queue?
+To remove duplicate songs you can use the command as shown below.
+
+1. `!removedupes`
++ Rythm will then remove all duplicates of any songs within your servers queue.
+
 ## Limitations/Restrictions
 
 ## Roles/Permissions
