@@ -34,7 +34,7 @@ Discord allows bots over `2,000 Thousand` Servers to use a feature called `"Shar
 
 <!-- The start of the Basic Information section -->
 ## Basic Information
-----
+-----
 ### How can I play a song and a playlist with Rythm?
 When using Rythm you can either play a song or a playlisy. To play a song and a playlist with Rythm use the commands below.
 
@@ -139,7 +139,28 @@ To remove duplicate songs you can use the command as shown below.
 1. `!removedupes`
 + Rythm will then remove all duplicates of any songs within your servers queue.
 
+### Why can some normal users access moderative music commands?
+1. Normal users with no special permissions are only allowed to use the `!play` command to add songs to the queue by default.
+They can also use other commands that don't affect the playing music in any way. Example: `!queue` and `!lyrics`.
+2. However, normal users can access ALL music commands when they are alone with Rythm in the voice channel.
+This is because their commands would not affect anyone but themselves.
++ For more information about users command permissions, refer to the **Roles/Permissions** section in this FAQ.
+
+### How many votes are needed for a song to be vote skipped?
+**__Here's an example:__**
+
+1. For a vote skip to take effect, **75% of the voice chat's** population need to vote yes.
+2. Let's assume there are **10** users in a voice chat.
+3. The threshold for skipping is calculated as **75% of 10 = 7.5**, then rounded down, so **7**.
+3. For the vote skip to take effect, you would then need **7 positive** votes.
+
++ **Note:** Vote skip will not be active until there are **3 or more people** in the voice channel.
+(As with one person, insta-skip is enabled and with two the threshold for skipping is 1).
+<!-- The end of the Basic Information Section -->
+
+<!-- The start of the Limitations/Restrictions section -->
 ## Limitations/Restrictions
+-----
 
 ## Roles/Permissions
 
