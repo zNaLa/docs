@@ -72,7 +72,7 @@ How to change Rythms nickname in your server. Continue reading below.
 2. Then you will have to **Right Click** Rythms name.
 3. A menu will pop up looking like this:
 
-![NicknameMenu](/static/img/nickname-menu.png)
+![NicknameMenu](/static/img/faq/nickname-menu.png)
 
 4. Type in your desired nickname.
 5. Finally you can press `"Save"` and you're good to go.
@@ -161,6 +161,55 @@ This is because their commands would not affect anyone but themselves.
 <!-- The start of the Limitations/Restrictions section -->
 ## Limitations/Restrictions
 -----
+### Can I have 2 Rythms in the same server?
++ **Short Answer:** `Yes`
+    + You can invite Rythm 2 by [clicking here](https://rythmbot.co/rythm2)
+
+### Can I change Rythms Profile Picture/Avatar in my server?
++ **Short Answer:** `No`
+    + Discord does not allow Bots to change their profile picture/avatar per server.
+
+### Can Rythm play Spotify?
++ **Short Answer:** `No`
+    + Playing from Spotify is illegal and both the API for Rythm and Spotify doesn't support it.
+
+**You can use these links to transfer Spotify Playlists to YouTube Playlists**
++ https://soundiiz.com/
++ https://playlistbuddy.com/
+
+### What music sites does Rythm currently support?
++ **These are the current sites that music can be played from.**
+
+1. YouTube [(YouTube Link Click Here)](https://www.youtube.com/)
+2. SoundCloud [(SoundCloud Link Click Here)](https://soundcloud.com/)
+3. Twitch [(Twitch Link Click Here)](https://www.twitch.tv/)
+4. Vimeo [(Vimeo Link Click Here)](https://vimeo.com/)
+5. Mixer [(Mixer Link Click Here)](https://mixer.com/)
+6. BandCamp [(BandCamp Link Click Here)](https://bandcamp.com)
+
+### Can I adjust the volume for everyone on my server for Rythm?
++ **Short Answer:** [`Yes, if you Donate`](https://patreon.com/rythm)
+    + You may set the local volume of Rythm for yourself by selecting Rythm and adjusting the user volume slider as shown below.
+
+![VolumeMenu](/static/img/faq/user-volume.png)
+
++ Rythm uses the default volume for videos when using audio streams, for donators we allow for encoding to change the volume of these audio streams. Due to the fact that encoding takes resources and time, this is why we do not roll this feature out to all Rythm users.
+
+**Donators**
+
+1. For donators the volume command is !volume number *(Allowed Values: 1 ➠ 200)*.
+    + **Example:** `!volume 80`
+
+### Can I make custom commands for Rythm?
++ **Short Answer:** `No`
+    + We do not allow custom commands/aliases, however we do allow for suggestions of aliases to be added.
+
+1. Use the `!aliases` command to view all the aliases.
+    + You can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the Rythm Bot Discord server.
+
+### Can Rythm play 24/7?
++ **Short Answer:** `No`
+    + Rythm is not a **24/7** bot. However you can self host [this bot](https://github.com/repulser/moosic) to gain that feature.
 
 ## Roles/Permissions
 
@@ -183,3 +232,4 @@ To disallow Rythm from being used within certain voice channels, you must use th
 10. Click `Save`.
 
 ## Rythm Links
+-----
