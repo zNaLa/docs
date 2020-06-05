@@ -233,3 +233,13 @@ To disallow Rythm from being used within certain voice channels, you must use th
 
 ## Rythm Links
 -----
+### I have encountered an issue with Rythm!
+If you have encountered an issue with Rythm, you can use the links below to help you fix any of those issues.
++ [Basic Troubleshooting](https://rythmbot.co/basic_troubleshooting)
++ [Audio Troubleshooting](https://rythmbot.co/audio_troubleshooting)
++ [Mobile Troubleshooting](https://rythmbot.co/mobile_troubleshooting)
++ [Miscellaneous Help Options](https://rythmbot.co/misc_help)
+
+### None of this helped me with my problem!
+Sorry that your issue has not been fixed with the FAQ and Troubleshooting Page.
++ If you find that your question was not answered by this FAQ Page or the Troubleshooting Page, please visit our support server by [clicking here](https://rythmbot.co/support)!
