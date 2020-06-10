@@ -3,7 +3,7 @@ id: faq
 title: Frequently Asked Questions
 ---
 
-<!-- The start of the Introduction section -->
+<!-- The start of the Introduction Section -->
 ## Introduction
 -----
 ### What is Rythm Bot?
@@ -32,7 +32,7 @@ Rythms Discord Server is a place built for everything related to Rythm!
 Discord allows bots over `2,000 Thousand` Servers to use a feature called `"Sharding"`. In Rythms case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime. For more detail, please [click here](https://discordapp.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
 <!-- The end of the Introduction Section -->
 
-<!-- The start of the Basic Information section -->
+<!-- The start of the Basic Information Section -->
 ## Basic Information
 -----
 ### How can I play a song and a playlist with Rythm?
@@ -158,7 +158,7 @@ This is because their commands would not affect anyone but themselves.
 (As with one person, insta-skip is enabled and with two the threshold for skipping is 1).
 <!-- The end of the Basic Information Section -->
 
-<!-- The start of the Limitations/Restrictions section -->
+<!-- The start of the Limitations/Restrictions Section -->
 ## Limitations/Restrictions
 -----
 ### Can I have 2 Rythms in the same server?
@@ -210,11 +210,48 @@ This is because their commands would not affect anyone but themselves.
 ### Can Rythm play 24/7?
 + **Short Answer:** `No`
     + Rythm is not a **24/7** bot. However you can self host [this bot](https://github.com/repulser/moosic) to gain that feature.
+<!-- The end of the Limitations/Restrictions Section -->
 
+<!-- The start of the Roles/Permissions Section -->
 ## Roles/Permissions
-
-## Settings/Configuration
 -----
+### What users can use what command?
+Rythm’s built-in permission system can be divided in the following groups:
+
+
+**Normal Users/Users without any special roles:**
+
+1. Are able to add songs to the list (queue) but can’t remove them.
+2. Are able to use commands that don’t interfere with other people’s music. 
+    + **Example:** `lyrics`, `np`, `queue`, etc.
+3. Can't skip a song without voting.
+5. Don’t have access to control the music in any way.
+
+
+**Users with a DJ role/Manage Channels permission:**
+
+1. Have full access to all music commands.
+2. Can’t change Rythm’s settings.
+
++ **Note:** If there isn’t a role named "DJ" in your server, one can be created with no special permissions assigned and it will still access these features.
+
+
+**Users with Manage Server/Administrator permission:**
+
+1. `Manage Server:` Users with the **Manage Server** permission can change Rythm’s settings,
+but are limited to only use the normal user's music commands.
+2. `Administrator:` Users with the **Administrator** permission have full access to all music commands
+and can also change Rythm’s settings.
+
++ **Huge Notice:** If a user is **ALONE WITH RYTHM** in a voice channel, they **WILL** have access to **ALL** music commands even if the user has **NO ROLES** in the server. This is because these commands wouldn't affect anyone but the user, as there would be no one else in the voice channel.
+    + If you want all Rythm commands to be only available to people with a specific role, read the next entry in this FAQ.
+
+
+
+
+
+
+
 ### Blacklisting Voice Channels
 To disallow Rythm from being used within certain voice channels, you must use the Discord permission system.
 
@@ -230,7 +267,115 @@ To disallow Rythm from being used within certain voice channels, you must use th
 9. Deny the `Connect` permission on the Rythm override.
    + If you other voice channels you don't want Rythm to join, repeat steps 7-9 for each channel.
 10. Click `Save`.
+<!-- The end of the Rikes/Permissions Section -->
 
+<!-- The start of the Settings/Configuration Section -->
+## Settings/Configuration
+-----
+### Intro
+These are the options you can access through Rythm’s settings menu. 
+
+1. To access this menu use the command `!settings`.
+2. Rythm should then display a menu showing the settings that can be changed.
+3. For more information on a setting just type: `!settings Setting Name`.
+    + **Example:** `!settings blacklist`
+
++ **Note:** Any setting marked with an asterisk `*` is donator exclusive.
+
+### Rythm Prefix 
+Changing Rythm’s prefix
+
+1. Makes Rythm respond to a different prefix.
+2. Command usage `!settings prefix NewPrefix`.
+    + **Example:** `!settings prefix $`.
+
+### Test Channel Blacklist
+Blacklisting text channels
+
+1. By blacklisting a text channel, you make it impossible for anyone to access music commands through that channel.
+2. Command usage `!settings blacklist #channel`.
+    + **Example:** `!settings blacklist #channel1 #channel2`.
+
++ **Note:** You can blacklist multiple channels at once and to "Whitelist" a text channel and put it back to normal, just run the Blacklist command on it again.
+
+### Annocuning Songs
+Turning On/Off Announcesongs
+
+1. Sends a message to a text channel announcing every song when they start.
+2. Command usage `!settings announcesongs on/off`.
+    + **Example:** `!settings announcesongs on`.
+
+### Queue Length Limit
+Limiting queue length
+
+1. Limits the max number of songs the queue can hold before refusing to allow users to add any more.
+2. Command usage `!settings maxqueuelength Number/disable`.
+    + **Example:** `!settings maxqueuelength 25`.
+    + **Example:** `!settings maxqueuelength disable`.
+
+### User Songs Limit
+Limiting the amount of songs a single user can request
+
+1. Limits how many songs the user can queue at one time, can be disabled by typing disable instead of a number.
+2. Command usage `!settings maxusersongs Number/disable`.
+    + **Example:** `!settings maxusersongs 5`.
+    + **Example:** `!settings maxusersongs disable`.
+
+### Duplicate Song Removal
+Getting Rythm to automatically remove duplicate songs
+
+1. Prevents users from adding songs to the queue that are already in the current queue.
+2. Command usage `!settings preventduplicates on/off`.
+    + **Example:** `!settings preventduplicates on`.
+    + **Example:** `!settings preventduplicates off`.
+
+### DJ Only Mode
+Enabling DJ only mode
+
+1. Sets the server to run in DJ only mode, allowing only users with the DJ role or the Manage Channels permission to use Rythm's music commands.
+2. Command usage `!settings djonly on/off`.
+    + **Example:** `!settings djonly on`.
+    + **Example:** `!settings djonly off`.
+
+### Setting a Custom DJ Role
+Setting a custom DJ role
+
+1. Sets a custom role to work as DJ with Rythm.
+2. Command usage `!settings djrole role/@role`.
+    + **Example:** `!settings djrole DJAdmin`.
+    + **Example:** `!settings djrole @DJAdmin`.
+
++ **Note:** Any role called "DJ" will still act as a DJ role.
+
+### DJ Playlists
+Enabling DJ Playlists
+
+1. When enabled only DJ's are able to queue playlists.
+2. Command usage `!settings djplaylists on/off`.
+    + **Example:** `!settings djplaylists on`.
+    + **Example:** `!settings djplaylists off`.
+
+### Autoplay*
+Enabling/Disabling autoplay*
+
+1. Autoplay feature once setup with your own playlist, Rythm will queue songs from it once the queue is empty.
+2. Command usage !settings autoplay URL/disable
+    + **Example:** `!settings autoplay https://www.youtube.com/watch?v=N_qFfQ3xHCw`.
+    + **Example:** `!settings autoplay disable`.
+
++ **Note:** This feature is donator exclusive.
+
+### Server Default Volume*
+Setting Rythm's default volume*
+
+1. Sets the default volume for Rythm when joining` a channel after being summoned.
+2. Command usage `!settings defaultvolume Number`.
+    + **Example:** `!settings defaultvolume 100`.
+
++ **Note:** This feature is donator exclusive.
+<!-- The end of the Settings/Configuration Section -->
+
+<!-- The start of the Rythm Links Section -->
 ## Rythm Links
 -----
 ### I have encountered an issue with Rythm!
@@ -241,5 +386,6 @@ If you have encountered an issue with Rythm, you can use the links below to help
 + [Miscellaneous Help Options](https://rythmbot.co/misc_help)
 
 ### None of this helped me with my problem!
-Sorry that your issue has not been fixed with the FAQ and Troubleshooting Page.
+Sorry that your issue has not been fixed with the FAQ and Troubleshooting Page. 
 + If you find that your question was not answered by this FAQ Page or the Troubleshooting Page, please visit our support server by [clicking here](https://rythmbot.co/support)!
+<!-- The end of the Rythm Links Section -->
