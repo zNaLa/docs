@@ -40,7 +40,13 @@ When using Rythm you can either play a song or a playlisy. To play a song and a 
 
 1. To play a song `!play Somg_Name/Song_URL`
     + **Example:** `!play Wanted by OneRepublic`
+
+    <!-- ![PlayMusicName](/static/img/faq/play-music-name.png) -->
+
     + **Example:** `!play https://www.youtube.com/watch?v=N_qFfQ3xHCw`
+
+    <!-- ![PlayMusicLink](/static/img/faq/play-music-link.png) -->
+
     + **Note:** Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://www.patreon.com/rythm?utm_source=donate&utm_medium=referral&utm_campaign=bot) to Rythm!
 2. To play a playlist `!play Playlist_URL`
     + **Example:** `!play https://www.youtube.com/watch?v=WyKSOXtBT1g`
@@ -186,6 +192,7 @@ This is because their commands would not affect anyone but themselves.
 4. Vimeo [(Vimeo Link Click Here)](https://vimeo.com/)
 5. Mixer [(Mixer Link Click Here)](https://mixer.com/)
 6. BandCamp [(BandCamp Link Click Here)](https://bandcamp.com)
+7. Spotify  [(Spotify Link Click Here)](https://www.spotify.com/)
 
 ### Can I adjust the volume for everyone on my server for Rythm?
 + **Short Answer:** [`Yes, if you Donate`](https://patreon.com/rythm)
@@ -207,7 +214,7 @@ This is because their commands would not affect anyone but themselves.
 1. Use the `!aliases` command to view all the aliases.
     + You can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the Rythm Bot Discord server.
 
-### Can Rythm play 24/7?
+### Can Rythm play 24/7 Music?
 + **Short Answer:** `No`
     + Rythm is not a **24/7** bot. However you can self host [this bot](https://github.com/repulser/moosic) to gain that feature.
 <!-- The end of the Limitations/Restrictions Section -->
@@ -215,9 +222,8 @@ This is because their commands would not affect anyone but themselves.
 <!-- The start of the Roles/Permissions Section -->
 ## Roles/Permissions
 -----
-### What users can use what command?
+### What are the commands that users can use?
 Rythm’s built-in permission system can be divided in the following groups:
-
 
 **Normal Users/Users without any special roles:**
 
@@ -227,14 +233,12 @@ Rythm’s built-in permission system can be divided in the following groups:
 3. Can't skip a song without voting.
 5. Don’t have access to control the music in any way.
 
-
 **Users with a DJ role/Manage Channels permission:**
 
 1. Have full access to all music commands.
 2. Can’t change Rythm’s settings.
 
 + **Note:** If there isn’t a role named "DJ" in your server, one can be created with no special permissions assigned and it will still access these features.
-
 
 **Users with Manage Server/Administrator permission:**
 
@@ -246,11 +250,32 @@ and can also change Rythm’s settings.
 + **Huge Notice:** If a user is **ALONE WITH RYTHM** in a voice channel, they **WILL** have access to **ALL** music commands even if the user has **NO ROLES** in the server. This is because these commands wouldn't affect anyone but the user, as there would be no one else in the voice channel.
     + If you want all Rythm commands to be only available to people with a specific role, read the next entry in this FAQ.
 
+### How can I give normal users access to all of the music commands?
+Here we will be teaching you how to setup music commands with Discord Permissions.
 
+**Permission**
 
+1. Users with the `Manage Channels` Permission will be able to access all of the music commands. This is what it should look like, look at the image shown below.
 
+![ManageChannels](/static/img/faq/manage-channel.png)
 
+2. Users with the `Manage Server` Permission will be able to access all of the setting commands. This is what it should look like, look at the image shown below.
 
+![ManageServer](/static/img/faq/manage-server.png)
+
+**Command**
+
+In this case if you do not want users having the `Manage Channel` permission to use commands, you can follow the steps below to give them permissions using a couple of ways.
+
+1. Go to **Server Settings** ➠ **Roles** ➠ Make a new role called `"DJ"`.
+2. You can use the following command to set another DJ Role: Command usage `!settings djrole @role/role-name`.
+    + **Example:** `!settings djrole NewDJRole`
+    + **Example:** `!settings djrole @NewDJRole`
+3. The DJ role has to be assigned manually and cannot be given to all users at once, unless you are using another bot that supports giving all roles to users at once.
+
+**Users alone in a voice channel with Rythm will be treated as though they have the DJ role until another user joins the voice channel with them even if they have no roles**
+
++ **Note:** Members with the `"DJ Role"` will not be able to change **ANY** of the Settings Commands.
 
 ### Blacklisting Voice Channels
 To disallow Rythm from being used within certain voice channels, you must use the Discord permission system.
