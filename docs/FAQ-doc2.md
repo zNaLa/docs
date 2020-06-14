@@ -41,19 +41,20 @@ When using Rythm you can either play a song or a playlisy. To play a song and a 
 1. To play a song `!play Somg_Name/Song_URL`
     + **Example:** `!play Wanted by OneRepublic`
 
-    ![PlayMusicName](/static/img/faq/play-music-name.png)
+![PlayMusicName](/static/img/faq/play-music-name.png)
 
-    + **Example:** `!play https://www.youtube.com/watch?v=N_qFfQ3xHCw`
+   + **Example:** `!play https://www.youtube.com/watch?v=N_qFfQ3xHCw`
 
-    ![PlayMusicLink](/static/img/faq/play-music-link.png)
+![PlayMusicLink](/static/img/faq/play-music-link.png)
 
-    + **Note:** Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://www.patreon.com/rythm?utm_source=donate&utm_medium=referral&utm_campaign=bot) to Rythm!
+   + **Note:** Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://www.patreon.com/rythm?utm_source=donate&utm_medium=referral&utm_campaign=bot) to Rythm!
+
 2. To play a playlist `!play Playlist_URL`
     + **Example:** `!play https://www.youtube.com/watch?v=oygrmJFKYZY&list=PL4o29bINVT4EG_y-k5jGoOu3-Am8Nvi10`
 
-    ![PlayMusicPlaylist](/static/img/faq/play-music-playlist.png)
+![PlayMusicPlaylist](/static/img/faq/play-music-playlist.png)
 
-    + **Note:** Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that mentioned playlist.
+   + **Note:** Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that mentioned playlist.
 
 ### How can I change Rythms Prefix?
 Rythm offers a way to change your prefixes. Continue reading down below and you will find out how to set a servers prefix.
@@ -321,7 +322,7 @@ These are the options you can access through Rythm’s settings menu.
 3. For more information on a setting just type: `!settings Setting-Name`.
     + **Example:** `!settings blacklist`
 
-    ![SettingsBlacklistTest](/static/img/faq/settings-blacklist-test.png)
+![SettingsBlacklistTest](/static/img/faq/settings-blacklist-test.png)
 
 + **Note:** Any setting marked with an asterisk `*` is donator exclusive.
 
@@ -332,7 +333,7 @@ Changing Rythm’s prefix
 2. Command usage `!settings prefix NewPrefix`.
     + **Example:** `!settings prefix $`.
 
-    ![SetPrefix](/static/img/faq/set-prefix.png)
+![SetPrefix](/static/img/faq/set-prefix.png)
 
 ### Test Channel Blacklist
 Blacklisting text channels
@@ -341,7 +342,7 @@ Blacklisting text channels
 2. Command usage `!settings blacklist #channel`.
     + **Example:** `!settings blacklist #channel1 #channel2`.
 
-    ![BlacklistedChannels](/static/img/faq/blacklisted-channels.png)
+![BlacklistedChannels](/static/img/faq/blacklisted-channels.png)
 
 + **Note:** You can blacklist multiple channels at once and to "Whitelist" a text channel and put it back to normal, just run the Blacklist command on it again.
 
@@ -353,7 +354,7 @@ Turning On/Off Announcesongs
     + **Example:** `!settings announcesongs on`.
     + **Example:** `!settings announcesongs off`.
 
-    ![AnnounceSongs](/static/img/faq/announce-songs.png)
+![AnnounceSongs](/static/img/faq/announce-songs.png)
 
 ### Queue Length Limit
 Limiting queue length
@@ -363,7 +364,7 @@ Limiting queue length
     + **Example:** `!settings maxqueuelength 25`.
     + **Example:** `!settings maxqueuelength disable`.
 
-    ![MaxQueueLength](/static/img/faq/max-queue-length.png)
+![MaxQueueLength](/static/img/faq/max-queue-length.png)
 
 ### Max User Songs
 Limiting the amount of songs a single user can request
@@ -373,7 +374,7 @@ Limiting the amount of songs a single user can request
     + **Example:** `!settings maxusersongs 5`.
     + **Example:** `!settings maxusersongs disable`.
 
-    ![MaxUserSongs](/static/img/faq/max-user-songs.png)
+![MaxUserSongs](/static/img/faq/max-user-songs.png)
 
 ### Prevent Song Duplicates
 Getting Rythm to automatically remove duplicate songs
@@ -383,7 +384,7 @@ Getting Rythm to automatically remove duplicate songs
     + **Example:** `!settings preventduplicates on`.
     + **Example:** `!settings preventduplicates off`.
 
-    ![PreventDuplicates](/static/img/faq/prevent-duplicates.png)
+![PreventDuplicates](/static/img/faq/prevent-duplicates.png)
 
 ### DJ Only Mode
 Enabling DJ only mode
@@ -393,7 +394,7 @@ Enabling DJ only mode
     + **Example:** `!settings djonly on`.
     + **Example:** `!settings djonly off`.
 
-    ![DJOnly](/static/img/faq/dj-only.png)
+![DJOnly](/static/img/faq/dj-only.png)
 
 ### Setting a Custom DJ Role
 Setting a custom DJ role
@@ -403,7 +404,7 @@ Setting a custom DJ role
     + **Example:** `!settings djrole DJAdmin`.
     + **Example:** `!settings djrole @DJAdmin`.
 
-    ![DJRole](/static/img/faq/dj-role.png)
+![DJRole](/static/img/faq/dj-role.png)
 
 + **Note:** Any role called "DJ" will still act as a DJ role.
 
@@ -415,7 +416,7 @@ Enabling DJ Playlists
     + **Example:** `!settings djplaylists on`.
     + **Example:** `!settings djplaylists off`.
 
-    ![DJPlaylists](/static/img/faq/dj-playlists.png)
+![DJPlaylists](/static/img/faq/dj-playlists.png)
 
 ### Autoplay*
 Enabling/Disabling autoplay*
