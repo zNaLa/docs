@@ -193,12 +193,8 @@ This is because their commands would not affect anyone but themselves.
     + Discord does not allow Bots to change their profile picture/avatar per server.
 
 ### Can Rythm play Spotify?
-+ **Short Answer:** `No`
-    + Playing from Spotify is illegal and both the API for Rythm and Spotify doesn't support it.
-
-**You can use these links to transfer Spotify Playlists to YouTube Playlists**
-+ https://soundiiz.com/
-+ https://playlistbuddy.com/
++ **Short Answer:** `Yes`
+    + Rythm is now supporting Spotify on all 3 of the bots. Rythm, Rythm2 and Rythm Canary.
 
 ### What music sites does Rythm currently support?
 + **These are the current sites that music can be played from.**
