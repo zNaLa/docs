@@ -3,6 +3,8 @@ id: faq
 title: Frequently Asked Questions
 ---
 
+
+
 <!-- The start of the Introduction Section -->
 ## Introduction
 -----
@@ -15,7 +17,9 @@ Down below you will be able to see how to invite Rythm into your Discord Server!
 + When clicking the link below, you will be able to invite Rythm to your Discord Server!
     + https://rythmbot.co/invite
 
-+ **Note:** You must have the permissions `"Administrator"` or `"Manage Server"` to be able to invite any of the Rythm Bots to your Discord Server. Also, make sure that you are logged in with the right Discord Account in the web version of Discord when inviting Rythm Bots, make sure you see https://discord.com/login
+:::note
+You must have the permissions `"Administrator"` or `"Manage Server"` to be able to invite any of the Rythm Bots to your Discord Server. Also, make sure that you are logged in with the right Discord Account in the web version of Discord when inviting Rythm Bots, make sure you see https://discord.com/login
+:::
 
 ### What is Rythms Discord Server used for?
 Rythms Discord Server is a place built for everything related to Rythm!
@@ -47,14 +51,18 @@ When using Rythm you can either play a song or a playlisy. To play a song and a 
 
 ![PlayMusicLink](/static/img/faq/play-music-link.png)
 
-   + **Note:** Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://www.patreon.com/rythm?utm_source=donate&utm_medium=referral&utm_campaign=bot) to Rythm!
+:::info Information
+Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://www.patreon.com/rythm?utm_source=donate&utm_medium=referral&utm_campaign=bot) to Rythm!
+:::
 
 2. To play a playlist `!play Playlist_URL`
     + **Example:** `!play https://www.youtube.com/watch?v=oygrmJFKYZY&list=PL4o29bINVT4EG_y-k5jGoOu3-Am8Nvi10`
 
 ![PlayMusicPlaylist](/static/img/faq/play-music-playlist.png)
 
-   + **Note:** Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that mentioned playlist.
+:::note
+Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that mentioned playlist.
+:::
 
 ### How can I change Rythms Prefix?
 Rythm offers a way to change your prefixes. Continue reading down below and you will find out how to set a servers prefix.
@@ -64,7 +72,9 @@ Rythm offers a way to change your prefixes. Continue reading down below and you 
 
 ![SetPrefix](/static/img/faq/set-prefix.png)
 
-+ **Note:** You must have the permissions `"Administrator"` or `"Manage Server"` to change Rythms Prefix in your server.
+:::note
+You must have the permissions `"Administrator"` or `"Manage Server"` to change Rythms Prefix in your server.
+:::
 
 ### How can I see the prefixes for all 3 Rythms?
 We have a feature where you can mention Rythm to see it's prefix. Find out below how you can do that.
@@ -84,7 +94,9 @@ We have a feature where you can mention Rythm to see it's prefix. Find out below
 
 ![MentionPrefixC](/static/img/faq/rythm-c.png)
 
-+ **Note:** Rythms prefix could be `!`. Rythms 2 prefix could be `>`. Rythms Canary prefix could be `*`.
+:::note
+Rythms prefix could be `!`. Rythms 2 prefix could be `>`. Rythms Canary prefix could be `*`.
+:::
 
 ### How can I change Rythms nickname in my server?
 How to change Rythms nickname in your server. Continue reading below.
@@ -111,6 +123,8 @@ Donating to Rythm helps us a lot. If you're interested in donating [click here](
 + Know that you are awesome!
 + Activate rewards for **1** server or user
 + AutoPlay™
++ Effects changes
++ Volume control
 + Play songs that are longer than **3 hours**.
 + Get a cool donators role on the official bots discord
 
@@ -118,6 +132,8 @@ Donating to Rythm helps us a lot. If you're interested in donating [click here](
 + Know that you are awesome!
 + Activate rewards for **2** servers or users
 + AutoPlay™
++ Effects changes
++ Volume control
 + Play songs that are longer than **3 hours**.
 + Get a cool donators role on the official bots discord
 
@@ -126,6 +142,8 @@ Donating to Rythm helps us a lot. If you're interested in donating [click here](
 + Activate rewards for **5** servers or users
 + Get to test BETA features (No promises on anything interesting)
 + AutoPlay™
++ Effects changes
++ Volume control
 + Get global donator perks
 + Play songs that are longer than **3 hours**.
 + Get a cool donators role on the official bots discord
@@ -177,8 +195,10 @@ This is because their commands would not affect anyone but themselves.
 3. The threshold for skipping is calculated as **75% of 10 = 7.5**, then rounded down, so **7**.
 3. For the vote skip to take effect, you would then need **7 positive** votes.
 
-+ **Note:** Vote skip will not be active until there are **3 or more people** in the voice channel.
+:::note
+Vote skip will not be active until there are **3 or more people** in the voice channel.
 (As with one person, insta-skip is enabled and with two the threshold for skipping is 1).
+:::
 <!-- The end of the Basic Information Section -->
 
 <!-- The start of the Limitations/Restrictions Section -->
@@ -251,7 +271,9 @@ Rythm’s built-in permission system can be divided in the following groups:
 1. Have full access to all music commands.
 2. Can’t change Rythm’s settings.
 
-+ **Note:** If there isn’t a role named "DJ" in your server, one can be created with no special permissions assigned and it will still access these features.
+:::note
+If there isn’t a role named "DJ" in your server, one can be created with no special permissions assigned and it will still access these features.
+:::
 
 **Users with Manage Server/Administrator permission:**
 
@@ -260,8 +282,10 @@ but are limited to only use the normal user's music commands.
 2. `Administrator:` Users with the **Administrator** permission have full access to all music commands
 and can also change Rythm’s settings.
 
-+ **Huge Notice:** If a user is **ALONE WITH RYTHM** in a voice channel, they **WILL** have access to **ALL** music commands even if the user has **NO ROLES** in the server. This is because these commands wouldn't affect anyone but the user, as there would be no one else in the voice channel.
-    + If you want all Rythm commands to be only available to people with a specific role, read the next entry in this FAQ.
+:::danger
+If a user is **ALONE** in a voice channel and Rythm is with them, they **WILL** have access to **ALL** of the music commands even if the user does **NOT** have the **DJ** role. Since there is no one to control and tell them what music they can or cannot play, they can just control the music on their own and live a happy life, but if another user joins in, then they lose their ability to control music and they would need the **DJ** role.
++ If you want all Rythm commands to be only available to people with a specific role, read the next entry in this FAQ.
+:::
 
 ### How can I give normal users access to all of the music commands?
 Here we will be teaching you how to setup music commands with Discord Permissions.
@@ -288,7 +312,9 @@ In this case if you do not want users having the `Manage Channel` permission to 
 
 **Users alone in a voice channel with Rythm will be treated as though they have the DJ role until another user joins the voice channel with them even if they have no roles**
 
-+ **Note:** Members with the `"DJ Role"` will not be able to change **ANY** of the Settings Commands.
+:::caution
+Members with the `"DJ Role"` will not be able to change **ANY** of the Settings Commands.
+:::
 
 ### Blacklisting Voice Channels
 To disallow Rythm from being used within certain voice channels, you must use the Discord permission system.
@@ -320,7 +346,9 @@ These are the options you can access through Rythm’s settings menu.
 
 ![SettingsBlacklistTest](/static/img/faq/settings-blacklist-test.png)
 
-+ **Note:** Any setting marked with an asterisk `*` is donator exclusive.
+:::info Information
+Any setting marked with an asterisk `*` is donator exclusive.
+:::
 
 ### Rythm Prefix 
 Changing Rythm’s prefix
@@ -340,7 +368,9 @@ Blacklisting text channels
 
 ![BlacklistedChannels](/static/img/faq/blacklisted-channels.png)
 
-+ **Note:** You can blacklist multiple channels at once and to "Whitelist" a text channel and put it back to normal, just run the Blacklist command on it again.
+:::note
+You can blacklist multiple channels at once and to "Whitelist" a text channel and put it back to normal, just run the Blacklist command on it again.
+:::
 
 ### Annocuning Songs
 Turning On/Off Announcesongs
@@ -402,7 +432,9 @@ Setting a custom DJ role
 
 ![DJRole](/static/img/faq/dj-role.png)
 
-+ **Note:** Any role called "DJ" will still act as a DJ role.
+:::caution
+Any role called "DJ" will still act as a DJ role.
+:::
 
 ### DJ Playlists
 Enabling DJ Playlists
@@ -422,7 +454,9 @@ Enabling/Disabling autoplay*
     + **Example:** `!settings autoplay https://www.youtube.com/watch?v=N_qFfQ3xHCw`.
     + **Example:** `!settings autoplay disable`.
 
-+ **Note:** This feature is donator exclusive.
+:::info Information 
+This feature is donator exclusive.
+:::
 
 ### Server Default Volume*
 Setting Rythm's default volume*
@@ -431,7 +465,9 @@ Setting Rythm's default volume*
 2. Command usage `!settings defaultvolume Number`.
     + **Example:** `!settings defaultvolume 100`.
 
-+ **Note:** This feature is donator exclusive.
+:::info Information 
+This feature is donator exclusive.
+:::
 <!-- The end of the Settings/Configuration Section -->
 
 <!-- The start of the Rythm Links Section -->
