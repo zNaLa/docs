@@ -35,12 +35,21 @@ In order to make Rythm commands just available to specific roles, you can do the
 ### Blacklisting Channels
 Perfect for if you want to let other roles have access without allowing them to interfere with other people's music.
  1. Make a channel that can only be seen by users with the specific role.
-    1. ![role 1](/img/docs/perms/role-1.png)
-    2. ![role 2](/img/docs/perms/role-2.png)
-    - More information on how to do this can be found at [Discord's support page.](https://support.discord.com/hc/en-us/articles/206029707)
+    <details>
+        <summary>Click here for how.</summary>
+        <ol>
+            <li><img src="/img/docs/perms/role-1.png" alt="role 1"/></li>
+            <li><img src="/img/docs/perms/role-2.png" alt="role 2"/></li>
+        </ol>
+        <ul>
+            <li>More information on how to do this can be found at <a href="https://support.discord.com/hc/en-us/articles/206029707">Discord's support page.</a></li>
+        </ul>
+    </details>
  2. Blacklist all other text channels with Rythm's blacklist function.
-    - Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.<br/>
-      ![deny rythm](/img/docs/perms/deny rythm.png)
+    <details>
+    <summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>
+    <img src="/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
+    </details>
  
 To blacklist channels, use the following command: 
 `!settings blacklist #channel...`
@@ -62,8 +71,10 @@ You could, but you must assign the DJ role to everyone manually, or give everyon
 ## How can I block music commands in a specific text channel?
 You can use `!settings blacklist #channel` to blacklist a specific channel.
 
-Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.<br/>
-![deny rythm](/img/docs/perms/deny_rythm.png)
+<details>
+<summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>
+<img src="/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
+</details><br/>
 
 **Example**: `!settings blacklist #chat #gaming #international...`
 ![blacklist example](/img/docs/settings/blacklist-text-channel-example.png)

@@ -149,5 +149,5 @@ If you want to reset this setting, use `!settings djrole DJ`. This will reset it
 ![dj role reset example](/img/docs/settings/dj-role-reset-example.png)
 
 ## Reset
-If you want to reset **all** settings back to their defaults, you can use `!settings reset`, then reply with `yes` when Rythm prompts you.<br/>
+If you want to reset **all** settings back to their defaults, you can use `@Rythm#3722 settings reset` or `!settings reset`, then reply with `yes` when Rythm prompts you.<br/>
 ![reset example](/img/docs/settings/reset-example.png)
