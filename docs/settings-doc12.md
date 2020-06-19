@@ -68,7 +68,7 @@ To change this limit, use the following command:<br/>
 You can also set it back to default:<br/>
 `!settings maxqueuelength disable`
 
-**Example**: If you want to limit the queue to 100 songs total, use `!settings maxqueuelength 100`<br/>
+**Example**: If you want to limit the queue to 25 songs total, use `!settings maxqueuelength 25`<br/>
 ![max queue length example](/img/docs/settings/max-queue-length-example.png)
 
 ## Max User Songs
@@ -80,7 +80,7 @@ To change this limit, use the following command:<br/>
 You can also set it back to default:<br/>
 `!settings maxusersongs disable`
 
-**Example**: If you want to limit the amount of songs a user can queue to 5, use `!settings maxusersongs 5`<br/>
+**Example**: If you want to limit the amount of songs a user can queue to 1, use `!settings maxusersongs 1`<br/>
 ![max user songs example](/img/docs/settings/max-user-songs-example.png)
 
 ## Duplicate Song Prevention
@@ -102,14 +102,14 @@ This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/dona
 To change the default volume for when you summon Rythm to a voice channel, use the following command:<br/>
 `!settings defaultvolume 0-200`
 
-**Example**: If you wanted the volume to be 20 when someone summons Rythm, use `!settings defaultvolume 20`<br/>
+**Example**: If you wanted the volume to be 25 when someone summons Rythm, use `!settings defaultvolume 25`<br/>
 ![default volume example](/img/docs/settings/default-volume-example.png)
 
 ## DJ Only Playlists
 This setting allows you to control if only DJs can queue playlists, or if everyone can.
 
 :::caution
-Due to how Rythm counts DJ, if someone is alone with the bot, they are able to queue a playlist regardless of having a DJ role.
+Due to how Rythm counts DJ, if someone is alone with Rythm, they are able to queue a playlist regardless of having a DJ role.
 :::
 
 To enable or disable DJ only playlists, use the following command:<br/>
@@ -122,26 +122,26 @@ To enable or disable DJ only playlists, use the following command:<br/>
 This setting allows you to control if only DJs can control Rythm, or if everyone can.
 
 :::caution
-Due to how Rythm counts DJ, if someone is alone with the bot, they are able to queue a playlist regardless of having a DJ role.
+Due to how Rythm counts DJ, if someone is alone with Rythm, they are able to use Rythm regardless of having a DJ role.
 :::
 
 To enable or disable DJ only mode, use the following command:<br/>
 `!settings djonly yes/no`
 
-**Example**: If you want only DJs to use the bot, use `!settings djonly yes`<br/>
+**Example**: If you want only DJs to use Rythm, use `!settings djonly yes`<br/>
 ![dj only mode example](/img/docs/settings/dj-only-mode-example.png)
 
 ## DJ Role
 This setting allows you to control which role is DJ.
 
 :::caution
-Any roles named '<b>DJ</b>' and anyone with the `Manage Channel` permission will always be able to use the bot as a DJ regardless of this setting.
+Any roles named '<b>DJ</b>' and anyone with the `Manage Channel` permission will always be able to use Rythm as a DJ regardless of this setting.
 :::
 
 To change the DJ role, use the following command:<br/>
 `!settings djrole role`
 
-**Example**: If you want to give Staff DJ role without assigning the role, use `!settings djrole Staff`<br/>
+**Example**: If you want to give a role named `Users` DJ without assigning a new role, use `!settings djrole Users`<br/>
 ![dj role example](/img/docs/settings/dj-role-example.png)
 
 ### Resetting DJ Role

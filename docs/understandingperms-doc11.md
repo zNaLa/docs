@@ -15,7 +15,9 @@ Rythm's built-in permission system can be divided into the following groups:
  - Don't have access to control the music in any way.
 
 ### Users alone with Rythm, with a DJ role or the Manage Channel permission
-*This includes all other users in the voice chat being deafened.*
+:::note
+This includes all other users in the voice chat being deafened.
+:::
  - Have full access to all music commands.
  - Can't change Rythm's settings.
 
@@ -60,13 +62,16 @@ To blacklist channels, use the following command:
 ### DJ Only Mode
 Perfect for if you don't want to blacklist every channel, or only allow staff to use music commands.
 
-**Note**: If they are alone with the bot, they will still be able to use music commands if there is a channel they can access.
+:::caution
+Due to how Rythm counts DJ, if someone is alone with Rythm, they are able to use Rythm regardless of having a DJ role.
+:::
 
- 1. Give everyone a DJ role.
+ 1. Give those you want to have access a DJ role.
  2. Run `!settings djonly yes`
 
 ## How can I give all users access to all music commands?
-You could, but you must assign the DJ role to everyone manually, or give everyone Manage Channel. There is no setting that will apply DJ to all users.
+There is no setting that will apply DJ to all users.
+You must assign the DJ role to everyone *manually*.
 
 ## How can I block music commands in a specific text channel?
 You can use `!settings blacklist #channel` to blacklist a specific channel.
@@ -82,7 +87,7 @@ You can use `!settings blacklist #channel` to blacklist a specific channel.
 ## How can I limit the number of songs that one user can add to the queue?
 You can use `!settings maxusersongs 1-10000` to set how many songs that one user can add to a queue.
 
-**Example**: `!settings maxusersongs 5`<br/>
+**Example**: `!settings maxusersongs 1`<br/>
 ![max user songs example](/img/docs/settings/max-user-songs-example.png)
 
 ## How can I prevent duplicate songs from being added to the queue?
@@ -94,7 +99,7 @@ You can use `!settings preventduplicates yes` to prevent any duplicates from bei
 ## How can I limit the number of songs that can be added to the queue?
 You can use `!settings maxqueuelength 10-10000` to limit the length of the queue.
 
-**Example**: `!settings maxqueuelength 100`<br/>
+**Example**: `!settings maxqueuelength 25`<br/>
 ![max queue length example](/img/docs/settings/max-queue-length-example.png)
 
 ## How do I restrict Rythm from joining a voice channel?
