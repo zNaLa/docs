@@ -37,7 +37,7 @@ module.exports = {
           editUrl: 'https://github.com/Repulser/Rythm-documentation/edit/master/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.css')
         },
       },
     ],
