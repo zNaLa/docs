@@ -25,7 +25,7 @@ If you are encountering these issues, there are some steps below that you should
 
 ---
 
-If you can't hear Rythm in any servers (including the [official Rythm server](https://discord.gg/rythm)), then it's probably your local audio device settings.
+If you can't hear Rythm in any servers (including the [official Rythm server](https://rythmbot.co/support)), then it's probably your local audio device settings.
 
 - In Windows, right click the speaker icon and click "**Sounds**" to open the Sound properties window. In that window, click on the "**Playback**" tab and check to see if your preferred audio device is set as the default device. (If not, click on your audio device and then click "**Set Default**".)
 
@@ -37,4 +37,4 @@ If you can't hear Rythm in any servers (including the [official Rythm server](ht
 ![volume off](assets/img/audio-troubleshooting/volume-off.png)
 ![server muted](assets/img/audio-troubleshooting/server-muted.png)
 
-If all of these still don't fix your issue, please go to our [#help-desk](https://discord.gg/rythm) channel and select option **6**, and a member of our **Support Team** will assist you further.
+If all of these still don't fix your issue, please go to our [#help-desk](https://rythmbot.co/support) channel and select option **6**, and a member of our **Support Team** will assist you further.
