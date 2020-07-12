@@ -273,8 +273,8 @@ but are limited to only use the normal user's music commands.
 2. `Administrator:` Users with the **Administrator** permission have full access to all music commands
 and can also change Rythm’s settings.
 
-:::danger note
-If a user is **ALONE** in a voice channel and Rythm is with them, they **WILL** have access to **ALL** of the music commands even if the user does **NOT** have the **DJ** role. Since there is no one to control and tell them what music they can or cannot play, they can just control the music on their own and live a happy life, but if another user joins in, then they lose their ability to control music and they would need the **DJ** role.
+:::note
+If a user is alone in a voice channel and Rythm is with them, they will have access to all of the music commands even if the user does not have the `DJ` role. Since there is no one to control and tell them what music they can or cannot play, they can just control the music on their own and live a happy life, but if another user joins in, then they lose their ability to control music and they would need the `DJ` role.
 + If you want all Rythm commands to be only available to people with a specific role, read the next entry in this FAQ.
 :::
 
