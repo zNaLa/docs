@@ -29,7 +29,7 @@ You must have the permissions `Administrator` or `Manage Server` to be able to i
 ### How can I play a song or a playlist with Rythm?
 When using Rythm you can either play a song or a playlist. To play a song and a playlist with Rythm use the commands below.
 
-1. To play a song `!play <Somg_Name/Song_URL>`
+1. To play a song `!play <Song Name/Song URL>`
     + **Example:** `!play Wanted by OneRepublic`
 
 ![PlayMusicName](/static/img/faq/play-music-name.png)
@@ -42,7 +42,7 @@ When using Rythm you can either play a song or a playlist. To play a song and a 
 Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://www.patreon.com/rythm?utm_source=donate&utm_medium=referral&utm_campaign=bot) to Rythm!
 :::
 
-2. To play a playlist `!play <Playlist_URL>`
+2. To play a playlist `!play <Playlist URL>`
     + **Example:** `!play https://www.youtube.com/watch?v=oygrmJFKYZY&list=PL4o29bINVT4EG_y-k5jGoOu3-Am8Nvi10`
 
 ![PlayMusicPlaylist](/static/img/faq/play-music-playlist.png)
@@ -54,7 +54,7 @@ Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Privat
 ### How can I change Rythms Prefix?
 Rythm offers a way to change your prefixes. Continue reading down below and you will find out how to set a servers prefix.
 
-1. To change Rythms Prefix `!settings prefix <New_Value>`
+1. To change Rythms Prefix `!settings prefix <New Value>`
     + **Example:** `!settings prefix $`
 
 ![SetPrefix](/static/img/faq/set-prefix.png)
@@ -155,7 +155,7 @@ Rythm will announce songs in the channel the command is used. Look below to see 
 ### How can I view more than page using the queue command?
 You can view more than one queue pages by doing the following below.
 
-1. To view more queue pages `!queue <Page_Number>`.
+1. To view more queue pages `!queue <Page Number>`.
     + **Example:** `!queue 2`
     + **Example:** `!queue 3`
 
