@@ -17,32 +17,19 @@ Down below you will be able to see how to invite Rythm into your Discord Server!
 + When clicking the link below, you will be able to invite Rythm to your Discord Server!
     + https://rythmbot.co/invite
 
-:::note
-You must have the permissions `"Administrator"` or `"Manage Server"` to be able to invite any of the Rythm Bots to your Discord Server. Also, make sure that you are logged in with the right Discord Account in the web version of Discord when inviting Rythm Bots, make sure you see https://discord.com/login
+:::caution note
+You must have the permissions `Administrator` or `Manage Server` to be able to invite any of the Rythm Bots to your Discord Server. Also, make sure that you are logged in with the right Discord Account in the web version of Discord when inviting Rythm Bots, make sure you see https://discord.com/login
 :::
 
-### What is Rythms Discord Server used for?
-Rythms Discord Server is a place built for everything related to Rythm!
-
-1. You will be informed about Rythms new features and updates.
-2. Stay Up-to-Date with news and announcements.
-3. Hang out with our amazing growing community members and staff!
-4. Join and enjoy our events that take place!
-5. Make new feature suggestions for Rythm.
-6. Get help and support form our lovely Support Members!
-
-### How is it possible for Rythm to be in so many servers all in once?
-
-Discord allows bots over `2,000 Thousand` Servers to use a feature called `"Sharding"`. In Rythms case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime. For more detail, please [click here](https://discordapp.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
 <!-- The end of the Introduction Section -->
 
 <!-- The start of the Basic Information Section -->
 ## Basic Information
 -----
-### How can I play a song and a playlist with Rythm?
-When using Rythm you can either play a song or a playlisy. To play a song and a playlist with Rythm use the commands below.
+### How can I play a song or a playlist with Rythm?
+When using Rythm you can either play a song or a playlist. To play a song and a playlist with Rythm use the commands below.
 
-1. To play a song `!play Somg_Name/Song_URL`
+1. To play a song `!play <Somg_Name/Song_URL>`
     + **Example:** `!play Wanted by OneRepublic`
 
 ![PlayMusicName](/static/img/faq/play-music-name.png)
@@ -51,29 +38,29 @@ When using Rythm you can either play a song or a playlisy. To play a song and a 
 
 ![PlayMusicLink](/static/img/faq/play-music-link.png)
 
-:::info Information
+:::caution Information
 Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://www.patreon.com/rythm?utm_source=donate&utm_medium=referral&utm_campaign=bot) to Rythm!
 :::
 
-2. To play a playlist `!play Playlist_URL`
+2. To play a playlist `!play <Playlist_URL>`
     + **Example:** `!play https://www.youtube.com/watch?v=oygrmJFKYZY&list=PL4o29bINVT4EG_y-k5jGoOu3-Am8Nvi10`
 
 ![PlayMusicPlaylist](/static/img/faq/play-music-playlist.png)
 
-:::note
+:::caution note
 Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that mentioned playlist.
 :::
 
 ### How can I change Rythms Prefix?
 Rythm offers a way to change your prefixes. Continue reading down below and you will find out how to set a servers prefix.
 
-1. To change Rythms Prefix `!settings prefix New_Value`
+1. To change Rythms Prefix `!settings prefix <New_Value>`
     + **Example:** `!settings prefix $`
 
 ![SetPrefix](/static/img/faq/set-prefix.png)
 
-:::note
-You must have the permissions `"Administrator"` or `"Manage Server"` to change Rythms Prefix in your server.
+:::caution note
+You must have the permissions `Administrator` or `Manage Server` to change Rythms Prefix in your server.
 :::
 
 ### How can I see the prefixes for all 3 Rythms?
@@ -94,7 +81,7 @@ We have a feature where you can mention Rythm to see it's prefix. Find out below
 
 ![MentionPrefixC](/static/img/faq/rythm-c.png)
 
-:::note
+:::tip note
 Rythms prefix could be `!`. Rythms 2 prefix could be `>`. Rythms Canary prefix could be `*`.
 :::
 
@@ -108,7 +95,7 @@ How to change Rythms nickname in your server. Continue reading below.
 ![NicknameMenu](/static/img/faq/nickname-menu.png)
 
 4. Type in your desired nickname.
-5. Finally you can press `"Save"` and you're good to go.
+5. Finally you can press `Save` and you're good to go.
 
 ### How can I donate to Support Rythm?
 Do you enjoy/love Rythm? Want to help Rythm in funds? You can donate to us today!
@@ -168,7 +155,7 @@ Rythm will announce songs in the channel the command is used. Look below to see 
 ### How can I view more than page using the queue command?
 You can view more than one queue pages by doing the following below.
 
-1. To view more queue pages `!queue Page_Number`.
+1. To view more queue pages `!queue <Page_Number>`.
     + **Example:** `!queue 2`
     + **Example:** `!queue 3`
 
@@ -195,7 +182,7 @@ This is because their commands would not affect anyone but themselves.
 3. The threshold for skipping is calculated as **75% of 10 = 7.5**, then rounded down, so **7**.
 3. For the vote skip to take effect, you would then need **7 positive** votes.
 
-:::note
+:::caution note
 Vote skip will not be active until there are **3 or more people** in the voice channel.
 (As with one person, insta-skip is enabled and with two the threshold for skipping is 1).
 :::
@@ -250,6 +237,10 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 ### Can Rythm play 24/7 Music?
 + **Short Answer:** `No`
     + Rythm is not a **24/7** bot. However you can self host [this bot](https://github.com/repulser/moosic) to gain that feature.
+
+### How is it possible for Rythm to be in so many servers all in once?
+
+Discord allows bots over `2,000 Thousand` Servers to use a feature called `Sharding`. In Rythms case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime. For more detail, please [click here](https://discordapp.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
 <!-- The end of the Limitations/Restrictions Section -->
 
 <!-- The start of the Roles/Permissions Section -->
@@ -271,7 +262,7 @@ Rythm’s built-in permission system can be divided in the following groups:
 1. Have full access to all music commands.
 2. Can’t change Rythm’s settings.
 
-:::note
+:::caution note
 If there isn’t a role named "DJ" in your server, one can be created with no special permissions assigned and it will still access these features.
 :::
 
@@ -282,7 +273,7 @@ but are limited to only use the normal user's music commands.
 2. `Administrator:` Users with the **Administrator** permission have full access to all music commands
 and can also change Rythm’s settings.
 
-:::danger
+:::danger note
 If a user is **ALONE** in a voice channel and Rythm is with them, they **WILL** have access to **ALL** of the music commands even if the user does **NOT** have the **DJ** role. Since there is no one to control and tell them what music they can or cannot play, they can just control the music on their own and live a happy life, but if another user joins in, then they lose their ability to control music and they would need the **DJ** role.
 + If you want all Rythm commands to be only available to people with a specific role, read the next entry in this FAQ.
 :::
@@ -304,7 +295,7 @@ Here we will be teaching you how to setup music commands with Discord Permission
 
 In this case if you do not want users having the `Manage Channel` permission to use commands, you can follow the steps below to give them permissions using a couple of ways.
 
-1. Go to **Server Settings** ➠ **Roles** ➠ Make a new role called `"DJ"`.
+1. Go to **Server Settings** ➠ **Roles** ➠ Make a new role called `DJ`.
 2. You can use the following command to set another DJ Role: Command usage `!settings djrole @role/role-name`.
     + **Example:** `!settings djrole NewDJRole`
     + **Example:** `!settings djrole @NewDJRole`
@@ -341,12 +332,12 @@ These are the options you can access through Rythm’s settings menu.
 
 1. To access this menu use the command `!settings`.
 2. Rythm should then display a menu showing the settings that can be changed.
-3. For more information on a setting just type: `!settings Setting-Name`.
+3. For more information on a setting just type: `!settings <Setting-Name>`.
     + **Example:** `!settings blacklist`
 
 ![SettingsBlacklistTest](/static/img/faq/settings-blacklist-test.png)
 
-:::info Information
+:::caution Information
 Any setting marked with an asterisk `*` is donator exclusive.
 :::
 
@@ -354,7 +345,7 @@ Any setting marked with an asterisk `*` is donator exclusive.
 Changing Rythm’s prefix
 
 1. Makes Rythm respond to a different prefix.
-2. Command usage `!settings prefix NewPrefix`.
+2. Command usage `!settings prefix <NewPrefix>`.
     + **Example:** `!settings prefix $`.
 
 ![SetPrefix](/static/img/faq/set-prefix.png)
@@ -376,7 +367,7 @@ You can blacklist multiple channels at once and to "Whitelist" a text channel an
 Turning On/Off Announcesongs
 
 1. Sends a message to a text channel announcing every song when they start.
-2. Command usage `!settings announcesongs on/off`.
+2. Command usage `!settings announcesongs <on/off>`.
     + **Example:** `!settings announcesongs on`.
     + **Example:** `!settings announcesongs off`.
 
@@ -386,7 +377,7 @@ Turning On/Off Announcesongs
 Limiting queue length
 
 1. Limits the max number of songs the queue can hold before refusing to allow users to add any more.
-2. Command usage `!settings maxqueuelength Number/disable`.
+2. Command usage `!settings maxqueuelength <Number/disable>`.
     + **Example:** `!settings maxqueuelength 25`.
     + **Example:** `!settings maxqueuelength disable`.
 
@@ -396,7 +387,7 @@ Limiting queue length
 Limiting the amount of songs a single user can request
 
 1. Limits how many songs the user can queue at one time, can be disabled by typing disable instead of a number.
-2. Command usage `!settings maxusersongs Number/disable`.
+2. Command usage `!settings maxusersongs <Number/disable>`.
     + **Example:** `!settings maxusersongs 5`.
     + **Example:** `!settings maxusersongs disable`.
 
@@ -406,7 +397,7 @@ Limiting the amount of songs a single user can request
 Getting Rythm to automatically remove duplicate songs
 
 1. Prevents users from adding songs to the queue that are already in the current queue.
-2. Command usage `!settings preventduplicates on/off`.
+2. Command usage `!settings preventduplicates <on/off>`.
     + **Example:** `!settings preventduplicates on`.
     + **Example:** `!settings preventduplicates off`.
 
@@ -416,7 +407,7 @@ Getting Rythm to automatically remove duplicate songs
 Enabling DJ only mode
 
 1. Sets the server to run in DJ only mode, allowing only users with the DJ role or the Manage Channels permission to use Rythm's music commands.
-2. Command usage `!settings djonly on/off`.
+2. Command usage `!settings djonly <on/off>`.
     + **Example:** `!settings djonly on`.
     + **Example:** `!settings djonly off`.
 
@@ -440,7 +431,7 @@ Any role called "DJ" will still act as a DJ role.
 Enabling DJ Playlists
 
 1. When enabled only DJ's are able to queue playlists.
-2. Command usage `!settings djplaylists on/off`.
+2. Command usage `!settings djplaylists <on/off>`.
     + **Example:** `!settings djplaylists on`.
     + **Example:** `!settings djplaylists off`.
 
@@ -462,7 +453,7 @@ This feature is donator exclusive.
 Setting Rythm's default volume*
 
 1. Sets the default volume for Rythm when joining` a channel after being summoned.
-2. Command usage `!settings defaultvolume Number`.
+2. Command usage `!settings defaultvolume <Number>`.
     + **Example:** `!settings defaultvolume 100`.
 
 :::info Information 
@@ -484,3 +475,13 @@ If you have encountered an issue with Rythm, you can use the links below to help
 Sorry that your issue has not been fixed with the FAQ and Troubleshooting Page. 
 + If you find that your question was not answered by this FAQ Page or the Troubleshooting Page, please visit our support server by [clicking here](https://rythmbot.co/support)!
 <!-- The end of the Rythm Links Section -->
+
+### What is Rythms Discord Server used for?
+Rythms Discord Server is a place built for everything related to Rythm!
+
+1. You will be informed about Rythms new features and updates.
+2. Stay Up-to-Date with news and announcements.
+3. Hang out with our amazing growing community members and staff!
+4. Join and enjoy our events that take place!
+5. Make new feature suggestions for Rythm.
+6. Get help and support form our lovely Support Members!
