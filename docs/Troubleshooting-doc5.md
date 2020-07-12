@@ -141,7 +141,7 @@ How? Easy! Go to your **Discord User Settings** > click on **"Text & Images"** >
 
  - **Make sure Rythm has permissions to send messages in the channel**. You can give Rythm's roles “**Administrator**” permission to Rythm to make this easier.
 
- - Take a look at our **#outages** channel on our [Official Discord Server](https://discord.gg/rythm) to see if there are any issues going on.
+ - Take a look at our **#outages** channel on our [Official Discord Server](https://rythmbot.co/support) to see if there are any issues going on.
 
  - If the above methods do not work, please choose option  **`7`** in our `#help-desk` channel on the Rythm Bot Discord server to receive assistance from our Support Team.
 
