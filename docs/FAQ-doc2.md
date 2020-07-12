@@ -9,7 +9,7 @@ title: Frequently Asked Questions
 ## Introduction
 -----
 ### What is Rythm Bot?
-Rythm is the largest Discord Bot. Read more below!
+[Rythm](/whatisrythm) is the largest Discord Bot. Read more below!
 + Rythm is a feature-rich, high-performance music bot for Discord, specially designed to deliver High Quality music, stability and ease of use while also providing advanced music functionalities in order to create the ultimate music bot experience.
 
 ### How can I add Rythm to my Discord Server?
@@ -285,11 +285,11 @@ Here we will be teaching you how to setup music commands with Discord Permission
 
 1. Users with the `Manage Channels` Permission will be able to access all of the music commands. This is what it should look like, look at the image shown below.
 
-![ManageChannels](/static/img/faq/manage-channel.png)
+![ManageChannels](/static/img/faq/manage-channel-new.png)
 
 2. Users with the `Manage Server` Permission will be able to access all of the setting commands. This is what it should look like, look at the image shown below.
 
-![ManageServer](/static/img/faq/manage-server.png)
+![ManageServer](/static/img/faq/manage-server-new.png)
 
 **Command**
 
