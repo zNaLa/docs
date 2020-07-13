@@ -115,7 +115,7 @@ Added Rythm correctly but still can't see it? Make sure you **logged into the ri
 **Sticky Note:** If none of these options worked, we highly suggest you trying <a href="https://i.imgur.com/kOtyFx5.png" target="_blank">**Incognito Mode**</a> or a **Different browser** to invite Rythm. 
 
 ## Rythm isn't playing my playlist!
-When you're trying to play your playlist and Rythm responds with "**:x: Failded to load, something went wrong when looking up the track!**" it's most likely cause the playlist you were trying to play is a YouTube Mix — with that being said — Rythm currently **does not** support YouTube Mixes.
+When you're trying to play your playlist and Rythm responds with "**:x: Failed to load, something went wrong when looking up the track!**" it's most likely cause the playlist you were trying to play is a YouTube Mix — with that being said — Rythm currently **does not** support YouTube Mixes.
 
 ## Rythm left our voice channel while it wasn't playing anything
 Because of our current performance reasons, Rythm will automatically leave tthe voice channel after **2 minutes** after a while of being alone / unused in voice channels. We do this because it allows Rythm to save recourses while no-one is listening to it and keeps the music quality consistent for all users, everywhere and alwayseverytime.
