@@ -27,14 +27,14 @@ If you are encountering these issues, there are some steps below that you should
 
 If you can't hear Rythm in any servers (including the [official Rythm server](https://rythmbot.co/support)), then it's probably your local audio device settings.
 
-- In Windows, right click the speaker icon and click "**Sounds**" to open the Sound properties window. In that window, click on the "**Playback**" tab and check to see if your preferred audio device is set as the default device. (If not, click on your audio device and then click "**Set Default**".)
+- In Windows, right click the speaker icon and click `Sounds` to open the Sound properties window. In that window, click on the `Playback` tab and check to see if your preferred audio device is set as the default device. (If not, click on your audio device and then click `Set Default`.)
 
-- In Discord, check the "Voice & Video" tab under User Settings (the gear icon ⚙️ at the bottom left) to see if your audio device settings are correct. If they're set to "**Default**", try setting them specifically to your device.
+- In Discord, check the `Voice & Video` tab under User Settings (the gear icon ⚙️ at the bottom left) to see if your audio device settings are correct. If they're set to `Default`, try setting them specifically to your device.
 
 - If both steps above are fine, make sure you don't have Rythm server/locally muted or the bots user volume on 0%:
 
-![locally muted](assets/img/audio-troubleshooting/locally-muted.png)
-![volume off](assets/img/audio-troubleshooting/volume-off.png)
-![server muted](assets/img/audio-troubleshooting/server-muted.png)
+![locally muted](/img/docs/audio-troubleshooting/locally-muted.png)
+![volume off](/img/docs/audio-troubleshooting/volume-off.png)
+![server muted](/img/docs/audio-troubleshooting/server-muted.png)
 
 If all of these still don't fix your issue, please go to our [#help-desk](https://rythmbot.co/support) channel and select option **6**, and a member of our **Support Team** will assist you further.

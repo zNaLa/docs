@@ -13,11 +13,11 @@ Okay, so you want to add Rythm to your server? That's great! You can add any rel
 
 Once you've chosen the release of Rythm that you would like to invite from the link above and you are logged into the correct Discord account, you should now see a menu like this:
 
-![Discord Authorization Screen](/img/docs/add/discord-oauth2-1.png)
+![Discord Authorization Screen](/img/docs/adding/discord-oauth2-1.png)
 
 If you press on **Select a server**, a pop-up should appear that will let you select where you'd like to add Rythm. In this case, we'll add the bot to **User's Server**. [If you don't see your server in this drop-down, click here!](#help-i-cant-find-my-server-in-the-list)
 
-![Choose the server that'd you like and continue](/img/docs/add/discord-oauth2-2.png)
+![Choose the server that'd you like and continue](/img/docs/adding/discord-oauth2-2.png)
 
 ### Step two
 
@@ -25,13 +25,13 @@ Once you've selected the server that'd you like to add Rythm to, you can press o
 
 You should now see something similar to this:
 
-![Press authorize and you'll be good to go!](/img/docs/add/discord-oauth2-3.png)
+![Press authorize and you'll be good to go!](/img/docs/adding/discord-oauth2-3.png)
 
 ### Final Step
 
 Once you press the **Authorize** button and complete the Captcha, you should be redirected [here](https://rythmbot.co/thanks). In addition, you'll also see a message like the one below in your Discord server. **Amazing!**
 
-![A message sent by Rythm upon joining a Discord server](/img/docs/add/thank-you-message.png)
+![A message sent by Rythm upon joining a Discord server](/img/docs/adding/thank-you-message.png)
 
 ## Help! I can't find my server in the list!
 
@@ -39,7 +39,7 @@ Once you press the **Authorize** button and complete the Captcha, you should be 
 
 If you can't find your server in the drop-down section, this can be caused by various reasons. First, you should make sure that you're signed into the correct account. If you're not, then press on the blue **Not you?** button.
 
-![Signed in as User#5119 Not you?](/img/docs/add/signed-in-as-example.png)
+![Signed in as User#5119 Not you?](/img/docs/adding/signed-in-as-example.png)
 
 ### Do you have permissions in the server you want to add Rythm to?
 

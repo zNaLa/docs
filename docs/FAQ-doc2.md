@@ -32,11 +32,11 @@ When using Rythm you can either play a song or a playlist. To play a song and a 
 1. To play a song `!play <Song Name/Song URL>`
     + **Example:** `!play Wanted by OneRepublic`
 
-![PlayMusicName](/static/img/faq/play-music-name.png)
+![PlayMusicName](/img/docs/faq/play-music-name.png)
 
    + **Example:** `!play https://www.youtube.com/watch?v=N_qFfQ3xHCw`
 
-![PlayMusicLink](/static/img/faq/play-music-link.png)
+![PlayMusicLink](/img/docs/faq/play-music-link.png)
 
 :::caution Information
 Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://rythmbot.co/donate?do) to Rythm!
@@ -45,7 +45,7 @@ Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to pl
 2. To play a playlist `!play <Playlist URL>`
     + **Example:** `!play https://www.youtube.com/watch?v=oygrmJFKYZY&list=PL4o29bINVT4EG_y-k5jGoOu3-Am8Nvi10`
 
-![PlayMusicPlaylist](/static/img/faq/play-music-playlist.png)
+![PlayMusicPlaylist](/img/docs/faq/play-music-playlist.png)
 
 :::caution note
 Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that specific playlist.
@@ -57,7 +57,7 @@ Changing your prefix is as simple as using a command. You can change Rythm's pre
 1. To change Rythms Prefix `!settings prefix <New Value>`
     + **Example:** `!settings prefix $`
 
-![SetPrefix](/static/img/faq/set-prefix.png)
+![SetPrefix](/img/docs/faq/set-prefix.png)
 
 :::caution note
 You must have the permissions `Administrator` or `Manage Server` to change Rythms Prefix in your server.
@@ -69,17 +69,17 @@ If you don't know Rythm's prefix, or you forget it, don't stress. We have you co
 1. For Rythm
     + **Example:** `@Rythm#3722` OR `<@!235088799074484224>`
 
-![MentionPrefix](/static/img/faq/rythm-1.png)
+![MentionPrefix](/img/docs/faq/rythm-1.png)
 
 2. For Rythm 2:
     + **Example:** `@Rythm 2#2000` OR `<@252128902418268161>`
 
-![MentionPrefix2](/static/img/faq/rythm-2.png)
+![MentionPrefix2](/img/docs/faq/rythm-2.png)
 
 3. For Rythm Canary:
     + **Example:** `@Rythm Canary#8406` OR `<@415062217596076033>`
 
-![MentionPrefixC](/static/img/faq/rythm-c.png)
+![MentionPrefixC](/img/docs/faq/rythm-c.png)
 
 :::tip note
 Rythm's default prefix is `!`, Rythms 2's prefix is `>`, Rythms Canary's prefix is `*`.
@@ -92,7 +92,7 @@ How to change Rythm's nickname in your server. Continue reading below.
 2. Then you will have to **Right Click** Rythm's name.
 3. A menu will pop up looking like this:
 
-![NicknameMenu](/static/img/faq/nickname-menu.png)
+![NicknameMenu](/img/docs/faq/nickname-menu.png)
 
 4. Type in your desired nickname.
 5. Finally you can press `Save` and you're good to go.
@@ -159,7 +159,7 @@ You can view more than one queue pages by doing the following below.
     + **Example:** `!queue 2`
     + **Example:** `!queue 3`
 
-![QueueNumber](/static/img/faq/queue-number.png)
+![QueueNumber](/img/docs/faq/queue-number.png)
 
 ### How can I remove duplicate songs from the queue?
 To remove duplicate songs you can use the command as shown below.
@@ -218,7 +218,7 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 + **Short Answer:** [`Yes, if you Donate`](https://rythmbot.co/donate?do)
     + You may set the local volume of Rythm for yourself by selecting Rythm and adjusting the user volume slider as shown below.
 
-![VolumeMenu](/static/img/faq/user-volume.png)
+![VolumeMenu](/img/docs/faq/user-volume.png)
 
 + Rythm uses the default volume for videos when using audio streams, for donators we allow for encoding to change the volume of these audio streams. Due to the fact that encoding takes resources and time, this is why we do not roll this feature out to all Rythm users.
 
@@ -285,11 +285,11 @@ Here we will be teaching you how to setup music commands with Discord Permission
 
 1. Users with the `Manage Channels` Permission will be able to access all of the music commands. This is what it should look like, look at the image shown below.
 
-![ManageChannels](/static/img/faq/manage-channel-new.png)
+![ManageChannels](/img/docs/faq/manage-channel-new.png)
 
 2. Users with the `Manage Server` Permission will be able to access all of the setting commands. This is what it should look like, look at the image shown below.
 
-![ManageServer](/static/img/faq/manage-server-new.png)
+![ManageServer](/img/docs/faq/manage-server-new.png)
 
 **Command**
 
@@ -335,7 +335,7 @@ These are the options you can access through Rythm’s settings menu.
 3. For more information on a setting just type: `!settings <Setting-Name>`.
     + **Example:** `!settings blacklist`
 
-![SettingsBlacklistTest](/static/img/faq/settings-blacklist-test.png)
+![SettingsBlacklistTest](/img/docs/faq/settings-blacklist-test.png)
 
 :::caution Information
 Any setting marked with an asterisk `*` is donator exclusive.
@@ -348,7 +348,7 @@ Changing Rythm’s prefix
 2. Command usage `!settings prefix <NewPrefix>`.
     + **Example:** `!settings prefix $`.
 
-![SetPrefix](/static/img/faq/set-prefix.png)
+![SetPrefix](/img/docs/faq/set-prefix.png)
 
 ### Text Channel Blacklist
 Blacklisting text channels
@@ -357,7 +357,7 @@ Blacklisting text channels
 2. Command usage `!settings blacklist #channel`.
     + **Example:** `!settings blacklist #channel1 #channel2`.
 
-![BlacklistedChannels](/static/img/faq/blacklisted-channels.png)
+![BlacklistedChannels](/img/docs/faq/blacklisted-channels.png)
 
 :::caution note
 You can blacklist multiple text channels at once. However, once you do, Rythm will no longer be able to be used in those channels. In order to regain command access in those channels, simply run the command again and the text channel will be removed from the blacklist.
@@ -371,7 +371,7 @@ Turning On/Off Announcesongs
     + **Example:** `!settings announcesongs on`.
     + **Example:** `!settings announcesongs off`.
 
-![AnnounceSongs](/static/img/faq/announce-songs.png)
+![AnnounceSongs](/img/docs/faq/announce-songs.png)
 
 ### Queue Length Limit
 Limiting queue length
@@ -381,7 +381,7 @@ Limiting queue length
     + **Example:** `!settings maxqueuelength 25`.
     + **Example:** `!settings maxqueuelength disable`.
 
-![MaxQueueLength](/static/img/faq/max-queue-length.png)
+![MaxQueueLength](/img/docs/faq/max-queue-length.png)
 
 ### Max User Songs
 Limiting the amount of songs a single user can request
@@ -391,7 +391,7 @@ Limiting the amount of songs a single user can request
     + **Example:** `!settings maxusersongs 5`.
     + **Example:** `!settings maxusersongs disable`.
 
-![MaxUserSongs](/static/img/faq/max-user-songs.png)
+![MaxUserSongs](/img/docs/faq/max-user-songs.png)
 
 ### Prevent Song Duplicates
 Getting Rythm to automatically remove duplicate songs
@@ -401,7 +401,7 @@ Getting Rythm to automatically remove duplicate songs
     + **Example:** `!settings preventduplicates on`.
     + **Example:** `!settings preventduplicates off`.
 
-![PreventDuplicates](/static/img/faq/prevent-duplicates.png)
+![PreventDuplicates](/img/docs/faq/prevent-duplicates.png)
 
 ### DJ Only Mode
 Enabling DJ only mode
@@ -411,7 +411,7 @@ Enabling DJ only mode
     + **Example:** `!settings djonly on`.
     + **Example:** `!settings djonly off`.
 
-![DJOnly](/static/img/faq/dj-only.png)
+![DJOnly](/img/docs/faq/dj-only.png)
 
 ### Setting a Custom DJ Role
 Setting a custom DJ role
@@ -421,7 +421,7 @@ Setting a custom DJ role
     + **Example:** `!settings djrole DJAdmin`.
     + **Example:** `!settings djrole @DJAdmin`.
 
-![DJRole](/static/img/faq/dj-role.png)
+![DJRole](/img/docs/faq/dj-role.png)
 
 :::caution
 Any role called `DJ` will still act as a DJ role.
@@ -435,7 +435,7 @@ Enabling DJ Playlists
     + **Example:** `!settings djplaylists on`.
     + **Example:** `!settings djplaylists off`.
 
-![DJPlaylists](/static/img/faq/dj-playlists.png)
+![DJPlaylists](/img/docs/faq/dj-playlists.png)
 
 ### Autoplay*
 Enabling/Disabling autoplay*
