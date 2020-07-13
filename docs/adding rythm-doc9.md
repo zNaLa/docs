@@ -3,7 +3,7 @@ id: adding_rythm
 title: Adding Rythm
 ---
 
-# How do I add Rythm to my server?
+## How do I add Rythm to my server?
 
 Okay, so you want to add Rythm to your server? That's great! You can add any release of Rythm that you want by going [here](https://rythmbot.co/releases). 
 
@@ -43,7 +43,7 @@ If you can't find your server in the drop-down section, this can be caused by va
 
 ### Do you have permissions in the server you want to add Rythm to?
 
-If you're **100%** sure that you're signed into the correct account, then you should make sure that you have the correct permissions. In order to add a bot, you need to have a role with the **Manage Server** permission or **Administrator**. If you're the server owner, you have those regardless, of course.
+If you're **100%** sure that you're signed into the correct account, then you should make sure that you have the correct permissions. In order to add a bot, you need to have a role with the `Manage Server` permission or `Administrator`. If you're the server owner, you have those regardless, of course.
 
 ### Open an incognito tab and invite Rythm from there.
 
