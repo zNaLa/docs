@@ -62,7 +62,7 @@ title: Commands
     - **`blacklist`** - Allows you to blacklist channels you **don't** want Rythm to respond in.
     - **`maxqueuelength`** - Limits how many songs the queue can play. Disable it by typing *disable* instead a number.
     - **`defaultvolume`** - Sets the default volume that the bot will always start at. [**Donator Only**](https://www.patreon.com/rythm).
-    - **`djrole`** - Changes which role is considered DJ. Roles named "DJ" will still work.
+    - **`djrole`** - Changes which role is considered DJ. Roles named `DJ` will still work.
     - **`autoplay`** - Toggles auto-playing songs from playlist when nothing else playing. [**Donator Only**](https://www.patreon.com/rythm).
     - **`maxusersongs`** - Limits how many songs the user can queue at one time, can be disabled by typing *disable* instead a number.
     - **`djplaylists`** - Allows only DJs to queue playlists.

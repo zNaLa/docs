@@ -263,7 +263,7 @@ Rythm’s built-in permission system can be divided in the following groups:
 2. Can’t change Rythm’s settings.
 
 :::caution note
-If there isn’t a role named "DJ" in your server, one can be created with no special permissions assigned and it will still access these features.
+If there isn’t a role named `DJ` in your server, one can be created with no special permissions assigned and it will still access these features.
 :::
 
 **Users with Manage Server/Administrator permission:**
@@ -424,7 +424,7 @@ Setting a custom DJ role
 ![DJRole](/static/img/faq/dj-role.png)
 
 :::caution
-Any role called "DJ" will still act as a DJ role.
+Any role called `DJ` will still act as a DJ role.
 :::
 
 ### DJ Playlists
