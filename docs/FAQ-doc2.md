@@ -201,7 +201,7 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 
 ### Can Rythm play Spotify?
 + **Short Answer:** `Yes`
-    + Rythm not supports Spotify on all 3 of our bots. Rythm, Rythm 2 and Rythm Canary.
+    + Rythm now supports Spotify on all 3 of our bots. Rythm, Rythm 2 and Rythm Canary.
 
 ### What music sites does Rythm currently support?
 + **These are the current sites that music can be played from.**
