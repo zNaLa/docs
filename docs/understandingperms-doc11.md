@@ -8,14 +8,14 @@ title: Understanding Rythm's Permissions
 Rythm's built-in permission system can be divided into the following groups:
 
 ### Normal Users / Users without any special roles
- - Are able to add songs to the queue but can't remove other's songs. <!--Word it better?-->
+ - Are able to add songs to the queue but can't remove other user's songs.
  - Are able to use commands that don't interfere with other people's music.
    - `lyrics`, `np`, `queue`, etc.
  - Can't skip a song without voting.
  - Don't have access to control the music in any way.
 
 ### Users alone with Rythm, with a DJ role or the Manage Channel permission
-:::note
+:::caution note
 This includes all other users in the voice chat being deafened.
 :::
  - Have full access to all music commands.
@@ -24,11 +24,11 @@ This includes all other users in the voice chat being deafened.
 **Note**: If there isn't a role named '**DJ**' in your server, once can be created with no special permissions assigned and they will still be able to access these features.
 
 ### Users with Manage Server permission
- - Are able to change Rythm's settings
+ - Are able to change Rythm's settings.
  - Are limited to normal user's music commands, unless they have Manage Channel or the DJ role.
 
 ### Users with Administrator permission
- - Are able to change Rythm's settings
+ - Are able to change Rythm's settings.
  - Have full access to all music commands.
 
 ## How can I make Rythm only respond to Admins/specific roles?
@@ -60,7 +60,7 @@ To blacklist channels, use the following command:
 ![blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
 
 ### DJ Only Mode
-Perfect for if you don't want to blacklist every channel, or only allow staff to use music commands.
+Perfect for if you don't want to blacklist every text channel, or only allow staff to use music commands.
 
 :::caution
 Due to how Rythm counts DJ, if someone is alone with Rythm, they are able to use Rythm regardless of having a DJ role.
@@ -74,7 +74,7 @@ There is no setting that will apply DJ to all users.
 You must assign the DJ role to everyone *manually*.
 
 ## How can I block music commands in a specific text channel?
-You can use `!settings blacklist #channel` to blacklist a specific channel.
+You can use `!settings blacklist #channel` to blacklist a specific  text channel.
 
 <details>
 <summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>

@@ -48,11 +48,11 @@ Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to pl
 ![PlayMusicPlaylist](/static/img/faq/play-music-playlist.png)
 
 :::caution note
-Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that mentioned playlist.
+Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that specific playlist.
 :::
 
 ### How can I change Rythms Prefix?
-Rythm offers a way to change your prefixes. Continue reading down below and you will find out how to set a servers prefix.
+Changing your prefix is as simple as using a command. You can change Rythm's prefix by using the settings command. Below are a few examples of how its done.
 
 1. To change Rythms Prefix `!settings prefix <New Value>`
     + **Example:** `!settings prefix $`
@@ -63,8 +63,8 @@ Rythm offers a way to change your prefixes. Continue reading down below and you 
 You must have the permissions `Administrator` or `Manage Server` to change Rythms Prefix in your server.
 :::
 
-### How can I see the prefixes for all 3 Rythms?
-We have a feature where you can mention Rythm to see it's prefix. Find out below how you can do that.
+### But wait! I don't know my prefix!
+If you don't know Rythm's prefix, or you forget it, don't stress. We have you covered. You can view your prefix by simply mentioning the bot.
 
 1. For Rythm
     + **Example:** `@Rythm#3722` OR `<@!235088799074484224>`
@@ -82,14 +82,14 @@ We have a feature where you can mention Rythm to see it's prefix. Find out below
 ![MentionPrefixC](/static/img/faq/rythm-c.png)
 
 :::tip note
-Rythms prefix could be `!`. Rythms 2 prefix could be `>`. Rythms Canary prefix could be `*`.
+Rythm's default prefix is `!`, Rythms 2's prefix is `>`, Rythms Canary's prefix is `*`.
 :::
 
-### How can I change Rythms nickname in my server?
-How to change Rythms nickname in your server. Continue reading below.
+### How can I change Rythm's nickname in my server?
+How to change Rythm's nickname in your server. Continue reading below.
 
-1. Make sure you havr the `Manage Nickname` permission.
-2. Then you will have to **Right Click** Rythms name.
+1. Make sure you have the `Manage Nickname` permission.
+2. Then you will have to **Right Click** Rythm's name.
 3. A menu will pop up looking like this:
 
 ![NicknameMenu](/static/img/faq/nickname-menu.png)
@@ -135,11 +135,11 @@ Donating to Rythm helps us a lot. If you're interested in donating [click here](
 + Play songs that are longer than **3 hours**.
 + Get a cool donators role on the official bots discord
 
-### How can I see all of Rythms Commands?
-You can see all of Rythms commands by either doing `!help` or `!commands`.
+### How can I see all of Rythm's Commands?
+You can see all of Rythm's commands by either doing `!help` or `!commands`.
 
 1. You can also visit our commands page by [clicking here](https://rythmbot.co/commands).
-2. In order for __any__ commands to work hile using Rythm __you must__ make sure that the prefix is at the beginning of any command you use. Rythms default prefix is known to be `!`.
+2. In order for __any__ commands to work hile using Rythm __you must__ make sure that the prefix is at the beginning of any command you use. Rythm's default prefix is known to be `!`.
 
 ### How can I add a Second Rythm to my server?
 Due to high demand we have added the ability to add a second Rythm to your server allowing for twice the music.
@@ -195,13 +195,13 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 + **Short Answer:** `Yes`
     + You can invite Rythm 2 by [clicking here](https://rythmbot.co/rythm2)
 
-### Can I change Rythms Profile Picture/Avatar in my server?
+### Can I change Rythm's Profile Picture/Avatar in my server?
 + **Short Answer:** `No`
     + Discord does not allow Bots to change their profile picture/avatar per server.
 
 ### Can Rythm play Spotify?
 + **Short Answer:** `Yes`
-    + Rythm is now supporting Spotify on all 3 of the bots. Rythm, Rythm2 and Rythm Canary.
+    + Rythm not supports Spotify on all 3 of our bots. Rythm, Rythm 2 and Rythm Canary.
 
 ### What music sites does Rythm currently support?
 + **These are the current sites that music can be played from.**
@@ -236,11 +236,11 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 
 ### Can Rythm play 24/7 Music?
 + **Short Answer:** `No`
-    + Rythm is not a **24/7** bot. However you can self host [this bot](https://github.com/repulser/moosic) to gain that feature.
+    + Rythm is not a **24/7** bot. However you can self host [this bot](https://github.com/repulser/moosic) if you're in need of 24/7 music in your server.
 
 ### How is it possible for Rythm to be in so many servers all in once?
 
-Discord allows bots over `2,000 Thousand` Servers to use a feature called `Sharding`. In Rythms case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime. For more detail, please [click here](https://discordapp.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
+Discord allows bots over `2,000 Thousand` Servers to use a feature called `Sharding`. In Rythm's case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime. For more detail, please [click here](https://discordapp.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
 <!-- The end of the Limitations/Restrictions Section -->
 
 <!-- The start of the Roles/Permissions Section -->
@@ -304,7 +304,7 @@ In this case if you do not want users having the `Manage Channel` permission to 
 **Users alone in a voice channel with Rythm will be treated as though they have the DJ role until another user joins the voice channel with them even if they have no roles**
 
 :::caution
-Members with the `"DJ Role"` will not be able to change **ANY** of the Settings Commands.
+Members with the `DJ Role` will not be able to change **ANY** of the Settings Commands.
 :::
 
 ### Blacklisting Voice Channels
@@ -350,7 +350,7 @@ Changing Rythm’s prefix
 
 ![SetPrefix](/static/img/faq/set-prefix.png)
 
-### Test Channel Blacklist
+### Text Channel Blacklist
 Blacklisting text channels
 
 1. By blacklisting a text channel, you make it impossible for anyone to access music commands through that channel.
@@ -359,11 +359,11 @@ Blacklisting text channels
 
 ![BlacklistedChannels](/static/img/faq/blacklisted-channels.png)
 
-:::note
-You can blacklist multiple channels at once and to "Whitelist" a text channel and put it back to normal, just run the Blacklist command on it again.
+:::caution note
+You can blacklist multiple text channels at once. However, once you do, Rythm will no longer be able to be used in those channels. In order to regain command access in those channels, simply run the command again and the text channel will be removed from the blacklist.
 :::
 
-### Annocuning Songs
+### Announcing Songs
 Turning On/Off Announcesongs
 
 1. Sends a message to a text channel announcing every song when they start.
@@ -471,7 +471,7 @@ If you have encountered an issue with Rythm, you can use the links below to help
 + [Mobile Troubleshooting](https://rythmbot.co/mobile_troubleshooting)
 + [Miscellaneous Help Options](https://rythmbot.co/misc_help)
 
-### None of this helped me with my problem!
+### None of these solutions solved my problem!
 Sorry that your issue has not been fixed with the FAQ and Troubleshooting Page. 
 + If you find that your question was not answered by this FAQ Page or the Troubleshooting Page, please visit our support server by [clicking here](https://rythmbot.co/support)!
 <!-- The end of the Rythm Links Section -->

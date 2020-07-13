@@ -3,7 +3,7 @@ id: adding_rythm
 title: Adding Rythm
 ---
 
-# How do I add the bot to my server?
+# How do I add Rythm to my server?
 
 Okay, so you want to add Rythm to your server? That's great! You can add any release of Rythm that you want by going [here](https://rythmbot.co/releases). 
 
@@ -11,11 +11,11 @@ Okay, so you want to add Rythm to your server? That's great! You can add any rel
 
 ### Step one
 
-Once you've chosen the release of Rythm that you would like to invite from the link above and logged into your Discord account, you should now see a menu like this:
+Once you've chosen the release of Rythm that you would like to invite from the link above and you are logged into the correct Discord account, you should now see a menu like this:
 
 ![Discord Authorization Screen](/img/docs/add/discord-oauth2-1.png)
 
-If you press on **Select a server**, a pop-up should appear that will let you select where you'd like to add Rythm to. In this case, we'll add the bot to **User's Server**. [If you don't see your server in this drop-down, worry not!](#help-i-cant-find-my-server-in-the-list)
+If you press on **Select a server**, a pop-up should appear that will let you select where you'd like to add Rythm. In this case, we'll add the bot to **User's Server**. [If you don't see your server in this drop-down, click here!](#help-i-cant-find-my-server-in-the-list)
 
 ![Choose the server that'd you like and continue](/img/docs/add/discord-oauth2-2.png)
 
@@ -29,7 +29,7 @@ You should now see something similar to this:
 
 ### Final Step
 
-Once you press the **Authorize** button and complete the Captcha, you should be redirected [here](https://rythmbot.co/thanks). In addition to that, you'll see a message like the one below in your Discord server. **Amazing!**
+Once you press the **Authorize** button and complete the Captcha, you should be redirected [here](https://rythmbot.co/thanks). In addition, you'll also see a message like the one below in your Discord server. **Amazing!**
 
 ![A message sent by Rythm upon joining a Discord server](/img/docs/add/thank-you-message.png)
 

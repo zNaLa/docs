@@ -5,15 +5,15 @@ title: Rythm's Settings and How They Work
 
 ## Prefix
 The prefix is what you use in order to tell Rythm what to do.
-If you ever forget the prefix for your server, you can always mention Rythm to get the prefix.<br/>
+If you ever forget the prefix for your server, you can always mention Rythm to find your prefix.<br/>
 ![mention to get prefix](/img/docs/settings/prefix.png)
 
 ### Changing the Prefix
 To change the prefix to anything you like, use the following command:<br/>
-`!settings prefix newprefix`
+`!settings prefix <newprefix>`
 
 If you are unable to use the current prefix, you can also use the mention as the prefix:<br/>
-`@Rythm#3722 settings prefix newprefix`
+`@Rythm#3722 settings prefix <newprefix>`
 
 **Example**: If you wanted to change the prefix to be `$` so it's `$play`, use `!settings prefix $`<br/>
 ![change prefix example](/img/docs/settings/prefix-example.png)
@@ -34,7 +34,7 @@ You can also provide multiple channels for quicker blacklisting.
 ![blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 
 ## AutoPlay
-:::note Donator-Only Feature
+:::information note Donator-Only Feature
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
 
@@ -49,7 +49,7 @@ To setup AutoPlay, provide a playlist using the following command:<br/>
 ## Announce Songs
 When enabled, sends a message to announce when a song has started playing.
 
-:::info Note
+:::caution Note
 The messages go to where you summon Rythm via `!join` or `!play`.
 :::
 
@@ -93,7 +93,7 @@ To enable or disable this, use the following command:<br/>
 ![prevent duplicates example](/img/docs/settings/prevent-duplicates-example.png)
 
 ## Default Volume
-:::note Donator-Only Feature
+:::info note Donator-Only Feature
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
 
@@ -144,7 +144,7 @@ To change the DJ role, use the following command:<br/>
 **Example**: If you want to give a role named `Users` DJ without assigning a new role, use `!settings djrole Users`<br/>
 ![dj role example](/img/docs/settings/dj-role-example.png)
 
-### Resetting DJ Role
+### Resetting your DJ Role
 If you want to reset this setting, use `!settings djrole DJ`. This will reset it back to default regardless of if a role named '**DJ**' exists.<br/>
 ![dj role reset example](/img/docs/settings/dj-role-reset-example.png)
 

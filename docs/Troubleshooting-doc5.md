@@ -4,7 +4,7 @@ title: Basic Troubleshooting
 ---
 
 
-## When adding Rythm I can't see my server on the list
+## When adding Rythm I can't see my server on the list!
 
 You must have a role with the “Administrator” or the “Manage Server” permission to be able to add Rythm to a Discord Server. 
 *If you are able to change the name of the server, you have one of these permissions.*
