@@ -15,5 +15,5 @@ In this document we will be showing you how to play a song with Rythm. It is qui
 5. If you cannot find a song anywhere we always have a feature called `!search <song name>` and you will be able to pick from 1 - 10.
 
 :::caution note
-Make sure that your songs are not over **3 Hours Long** or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [**donating**](https://www.patreon.com/rythm?utm_source=donate&utm_medium=referral&utm_campaign=bot) to Rythm!
+Make sure that your songs are not over **3 Hours Long** or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [**donating**](https://rythmbot.co/donate?do) to Rythm!
 :::

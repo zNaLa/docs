@@ -59,9 +59,9 @@ title: Commands
     - **`djonly`** - Sets the guild to run in DJ only mode.
     - **`blacklist`** - Allows you to blacklist channels you **don't** want Rythm to respond in.
     - **`maxqueuelength`** - Limits how many songs the queue can play. Disable it by typing *disable* instead a number.
-    - **`defaultvolume`** - Sets the default volume that the bot will always start at. <**Donator Only**>(https://www.patreon.com/rythm).
+    - **`defaultvolume`** - Sets the default volume that the bot will always start at. [**Donator Only**](https://rythmbot.co/donate?do).
     - **`djrole`** - Changes which role is considered DJ. Roles named `DJ` will still work.
-    - **`autoplay`** - Toggles auto-playing songs from playlist when nothing else playing. <**Donator Only**>(https://www.patreon.com/rythm).
+    - **`autoplay`** - Toggles auto-playing songs from playlist when nothing else playing. [**Donator Only**](https://rythmbot.co/donate?do).
     - **`maxusersongs`** - Limits how many songs the user can queue at one time, can be disabled by typing *disable* instead a number.
     - **`djplaylists`** - Allows only DJs to queue playlists.
     - **`reset`** - Resets Rythm totally.   
@@ -79,7 +79,7 @@ title: Commands
 --- 
 - **`!replay`** - Reset the progress of the current song 
 --- 
-- **`!clean`** - Deletes the bot's messages and commands.	 
+- **`!purge`** - Deletes the bot's messages and commands.	 
 --- 
 - **`!pause`** - Pauses the currently playing track. 
 --- 
@@ -94,8 +94,8 @@ title: Commands
 - **`!playtop`** - Like the play command, but queues from the top. 
     - `playtop <link/query>`
 --- 
-- **`!playskip`** - Adds a song to the top of the queue then skips to it.
-    - `playskip <link/query>`
+- **`!playnow`** - Skips the current song and plays the song you requested.
+    - `playnow <link/query>`
 --- 
 - **`!invite`** - Rythm's official links! 
 

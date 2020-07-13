@@ -39,7 +39,7 @@ When using Rythm you can either play a song or a playlist. To play a song and a 
 ![PlayMusicLink](/static/img/faq/play-music-link.png)
 
 :::caution Information
-Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://www.patreon.com/rythm?utm_source=donate&utm_medium=referral&utm_campaign=bot) to Rythm!
+Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://rythmbot.co/donate?do) to Rythm!
 :::
 
 2. To play a playlist `!play <Playlist URL>`
@@ -104,7 +104,7 @@ Do you enjoy/love Rythm? Want to help Rythm in funds? You can donate to us today
 + You will get awesome perks such as **Play songs that are longer than 3 hours** and **Get a cool donators role on the official bots discord .** You'll unlock more perks when you upgrade to different Tiers.
 
 ### What do I get when I donate to Rythm?
-Donating to Rythm helps us a lot. If you're interested in donating [click here](https://patreon.com/rythm).
+Donating to Rythm helps us a lot. If you're interested in donating [click here](https://rythmbot.co/donate?do).
 
 **Starter Pack ($5)**
 + Know that you are awesome!
@@ -215,7 +215,7 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 7. Spotify  [(Spotify Link Click Here)](https://www.spotify.com/)
 
 ### Can I adjust the volume for everyone on my server for Rythm?
-+ **Short Answer:** [`Yes, if you Donate`](https://patreon.com/rythm)
++ **Short Answer:** [`Yes, if you Donate`](https://rythmbot.co/donate?do)
     + You may set the local volume of Rythm for yourself by selecting Rythm and adjusting the user volume slider as shown below.
 
 ![VolumeMenu](/static/img/faq/user-volume.png)
