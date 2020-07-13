@@ -240,7 +240,7 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 
 ### How is it possible for Rythm to be in so many servers all in once?
 
-Discord allows bots over `2,000 Thousand` Servers to use a feature called `Sharding`. In Rythm's case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime. For more detail, please [click here](https://discordapp.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
+Discord allows bots over `2,000` Servers to use a feature called `Sharding`. In Rythm's case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime. For more detail, please [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
 <!-- The end of the Limitations/Restrictions Section -->
 
 <!-- The start of the Roles/Permissions Section -->

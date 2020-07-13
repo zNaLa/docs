@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'Rythm', // Usually your GitHub org/user name.
   projectName: 'Rythm-documentation', // Usually your repo name.
   themeConfig: {
+    sidebarCollapsible: false,
     navbar: {
       title: 'Rythm Documentation',
       logo: {
