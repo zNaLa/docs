@@ -34,8 +34,8 @@ You can also provide multiple channels for quicker blacklisting.
 ![blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 
 ## AutoPlay
-:::information note Donator-Only Feature
-This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
+:::info Autoplay is a donator-only feature.
+This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate AutoPlay.
 :::
 
 AutoPlay plays a song when there is nothing currently playing. 

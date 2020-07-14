@@ -21,7 +21,9 @@ title: Commands
 --- 
 - **`!ping`** - Checks the bot's response time to Discord.
 --- 
-- **`!skip`** - Skips the currently playing song.
+- **`!skip`** - Votes to skip the currently playing song.
+--- 
+- **`!forceskip`** - Skips the currently playing song.
 --- 
 - **`!seek`** - Seeks to a certain point in the current track..
     - `seek <number>`
@@ -106,3 +108,10 @@ title: Commands
     - `queue <page>`
 --- 
 - **`!leavecleanup`** - Removes absent user's songs from the Queue.
+---
+- **`!effects`** - Add effects to the song you're listening to.
+
+    - `Speed` - Speed up the song you're listening to.
+    - `Bass` - Adjust the bass of the song you're listening to.
+    - `Slowed` - Slow down the song you're listening to.
+    - `Nightcore` - Add a nightcore effect to the song you're listening to.
