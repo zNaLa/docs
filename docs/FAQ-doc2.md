@@ -10,16 +10,10 @@ title: Frequently Asked Questions
 -----
 ### What is Rythm Bot?
 [Rythm](/whatisrythm) is the largest Discord Bot. Read more below!
-+ Rythm is a feature-rich, high-performance music bot for Discord, specially designed to deliver High Quality music, stability and ease of use while also providing advanced music functionalities in order to create the ultimate music bot experience.
++ Rythm is a feature-rich, high-performance music bot for Discord, specially designed to deliver High Quality music, stability and ease of use while also providing advanced music functionality in order to create the ultimate music bot experience.
 
 ### How can I add Rythm to my Discord Server?
-Down below you will be able to see how to invite Rythm into your Discord Server!
-+ When clicking the link below, you will be able to invite Rythm to your Discord Server!
-    + https://rythmbot.co/invite
-
-:::caution note
-You must have the permissions `Administrator` or `Manage Server` to be able to invite any of the Rythm Bots to your Discord Server. Also, make sure that you are logged in with the right Discord Account in the web version of Discord when inviting Rythm Bots, make sure you see https://discord.com/login
-:::
+Please [Click Here](/adding-rythm) to check out our guide on adding Rythm.
 
 <!-- The end of the Introduction Section -->
 
@@ -38,8 +32,8 @@ When using Rythm you can either play a song or a playlist. To play a song and a 
 
 ![PlayMusicLink](/img/docs/faq/play-music-link.png)
 
-:::caution Information
-Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [donating](https://rythmbot.co/donate?do) to Rythm!
+:::info note
+Make sure that your song is not over **3 hours long** or Rythm will refuse to play it. To play songs longer than 3 hours you can consider [**donating**](https://rythmbot.co/donate?do) to Rythm!
 :::
 
 2. To play a playlist `!play <Playlist URL>`
@@ -48,19 +42,20 @@ Make sure that your songs are not over `3 Hours Long` or Rythm will refuse to pl
 ![PlayMusicPlaylist](/img/docs/faq/play-music-playlist.png)
 
 :::caution note
-Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that specific playlist.
+Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that specific playlist. Rythm will play up to `500 songs` from a playlist.
 :::
 
 ### How can I change Rythms Prefix?
 Changing your prefix is as simple as using a command. You can change Rythm's prefix by using the settings command. Below are a few examples of how its done.
 
-1. To change Rythms Prefix `!settings prefix <New Value>`
+1. To change Rythms Prefix `!settings prefix <New Prefix>`
     + **Example:** `!settings prefix $`
 
 ![SetPrefix](/img/docs/faq/set-prefix.png)
 
 :::caution note
 You must have the permissions `Administrator` or `Manage Server` to change Rythms Prefix in your server.
+Do **not** include `<>` when setting the prefix
 :::
 
 ### But wait! I don't know my prefix!
@@ -86,10 +81,8 @@ Rythm's default prefix is `!`, Rythms 2's prefix is `>`, Rythms Canary's prefix 
 :::
 
 ### How can I change Rythm's nickname in my server?
-How to change Rythm's nickname in your server. Continue reading below.
-
 1. Make sure you have the `Manage Nickname` permission.
-2. Then you will have to **Right Click** Rythm's name.
+2. Then you will have to **Right Click** Rythm's name and press `Change Nickname`
 3. A menu will pop up looking like this:
 
 ![NicknameMenu](/img/docs/faq/nickname-menu.png)
@@ -98,62 +91,26 @@ How to change Rythm's nickname in your server. Continue reading below.
 5. Finally you can press `Save` and you're good to go.
 
 ### How can I donate to Support Rythm?
-Do you enjoy/love Rythm? Want to help Rythm in funds? You can donate to us today!
+Do you enjoy/love Rythm? You can donate to us today!
 
 1. You can donate by [clicking here](https://rythmbot.co/donate?d)
-+ You will get awesome perks such as **Play songs that are longer than 3 hours** and **Get a cool donators role on the official bots discord .** You'll unlock more perks when you upgrade to different Tiers.
-
-### What do I get when I donate to Rythm?
-Donating to Rythm helps us a lot. If you're interested in donating [click here](https://rythmbot.co/donate?do).
-
-**Starter Pack ($5)**
-+ Know that you are awesome!
-+ Activate rewards for **1** server or user
-+ AutoPlay™
-+ Effects changes
-+ Volume control
-+ Play songs that are longer than **3 hours**.
-+ Get a cool donators role on the official bots discord
-
-**Supporter Pack ($10)**
-+ Know that you are awesome!
-+ Activate rewards for **2** servers or users
-+ AutoPlay™
-+ Effects changes
-+ Volume control
-+ Play songs that are longer than **3 hours**.
-+ Get a cool donators role on the official bots discord
-
-**Awesome Pack ($15)**
-+ Know that you are awesome!
-+ Activate rewards for **5** servers or users
-+ Get to test BETA features (No promises on anything interesting)
-+ AutoPlay™
-+ Effects changes
-+ Volume control
-+ Get global donator perks
-+ Play songs that are longer than **3 hours**.
-+ Get a cool donators role on the official bots discord
++ You will get awesome perks such as **Volume control**, **A role in our Discord server**, **Audio Effects**, **Autoplay**, **Songs longer than 3 hours** and more
 
 ### How can I see all of Rythm's Commands?
-You can see all of Rythm's commands by either doing `!help` or `!commands`.
-
-1. You can also visit our commands page by [clicking here](https://rythmbot.co/commands).
-2. In order for __any__ commands to work hile using Rythm __you must__ make sure that the prefix is at the beginning of any command you use. Rythm's default prefix is known to be `!`.
+1. You can visit our commands page by [Clicking here](https://rythmbot.co/commands).
+2. In order for commands to work while using Rythm, make sure that the prefix is at the beginning of any command you use. Rythm's default prefix is `!`.
 
 ### How can I add a Second Rythm to my server?
-Due to high demand we have added the ability to add a second Rythm to your server allowing for twice the music.
-
-1. If you are in need of a Second Rythm within your server you can invite Rythm 2 by [clicking here](https://rythmbot.co/rythm2).
+Due to high demand we have added the ability to add a second Rythm to your server. 
+If you are in need of a second Rythm you can invite Rythm 2 by [Clicking here](https://rythmbot.co/rythm2).
 
 ### How can I change the location of Rythm Announcing Songs?
-Rythm will announce songs in the channel the command is used. Look below to see how to change the location of the announces of songs.
+Rythm will announce songs in the channel the first command is used.
 
-1. Let's say you used the `!play Song_URL` and/or `!summon` command in the channel `#music-commands`. In `#music-command` Rythm will start announcing songs in the channel in which you used the command. 
-2. If you would like to change th location of the song announcements, you can do `!disconnect` and use `!play Song_URL` and/or `!summon` in a different channel within your server.
-
-### How can I view more than page using the queue command?
-You can view more than one queue pages by doing the following below.
+1. Let's say you used the `!play <Song>` or the `!summon` command in the channel `#music`. Rythm will start announcing songs in that channel.
+2. If you would like to change the location of the song announcements, you can do `!join` the desired channel.
+### How can I view more than one page using the queue command?
+You can view more than one queue page by doing the following below.
 
 1. To view more queue pages `!queue <Page Number>`.
     + **Example:** `!queue 2`
@@ -172,15 +129,15 @@ To remove duplicate songs you can use the command as shown below.
 They can also use other commands that don't affect the playing music in any way. Example: `!queue` and `!lyrics`.
 2. However, normal users can access ALL music commands when they are alone with Rythm in the voice channel.
 This is because their commands would not affect anyone but themselves.
-+ For more information about users command permissions, refer to the **Roles/Permissions** section in this FAQ.
++ For more information about users command permissions, refer to the **[Permissions](/permissions)** section in this FAQ.
 
-### How many votes are needed for a song to be vote skipped?
+### How many votes are required for a song to be vote skipped?
 **__Here's an example:__**
 
-1. For a vote skip to take effect, **75% of the voice chat's** population need to vote yes.
-2. Let's assume there are **10** users in a voice chat.
-3. The threshold for skipping is calculated as **75% of 10 = 7.5**, then rounded down, so **7**.
-3. For the vote skip to take effect, you would then need **7 positive** votes.
+1. For a vote skip to take effect, `75%` of the people in the voice chat need to vote to skip.
+2. Let's assume there are `10` users in a voice chat.
+3. The threshold for skipping is calculated as`75% of 10 = 7.5`, then rounded down, so `7`.
+3. For the vote skip to take effect, you would then need `7 vote skips.`
 
 :::caution note
 Vote skip will not be active until there are **3 or more people** in the voice channel.
@@ -191,9 +148,9 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 <!-- The start of the Limitations/Restrictions Section -->
 ## Limitations/Restrictions
 -----
-### Can I have 2 Rythms in the same server?
+### Can I have more than one Rythm in the same server?
 + **Short Answer:** `Yes`
-    + You can invite Rythm 2 by [clicking here](https://rythmbot.co/rythm2)
+    + You can invite any release by [Clicking here](https://rythmbot.co/releases)
 
 ### Can I change Rythm's Profile Picture/Avatar in my server?
 + **Short Answer:** `No`
@@ -206,13 +163,13 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 ### What music sites does Rythm currently support?
 + **These are the current sites that music can be played from.**
 
-1. YouTube [(YouTube Link Click Here)](https://www.youtube.com/)
-2. SoundCloud [(SoundCloud Link Click Here)](https://soundcloud.com/)
-3. Twitch [(Twitch Link Click Here)](https://www.twitch.tv/)
-4. Vimeo [(Vimeo Link Click Here)](https://vimeo.com/)
-5. Mixer [(Mixer Link Click Here)](https://mixer.com/)
-6. BandCamp [(BandCamp Link Click Here)](https://bandcamp.com)
-7. Spotify  [(Spotify Link Click Here)](https://www.spotify.com/)
+1. [YouTube](https://www.youtube.com/)
+2. [SoundCloud ](https://soundcloud.com/)
+3. [Twitch](https://www.twitch.tv/)
+4. [Vimeo](https://vimeo.com/)
+5. [Mixer](https://mixer.com/)
+6. [BandCamp](https://bandcamp.com)
+7. [Spotify](https://www.spotify.com/)
 
 ### Can I adjust the volume for everyone on my server for Rythm?
 + **Short Answer:** [`Yes, if you Donate`](https://rythmbot.co/donate?do)
@@ -220,19 +177,19 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 
 ![VolumeMenu](/img/docs/faq/user-volume.png)
 
-+ Rythm uses the default volume for videos when using audio streams, for donators we allow for encoding to change the volume of these audio streams. Due to the fact that encoding takes resources and time, this is why we do not roll this feature out to all Rythm users.
++ Rythm uses the default volume when using audio streams, for donators we enable encoding to change the volume of these audio streams. This is due to encoding being requiring a lot of compute resources.
 
 **Donators**
 
-1. For donators the volume command is !volume number *(Allowed Values: 1 ➠ 200)*.
+1. For donators the volume command is !volume number (Allowed Values: `1 - 200`).
     + **Example:** `!volume 80`
 
 ### Can I make custom commands for Rythm?
 + **Short Answer:** `No`
-    + We do not allow custom commands/aliases, however we do allow for suggestions of aliases to be added.
+    + We do not allow custom commands/aliases, however we do take suggestions for aliases to be added.
 
 1. Use the `!aliases` command to view all the aliases.
-    + You can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the Rythm Bot Discord server.
+    + You can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
 
 ### Can Rythm play 24/7 Music?
 + **Short Answer:** `No`
@@ -251,7 +208,7 @@ Rythm’s built-in permission system can be divided in the following groups:
 
 **Normal Users/Users without any special roles:**
 
-1. Are able to add songs to the list (queue) but can’t remove them.
+1. Are able to add songs to the list (queue) but can’t remove others songs (can remove their own songs).
 2. Are able to use commands that don’t interfere with other people’s music. 
     + **Example:** `lyrics`, `np`, `queue`, etc.
 3. Can't skip a song without voting.
@@ -262,49 +219,32 @@ Rythm’s built-in permission system can be divided in the following groups:
 1. Have full access to all music commands.
 2. Can’t change Rythm’s settings.
 
-:::caution note
+:::info note
 If there isn’t a role named `DJ` in your server, one can be created with no special permissions assigned and it will still access these features.
 :::
 
 **Users with Manage Server/Administrator permission:**
 
-1. `Manage Server:` Users with the **Manage Server** permission can change Rythm’s settings,
-but are limited to only use the normal user's music commands.
-2. `Administrator:` Users with the **Administrator** permission have full access to all music commands
+1. Users with the `Manage Server` are able to modify Rythm's settings.
+2. Users with the `Administrator` permission have full access to all music commands
 and can also change Rythm’s settings.
 
-:::danger note
-If a user is **ALONE** in a voice channel and Rythm is with them, they **WILL** have access to **ALL** of the music commands even if the user does **NOT** have the **DJ** role. Since there is no one to control and tell them what music they can or cannot play, they can just control the music on their own and live a happy life, but if another user joins in, then they lose their ability to control music and they would need the **DJ** role.
+:::caution note
+If a user is **ALONE** in a voice channel and Rythm is with them, they will have access to all of the music commands even if the user does not have the `DJ` role. If another user joins in, then they lose their ability to control music and they would need the `DJ` role.
 + If you want all Rythm commands to be only available to people with a specific role, read the next entry in this FAQ.
 :::
 
 ### How can I give normal users access to all of the music commands?
-Here we will be teaching you how to setup music commands with Discord Permissions.
-
-**Permission**
-
-1. Users with the `Manage Channels` Permission will be able to access all of the music commands. This is what it should look like, look at the image shown below.
-
-![ManageChannels](/img/docs/faq/manage-channel-new.png)
-
-2. Users with the `Manage Server` Permission will be able to access all of the setting commands. This is what it should look like, look at the image shown below.
-
-![ManageServer](/img/docs/faq/manage-server-new.png)
-
-**Command**
-
 In this case if you do not want users having the `Manage Channel` permission to use commands, you can follow the steps below to give them permissions using a couple of ways.
 
 1. Go to **Server Settings** ➠ **Roles** ➠ Make a new role called `DJ`.
-2. You can use the following command to set another DJ Role: Command usage `!settings djrole @role/role-name`.
+2. You can use the following command to set another DJ Role: Command usage `!settings djrole <Role name> / <@Role>`.
     + **Example:** `!settings djrole NewDJRole`
     + **Example:** `!settings djrole @NewDJRole`
-3. The DJ role has to be assigned manually and cannot be given to all users at once, unless you are using another bot that supports giving all roles to users at once.
+3. The DJ role has to be assigned manually to users you want to have extra permissions
 
-**Users alone in a voice channel with Rythm will be treated as though they have the DJ role until another user joins the voice channel with them even if they have no roles**
-
-:::caution
-Members with the `DJ Role` will not be able to change **ANY** of the Settings Commands.
+:::info note
+Users alone in a voice channel with Rythm will be treated as though they have the DJ role until another user joins the voice channel with them even if they have no roles. Members with the `DJ` role will not be able to change any of Rythm's settings.
 :::
 
 ### Blacklisting Voice Channels
@@ -417,7 +357,7 @@ Enabling DJ only mode
 Setting a custom DJ role
 
 1. Sets a custom role to work as DJ with Rythm.
-2. Command usage `!settings djrole role/@role`.
+2. Command usage `!settings djrole <Role name> / <@Role>`.
     + **Example:** `!settings djrole DJAdmin`.
     + **Example:** `!settings djrole @DJAdmin`.
 
