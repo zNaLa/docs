@@ -21,7 +21,7 @@ If you press on **Select a server**, a pop-up should appear that will let you se
 
 ### Step two
 
-Once you've selected the server that'd you like to add Rythm to, you can press on the **Continue** button on the bottom right of the menu.
+Once you've selected the server that'd you like to add Rythm to, you can press the **Continue** button on the bottom right of the menu.
 
 You should now see something similar to this:
 
@@ -37,7 +37,7 @@ Once you press the **Authorize** button and complete the Captcha, you should be 
 
 ### Are you signed into the correct account?
 
-If you can't find your server in the drop-down section, this can be caused by various reasons. First, you should make sure that you're signed into the correct account. If you're not, then press on the blue **Not you?** button.
+If you can't find your server in the drop-down section, this can be caused by various reasons. First, you should make sure that you're signed into the correct account. If you're not, then press the blue **Not you?** button.
 
 ![Signed in as User#5119 Not you?](/img/docs/adding/signed-in-as-example.png)
 
@@ -60,7 +60,7 @@ If you're sure that you're signed into the correct account **and** that you have
 
 #### Why is this necessary?
 
-Because Discord caches data into cookies and session data, it retains old account information and glitches out the bot invite screen. By using an incognito/private browsing window, it forces Discord to use a fresh session which fixes the glitch and allows you to select a server from the drop-down menu.
+Because Discord caches data into cookies, it retains old account information and glitches out the bot invite screen. By using an incognito/private browsing window, it forces Discord to use a fresh session which fixes the glitch and allows you to select a server from the drop-down menu.
 
 ### I've read everything above but none fixed my issue. What do I do?
 

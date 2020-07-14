@@ -10,10 +10,9 @@ In this document we will be showing you how to play a song with Rythm. It is qui
 
 1. Join a Voice Channel.
 2. Make Rythm join the Voice Channel by doing `!summon`.
-3. Go find a song that you would like to play with Rythm.
-4. Use the command `!play <song url/name>` to play that song.
-5. If you cannot find a song anywhere we always have a feature called `!search <song name>` and you will be able to pick from 1 - 10.
+3. Use `!play <song url/name>` to play a song of your choice.
+4. If you need more search results you can use `!search <song name>`.
 
-:::caution note
-Make sure that your songs are not over **3 Hours Long** or Rythm will refuse to play that requested song. To play songs longer than 3 hours you can consider [**donating**](https://rythmbot.co/donate?do) to Rythm!
+:::info note
+Make sure that your song is not over **3 hours long** or Rythm will refuse to play it. To play songs longer than 3 hours you can consider [**donating**](https://rythmbot.co/donate?do) to Rythm!
 :::
