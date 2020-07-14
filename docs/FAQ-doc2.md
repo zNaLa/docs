@@ -9,7 +9,7 @@ title: Frequently Asked Questions
 ## Introduction
 -----
 ### What is Rythm Bot?
-[Rythm](/whatisrythm) is the largest Discord Bot. Read more below!
+[Rythm](/start) is the largest Discord Bot. Read more below!
 + Rythm is a feature-rich, high-performance music bot for Discord, specially designed to deliver High Quality music, stability and ease of use while also providing advanced music functionality in order to create the ultimate music bot experience.
 
 ### How can I add Rythm to my Discord Server?
