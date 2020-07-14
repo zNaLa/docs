@@ -11,7 +11,7 @@ sidebar_label: What is Rythm?
 
  - # Why Rythm?
    - ### Rythm is a music bot dedicated to you
-     [Rythm](https://rythmbot.co/) offers a highly comprehensive and intuitive set of [features](https://rythmbot.co/features#list); that allow you to play music in your Discord server. Rythm offers high quality streaming from most popular sources, including **Youtube, Soundcloud, Twitch, and more!**  
+     [Rythm](https://rythmbot.co/) offers a highly comprehensive and intuitive set of [features](https://rythmbot.co/features); that allow you to play music in your Discord server. Rythm offers high quality streaming from most popular sources, including **Youtube, Soundcloud, Twitch, and more!**  
    - ### Rythm is extremely user-friendly
     We are constantly looking at feedback from users in our **[Discord server](https://rythmbot.co/support)** where support is also offered __**24/7**__ by our dedicated staff team, so you can be sure that you will **always** be getting the best out of Rythm!
 
