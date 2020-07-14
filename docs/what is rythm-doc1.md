@@ -16,10 +16,10 @@ sidebar_label: What is Rythm?
     We are constantly looking at feedback from users in our **[Discord server](https://rythmbot.co/support)** where support is also offered __**24/7**__ by our dedicated staff team, so you can be sure that you will **always** be getting the best out of Rythm!
 
    - ### Has almost no bot or music lag
-    Because our development team is always looking for new ways to improve our service, Rythm is __**always**__ constantly being updated and worked on to bring you the best possible experience.
+    Because our development team is always looking for new ways to improve our service, Rythm is constantly being updated and worked on to bring you the best possible experience.
 
    - ### And is also the most popular music bot on Discord
-    After years of hard work, consistent service and ingenius development, Rythm serves over __**10 million**__ Discord servers and counting! We'd love to for you to become apart of our Rythm Family!
+    Rythm serves over `10 million` Discord servers and counting!
     
  - # Why wait?
    You can [invite Rythm to your server](https://rythmbot.co/invite) with just a few clicks to liven your time on Discord up; it's that simple! 
