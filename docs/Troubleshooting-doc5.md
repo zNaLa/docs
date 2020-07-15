@@ -18,7 +18,7 @@ Note: If that still doesn't work, we suggest trying **Incognito Mode** in your w
 |  Chrome  |  CTRL+Shift+N | CMD+Shift+N |
 |  Firefox |  CTRL+Shift+P | CMD+Shift+P |
 |   Opera  |  CTRL+Shift+N | CMD+Shift+N |
-|  MS Edge |  CTRL+Shift+P |     N/A     |
+|  MS Edge |  CTRL+Shift+N |     N/A     |
 | Explorer |  CTRL+Shift+P |     N/A     |
 |  Safari  |      N/A      | CMD+SHIFT+N |
 
