@@ -91,7 +91,7 @@ title: Commands
 --- 
 - **`!replay`** - Reset the progress of the current song 
 --- 
-- **`!purge`** - Deletes the bot's messages and commands.	 
+- **`!prune`** - Deletes the bot's messages and commands.	 
 --- 
 - **`!pause`** - Pauses the currently playing track. 
 --- 
