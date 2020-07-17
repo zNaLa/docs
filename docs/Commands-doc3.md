@@ -19,15 +19,25 @@ title: Commands
 --- 
 - **`!aliases`** - List command aliases.
 --- 
-- **`!ping`** - Checks the bot's response time to Discord.
---- 
 - **`!skip`** - Votes to skip the currently playing song.
 --- 
 - **`!forceskip`** - Skips the currently playing song.
 --- 
-- **`!seek`** - Seeks to a certain point in the current track..
+- **`!seek`** - Seeks to a certain point in the current track.
     - `seek <number>`
 --- 
+- **`!effects`** - Shows current audio effects.
+    - `effects help` - Shows all available audio effects.
+    - `effects clear` - Clears all audio effects.
+---
+- **`!speed`** - Modifies the playback speed.
+---
+- **`!bass`** - Bass boosts the current song.
+---
+- **`!nightcore`** - Toggles nightcore effect.
+---
+- **`!slowed`** - Toggles slowed effect.
+---
 - **`!soundcloud`** - Searches SoundCloud for a song.
     - `soundcloud <Search query>`
 --- 
@@ -100,7 +110,6 @@ title: Commands
     - `playnow <link/query>`
 --- 
 - **`!invite`** - Rythm's official links! 
-
 --- 
 - **`!shuffle`** -  Shuffles the entire queue. 
 --- 
@@ -109,9 +118,5 @@ title: Commands
 --- 
 - **`!leavecleanup`** - Removes absent user's songs from the Queue.
 ---
-- **`!effects`** - Add effects to the song you're listening to.
-
-    - `Speed` - Speed up the song you're listening to.
-    - `Bass` - Adjust the bass of the song you're listening to.
-    - `Slowed` - Slow down the song you're listening to.
-    - `Nightcore` - Add a nightcore effect to the song you're listening to.
+- **`!ping`** - Checks the bot's response time to Discord.
+--- 
