@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: [require.resolve('docusaurus-lunr-search')],
   title: 'Rythm',
   tagline: 'Rythm documentation',
   url: 'https://docs.rythmbot.co/',
