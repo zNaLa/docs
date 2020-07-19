@@ -6,7 +6,7 @@ title: Commands
 :::info Note
 ### Always remember the following!
 - The default prefix of Rythm is `!`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forgot your prefix. Mention Rythm (`@Rythm#3722`). 
-- **Never include <> in your messages when using a command!**
+- **Never include `<>` in your messages when using a command!**
 :::
 ---
 - **`!play`** - Plays a song with the given name or url.
