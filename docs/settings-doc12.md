@@ -2,7 +2,14 @@
 id: settings
 title: Rythm's Settings and How They Work
 ---
-![Settings](/img/docs/features/settings.png)
+These are the options you can access through Rythm’s settings menu. 
+
+1. To access this menu use the command `!settings`.<br/>
+   ![Settings](/img/docs/features/settings.png)
+2. Rythm should then display a menu showing the settings that can be changed.
+3. For more information on a setting just type: `!settings <Setting-Name>`.
+   - **Example:** `!settings blacklist`<br/>
+   ![SettingsBlacklistTest](/img/docs/faq/settings-blacklist-test.png)
 
 ## Prefix
 The prefix is what you use in order to tell Rythm what to do.
@@ -34,7 +41,7 @@ You can also provide multiple channels for quicker blacklisting.
 **Example**: If you wanted to blacklist channels named `#chat`, `#gaming` and `#international`, use `!settings blacklist #chat #gaming #international`<br/>
 ![Blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 
-## AutoPlay
+## AutoPlay\*
 :::info Autoplay is a donator-only feature.
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate AutoPlay.
 :::
@@ -93,7 +100,7 @@ To enable or disable this, use the following command:<br/>
 **Example**: If you want to prevent duplicates of songs from being played, use `!settings preventduplicates yes`<br/>
 ![Prevent duplicates example](/img/docs/settings/prevent-duplicates-example.png)
 
-## Default Volume
+## Default Volume\*
 :::info note Donator-Only Feature
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
