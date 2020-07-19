@@ -3,23 +3,9 @@ id: basic_troubleshooting
 title: Basic Troubleshooting
 ---
 
-## When adding Rythm I can't see my server on the list!
+## When adding Rythm, I can't see my server in the list!
 
-You must have a role with the `Administrator` or the `Manage Server` permissions to be able to add Rythm to a Discord Server. 
-*If you are able to change the name of the server, you have one of these permissions.*
-
-If you have the correct permission and still can’t see your server in the list, make sure you’re logged into the correct Discord account in your web browser which you can check by going [here](https://discord.com/channels/@me).
-
-Note: If that still doesn't work, we suggest trying **Incognito Mode** in your web browser or a different browser to invite Rythm to your server. An incognito guide/table will be below:
-
-|  Browser | Windows/Linux |    macOS    |
-|:--------:|:-------------:|:-----------:|
-| Chrome   | CTRL+Shift+N  | CMD+Shift+N |
-| Firefox  | CTRL+Shift+P  | CMD+Shift+P |
-| Opera    | CTRL+Shift+N  | CMD+Shift+N |
-| MS Edge  | CTRL+Shift+N  | N/A         |
-| Explorer | CTRL+Shift+P  | N/A         |
-| Safari   | N/A           | CMD+SHIFT+N |
+See [I can't find my server in the list!](/adding_rythm#help-i-cant-find-my-server-in-the-list)
 
 ## Rythm won't play my playlist
 Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that specific playlist.
