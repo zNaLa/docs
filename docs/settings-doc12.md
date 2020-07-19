@@ -3,10 +3,6 @@ id: settings
 title: Rythm's Settings and How They Work
 ---
 
-### You can find all of Rythm's settings command listed here.
-
-Simply navigate this [page](http://localhost:3000/settingsg)
-
 ## Prefix
 The prefix is what you use in order to tell Rythm what to do.
 If you ever forget the prefix for your server, you can always mention Rythm to find your prefix.<br/>
