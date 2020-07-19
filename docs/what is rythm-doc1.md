@@ -5,9 +5,7 @@ sidebar_label: What is Rythm?
 ---
 ### If you are unfamiliar with Rythm, this section is perfect for you!
 --- 
- ## Rythm is a Discord music bot focused on one goal: **to deliver the best music experience on Discord.**
-   
-
+Rythm is a Discord music bot focused on one goal: **to deliver the best music experience on Discord.**
 
  - # Why Rythm?
    - ### Rythm is a music bot dedicated to you
