@@ -167,9 +167,8 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 2. [SoundCloud ](https://soundcloud.com/)
 3. [Twitch](https://www.twitch.tv/)
 4. [Vimeo](https://vimeo.com/)
-5. [Mixer](https://mixer.com/)
-6. [BandCamp](https://bandcamp.com)
-7. [Spotify](https://www.spotify.com/)
+5. [BandCamp](https://bandcamp.com)
+6. [Spotify](https://www.spotify.com/)
 
 ### Can I adjust the volume for everyone on my server for Rythm?
 + **Short Answer:** [`Yes, if you Donate`](https://rythmbot.co/donate?do)
