@@ -23,6 +23,12 @@ html[data-theme=dark] {
     --ifm-color-content-secondary: #fff
 }
 
+/* Make details' summary blocks non-selectable */
+details > summary {
+    user-select: none;
+    cursor: pointer;
+}
+
 /* You can override the default Infima variables here. */
 :root {
     --ifm-color-primary: #25c2a0;
