@@ -9,11 +9,10 @@ title: Frequently Asked Questions
 ## Introduction
 -----
 ### What is Rythm Bot?
-[Rythm](/start) is the largest Discord Bot. Read more below!
-+ Rythm is a feature-rich, high-performance music bot for Discord, specially designed to deliver High Quality music, stability and ease of use while also providing advanced music functionality in order to create the ultimate music bot experience.
+[Rythm](/start) is a feature-rich, high-performance music bot for Discord, specially designed to deliver High Quality music, stability and ease of use while also providing advanced music functionality in order to create the ultimate music bot experience.
 
 ### How can I add Rythm to my Discord Server?
-Please [Click Here](/adding-rythm) to check out our guide on adding Rythm.
+Please [click here](/adding-rythm) to check out our guide on adding Rythm.
 
 <!-- The end of the Introduction Section -->
 
@@ -33,7 +32,7 @@ When using Rythm you can either play a song or a playlist. To play a song and a 
 ![PlayMusicLink](/img/docs/faq/play-music-link.png)
 
 :::info note
-Make sure that your song is not over **3 hours long** or Rythm will refuse to play it. To play songs longer than 3 hours you can consider [**donating**](https://rythmbot.co/donate?do) to Rythm!
+Make sure that your song is not over **3 hours long** or Rythm will refuse to play it. To play songs longer than 3 hours, you can consider [**donating**](https://rythmbot.co/donate?do) to Rythm!
 :::
 
 2. To play a playlist `!play <Playlist URL>`
@@ -96,13 +95,9 @@ Do you enjoy/love Rythm? You can donate to us today!
 1. You can donate by [clicking here](https://rythmbot.co/donate?d)
 + You will get awesome perks such as **Volume control**, **A role in our Discord server**, **Audio Effects**, **Autoplay**, **Songs longer than 3 hours** and more
 
-### How can I see all of Rythm's Commands?
-1. You can visit our commands page by [Clicking here](https://rythmbot.co/commands).
-2. In order for commands to work while using Rythm, make sure that the prefix is at the beginning of any command you use. Rythm's default prefix is `!`.
-
 ### How can I add a Second Rythm to my server?
 Due to high demand we have added the ability to add a second Rythm to your server. 
-If you are in need of a second Rythm you can invite Rythm 2 by [Clicking here](https://rythmbot.co/rythm2).
+If you are in need of a second Rythm you can invite Rythm 2 by [clicking here](https://rythmbot.co/rythm2).
 
 ### How can I change the location of Rythm Announcing Songs?
 Rythm will announce songs in the channel the first command is used.
@@ -121,14 +116,15 @@ You can view more than one queue page by doing the following below.
 ### How can I remove duplicate songs from the queue?
 To remove duplicate songs you can use the command as shown below.
 
-1. `!removedupes`
-+ Rythm will then remove all duplicates of any songs within your servers queue.
+`!removedupes`
+
+Rythm will then remove all duplicates of any songs within your servers queue.
 
 ### Why can some normal users access moderative music commands?
 1. Normal users with no special permissions are only allowed to use the `!play` command to add songs to the queue by default.
-They can also use other commands that don't affect the playing music in any way. Example: `!queue` and `!lyrics`.
+   They can also use other commands that don't affect the playing music in any way. Example: `!queue` and `!lyrics`.
 2. However, normal users can access ALL music commands when they are alone with Rythm in the voice channel.
-This is because their commands would not affect anyone but themselves.
+   This is because their commands would not affect anyone but themselves.
 + For more information about users command permissions, refer to the **[Permissions](/permissions)** section in this FAQ.
 
 ### How many votes are required for a song to be vote skipped?
@@ -137,7 +133,7 @@ This is because their commands would not affect anyone but themselves.
 1. For a vote skip to take effect, `75%` of the people in the voice chat need to vote to skip.
 2. Let's assume there are `10` users in a voice chat.
 3. The threshold for skipping is calculated as`75% of 10 = 7.5`, then rounded down, so `7`.
-3. For the vote skip to take effect, you would then need `7 vote skips.`
+4. For the vote skip to take effect, you would then need `7 vote skips.`
 
 :::caution note
 Vote skip will not be active until there are **3 or more people** in the voice channel.
@@ -149,54 +145,54 @@ Vote skip will not be active until there are **3 or more people** in the voice c
 ## Limitations/Restrictions
 -----
 ### Can I have more than one Rythm in the same server?
-+ **Short Answer:** `Yes`
-    + You can invite any release by [Clicking here](https://rythmbot.co/releases)
+Yes! You can invite up to 3 releases by [clicking here](https://rythmbot.co/releases).
 
 ### Can I change Rythm's Profile Picture/Avatar in my server?
-+ **Short Answer:** `No`
-    + Discord does not allow Bots to change their profile picture/avatar per server.
+No, Discord does not allow bots to change their profile picture/avatar per server.
 
 ### Can Rythm play Spotify?
-+ **Short Answer:** `Yes`
-    + Rythm now supports Spotify on all 3 of our bots. Rythm, Rythm 2 and Rythm Canary.
+Yes! All three Rythm bots support Spotify.
 
 ### What music sites does Rythm currently support?
-+ **These are the current sites that music can be played from.**
+These are the current sites that music can be played from.
 
 1. [YouTube](https://www.youtube.com/)
-2. [SoundCloud ](https://soundcloud.com/)
+2. [SoundCloud](https://soundcloud.com/)
 3. [Twitch](https://www.twitch.tv/)
 4. [Vimeo](https://vimeo.com/)
 5. [BandCamp](https://bandcamp.com)
 6. [Spotify](https://www.spotify.com/)
 
 ### Can I adjust the volume for everyone on my server for Rythm?
-+ **Short Answer:** [`Yes, if you Donate`](https://rythmbot.co/donate?do)
-    + You may set the local volume of Rythm for yourself by selecting Rythm and adjusting the user volume slider as shown below.
+[Yes, if you Donate](https://rythmbot.co/donate?do)
+
+You may set the local volume of Rythm for yourself by selecting Rythm and adjusting the user volume slider as shown below.
 
 ![VolumeMenu](/img/docs/faq/user-volume.png)
 
-+ Rythm uses the default volume when using audio streams, for donators we enable encoding to change the volume of these audio streams. This is due to encoding being requiring a lot of compute resources.
+Rythm uses the default volume when using audio streams, for donators we enable encoding to change the volume of these audio streams.
+This is due to encoding being requiring a lot of compute resources.
 
-**Donators**
+#### Donators
+For donators, the volume command is `!volume number` (Allowed Values: `1 - 200`).
 
-1. For donators the volume command is !volume number (Allowed Values: `1 - 200`).
-    + **Example:** `!volume 80`
+**Example:** `!volume 80`
 
 ### Can I make custom commands for Rythm?
-+ **Short Answer:** `No`
-    + We do not allow custom commands/aliases, however we do take suggestions for aliases to be added.
-
-1. Use the `!aliases` command to view all the aliases.
-    + You can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
+No, we do not allow custom commands/aliases.
+However, you can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
 
 ### Can Rythm play 24/7 Music?
-+ **Short Answer:** `No`
-    + Rythm is not a **24/7** bot. However you can self host [this bot](https://github.com/repulser/moosic) if you're in need of 24/7 music in your server.
+No, Rythm is not a 24/7 music bot.
+The reason behind this decision is because music bots require a lot of resources.
+So when the bot is by itself, and not being used by anyone, these resources are still being used, leaving less available for other people. 
+If you do want a bot that plays music 24/7, you can host one with [Moosic](https://github.com/Repulser/Moosic).
+Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
 
 ### How is it possible for Rythm to be in so many servers all in once?
-
-Discord allows bots over `2,000` Servers to use a feature called `Sharding`. In Rythm's case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime. For more detail, please [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
+Discord allows bots over `2,000` Servers to use a feature called `Sharding`.
+In Rythm's case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime.
+For more detail, please [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
 <!-- The end of the Limitations/Restrictions Section -->
 
 <!-- The start of the Roles/Permissions Section -->

@@ -10,5 +10,5 @@ title: Playing a Song
 4. If you need more search results you can use `!search <song name>`.
 
 :::info note
-Make sure that your song is not over **3 hours long** or Rythm will refuse to play it. To play songs longer than 3 hours you can consider [**donating**](https://rythmbot.co/donate?do) to Rythm!
+Make sure that your song is not over **3 hours long** or Rythm will refuse to play it. To play songs longer than 3 hours, you can consider [**donating**](https://rythmbot.co/donate?do) to Rythm!
 :::

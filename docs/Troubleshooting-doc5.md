@@ -4,7 +4,6 @@ title: Basic Troubleshooting
 ---
 
 ## When adding Rythm, I can't see my server in the list!
-
 See [I can't find my server in the list!](/adding_rythm#help-i-cant-find-my-server-in-the-list)
 
 ## Rythm won't play my playlist
