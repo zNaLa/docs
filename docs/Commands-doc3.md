@@ -9,7 +9,7 @@ title: Commands
 - **Never include `<>` in your messages when using a command!**
 :::
 ---
-- **`!play`** - Plays a song with the given name or url. [More Info](/faq#how-can-i-play-a-song-or-a-playlist-with-rythm)
+- **`!play`** - Plays a song with the given name or url. [More Info](/play_song)
     - `play <song/link>` 
 ---
 
