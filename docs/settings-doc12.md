@@ -28,7 +28,7 @@ If you are unable to use the current prefix, you can also use the mention as the
 
 ## Blacklist
 :::caution
-This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, explained [here](/faq#blacklisting-voice-channels).
+This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
 :::
 
 The blacklist setting allows you to control which text channels Rythm is allowed to be used in.
