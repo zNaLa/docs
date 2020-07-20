@@ -16,7 +16,7 @@ When Rythm is playing a song, you are able get the lyrics for the song. You can 
 ![Lyrics](/img/docs/features/lyrics.png)
 
 ## Settings
-Rythm provides a great variety of customizability via the settings panel. For more information about specific settings [Click Here](/settings)
+Rythm provides a great variety of customizability via the settings panel. For more information about specific settings [click here](/settings)
 
 ![Settings](/img/docs/features/settings.png)
 

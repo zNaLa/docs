@@ -4,4 +4,4 @@ title: Miscellaneous Help Options
 ---
 
 ## None of this answered my question.
-Please [Click Here](https://discord.gg/rythm) to join our Support Server. Our support team is available 24/7 to help you with Rythm bot.
+Please [click here](https://discord.gg/rythm) to join our Support Server. Our support team is available 24/7 to help you with Rythm bot.

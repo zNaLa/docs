@@ -49,14 +49,14 @@ If you're **100%** sure that you're signed into the correct account, then you sh
 
 If you're sure that you're signed into the correct account **and** that you have permissions on the server that you'd like to add Rythm to, then you should open an incognito tab and invite Rythm from there. You can find instructions in the table below, if you don't know how to do that.
 
-| Browser  | Windows/Linux |    MacOS    |
-|----------|:-------------:|:-----------:|
-| Chrome   |  CTRL+Shift+N | CMD+Shift+N |
-| Firefox  |  CTRL+Shift+P | CMD+Shift+P |
-| Opera    |  CTRL+Shift+N | CMD+Shift+N |
-| MS Edge  |  CTRL+Shift+P |     N/A     |
-| Explorer |  CTRL+Shift+P |     N/A     |
-| Safari   |      N/A      | CMD+SHIFT+N |
+| Browser  | Windows/Linux | MacOS       |
+|:--------:|:-------------:|:-----------:|
+| Chrome   | CTRL+Shift+N  | CMD+Shift+N |
+| Firefox  | CTRL+Shift+P  | CMD+Shift+P |
+| Opera    | CTRL+Shift+N  | CMD+Shift+N |
+| MS Edge  | CTRL+Shift+N  | CMD+Shift+N |
+| Explorer | CTRL+Shift+P  | N/A         |
+| Safari   | N/A           | CMD+SHIFT+N |
 
 #### Why is this necessary?
 

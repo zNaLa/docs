@@ -67,7 +67,19 @@ To blacklist channels, use the following command:
 ![blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
 
 ## How can I give all users access to all music commands?
-There is currently no setting that will apply DJ to all users.
+There is currently no setting that will apply DJ to all users. You will have to either give them the `Manage Channel` permission or the DJ role.
+
+If you do not want users having the `Manage Channel` permission to use commands, you can follow the steps below to give them permissions using a couple of ways.
+
+1. Go to **Server Settings** ➠ **Roles** ➠ Make a new role called `DJ`.
+2. You can use the following command to set another DJ Role: Command usage `!settings djrole <Role name> / <@Role>`.
+    + **Example:** `!settings djrole NewDJRole`
+    + **Example:** `!settings djrole @NewDJRole`
+3. The DJ role has to be assigned manually to users you want to have extra permissions
+
+:::info note
+Users alone in a voice channel with Rythm will be treated as though they have the DJ role until another user joins the voice channel with them even if they have no roles. Members with the `DJ` role will not be able to change any of Rythm's settings.
+:::
 
 ## How can I block music commands in a specific text channel?
 You can use `!settings blacklist #channel` to blacklist a specific  text channel.

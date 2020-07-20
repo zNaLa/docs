@@ -9,7 +9,7 @@ title: Commands
 - **Never include `<>` in your messages when using a command!**
 :::
 ---
-- **`!play`** - Plays a song with the given name or url.
+- **`!play`** - Plays a song with the given name or url. [More Info](/faq#how-can-i-play-a-song-or-a-playlist-with-rythm)
     - `play <song/link>` 
 ---
 
@@ -63,20 +63,20 @@ title: Commands
 --- 
 - **`!resume`** - Resume paused music.
 --- 
-- **`!settings`** - Use the command format `!settings <option>` to view more info about an option.
+- **`!settings`** - Use the command format `!settings <option>` to view more info about an option. [More Info](/settings)
 
-    - **`prefix`** - Changes Rythm's prefix
-    - **`announcesongs`** - Allows the bot to announce every new song playing.
-    - **`preventduplicates`** - Prevents users from adding songs to the queue that are already in the queue.
-    - **`djonly`** - Sets the guild to run in DJ only mode.
-    - **`blacklist`** - Allows you to blacklist channels you **don't** want Rythm to respond in.
-    - **`maxqueuelength`** - Limits how many songs the queue can play. Disable it by typing *disable* instead a number.
-    - **`defaultvolume`** - Sets the default volume that the bot will always start at. [**Donator Only**](https://rythmbot.co/donate?do).
-    - **`djrole`** - Changes which role is considered DJ. Roles named `DJ` will still work.
-    - **`autoplay`** - Toggles auto-playing songs from playlist when nothing else playing. [**Donator Only**](https://rythmbot.co/donate?do).
-    - **`maxusersongs`** - Limits how many songs the user can queue at one time, can be disabled by typing *disable* instead a number.
-    - **`djplaylists`** - Allows only DJs to queue playlists.
-    - **`reset`** - Resets Rythm totally.   
+    - **`prefix`** - Changes Rythm's prefix. [More Info](/settings#prefix)
+    - **`announcesongs`** - Allows the bot to announce every new song playing. [More Info](/settings#announce-songs)
+    - **`preventduplicates`** - Prevents users from adding songs to the queue that are already in the queue. [More Info](/settings#duplicate-song-preventation)
+    - **`djonly`** - Sets the guild to run in DJ only mode. [More Info](/settings#dj-only-mode)
+    - **`blacklist`** - Allows you to blacklist channels you **don't** want Rythm to respond in. [More Info](/settings#blacklist)
+    - **`maxqueuelength`** - Limits how many songs the queue can play. Disable it by typing *disable* instead a number. [More Info](/settings#max-queue-length)
+    - **`defaultvolume`** - Sets the default volume that the bot will always start at. [**Donator Only**](https://rythmbot.co/donate?do). [More Info](/settings#default-volume)
+    - **`djrole`** - Changes which role is considered DJ. Roles named `DJ` will still work. [More Info](/settings#dj-role)
+    - **`autoplay`** - Toggles auto-playing songs from playlist when nothing else playing. [**Donator Only**](https://rythmbot.co/donate?do). [More Info](/settings#autoplay)
+    - **`maxusersongs`** - Limits how many songs the user can queue at one time, can be disabled by typing *disable* instead a number. [More Info](/settings#max-user-songs)
+    - **`djplaylists`** - Allows only DJs to queue playlists. [More Info](/settings#dj-only-playlists)
+    - **`reset`** - Resets Rythm totally. [More Info](/settings#reset)
 --- 
 - **`!move`** - Moves a certain song to the first position in the queue, or to a chosen position.	 
     - `move <old positon> <new position>`
