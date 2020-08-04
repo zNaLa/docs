@@ -120,3 +120,4 @@ title: Commands
 ---
 - **`!ping`** - Checks the bot's response time to Discord.
 --- 
+- **1!grab`** - Saves the current playing song to your Direct Messages.
