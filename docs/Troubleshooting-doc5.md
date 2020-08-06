@@ -20,7 +20,7 @@ Don't worry though, as long as you are in a voice channel, just type !summon to 
 ## Rythm forgets the playlist I queued after it leaves
 For performance reasons, Rythm will clear/reset the queue when it leaves the voice channel.
 
-To get around this we suggest creating a YouTube playlist of the songs you wish to re-queue.
+To get around this we suggest creating a YouTube/Spotify playlist of the songs you wish to re-queue.
 
 ## Rythm sends blank messages
 Rythm uses embeds to post messages. You might have disabled website previews on your client. Please make sure you enable it!
@@ -51,7 +51,7 @@ If you have changed the Rythm's default prefix to a custom one and now can’t m
 
 ![Prefix](/img/docs/basic-troubleshooting/prefix.png)
 
-**You must Copy the part that is marked in red.**
+**You must copy the part that is marked in red.**
 
 3. **Run the prefix command.** Paste the copied text in your text channel and right next to it with **no spaces** type: `settings prefix !`
 
@@ -59,7 +59,7 @@ If you have changed the Rythm's default prefix to a custom one and now can’t m
 
 **`DJsettings prefix !`**
 
-**Note:** You must have a role with the `Administrator` or the `Manage Server` permission to be able to change Rythm’s prefix.
+:::info note:** You must have a role with the `Administrator` or the `Manage Server` permission to be able to change Rythm’s prefix!:::
 
 ## Rythm is responding to commands but not joining the voice channel
 If you find that Rythm is responding to your commands but not joining a voice channel use the following method:
@@ -69,5 +69,4 @@ If you find that Rythm is responding to your commands but not joining a voice ch
 3. Move back to the original voice channel.
 4. `!summon` the bot back into the original voice channel.
 
-If the above method does not work:
-Try changing the server region of your server or kicking & reinviting Rythm to your Discord server.
+If the above method does not work, try changing the server region of your server or kicking & reinviting Rythm to your Discord server.
