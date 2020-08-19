@@ -5,64 +5,85 @@ title: Commands
 
 :::info Note
 ### Always remember the following!
-- The default prefix of Rythm is `!`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forgot your prefix. Mention Rythm (`@Rythm#3722`). 
+- The default prefix of Rythm is `!`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forget your prefix, mention Rythm (`@Rythm#3722`). 
 - **Never include `<>` in your messages when using a command!**
 :::
+
 ---
+<!-- Song-related commands -->
+- **`!join`** - Summons the bot to the voice channel you are in.
+--- 
 - **`!play`** - Plays a song with the given name or url. [More Info](/play_song)
     - `play <song/link>` 
 ---
-
-- **`!disconnect`** - Disconnect the bot from the voice channel it is in.
+- **`!playtop`** - Like the play command, but queues from the top. 
+    - `playtop <link/query>`
 --- 
-- **`!np`** - Shows what song the bot is currently playing.
+- **`!playnow`** - Skips the current song and plays the song you requested.
+    - `playnow <link/query>`
 --- 
-- **`!aliases`** - List command aliases.
+- **`!search`** - Searches YouTube for results of a URL.
+    - `!search <song name>`
 --- 
-- **`!skip`** - Votes to skip the currently playing song.
---- 
-- **`!forceskip`** - Skips the currently playing song.
---- 
-- **`!seek`** - Seeks to a certain point in the current track.
-    - `seek <number>`
---- 
-- **`!effects`** - Shows current audio effects.
-    - `effects help` - Shows all available audio effects.
-    - `effects clear` - Clears all audio effects.
----
-- **`!speed`** - Modifies the playback speed.
----
-- **`!bass`** - Bass boosts the current song.
----
-- **`!nightcore`** - Toggles nightcore effect.
----
-- **`!slowed`** - Toggles slowed effect.
----
 - **`!soundcloud`** - Searches SoundCloud for a song.
     - `soundcloud <Search query>`
+--- 
+- **`!nowplaying`** - Shows what song the bot is currently playing.
+--- 
+- **`!grab`** - Saves the current playing song to your Direct Messages.
+---
+- **`!seek`** - Seeks to a certain point in the current track.
+    - `seek <time>`
+--- 
+- **`!rewind`** - Rewinds by a certain amount in the current track. 
+    - `rewind <seconds>`
+--- 
+- **`!forward`** - Forwards by a certain amount in the current track.
+    - `forward <seconds>`
+--- 
+- **`!replay`** - Resets the progress of the current song 
+--- 
+- **`!loop`** - Loops the **current** playing song.
+--- 
+- **`!skip`** - Votes to skip the currently playing song.
+    - `skip <number> - Skip a certain amount of songs (Only for users with `DJ` role or `Manage Channels` permission)
+--- 
+- **`!forceskip`** - Skips the currently playing song. (Only for users with `DJ` role or `Manage Channels` permission)
+--- 
+- **`!pause`** - Pauses the currently playing track. 
+--- 
+- **`!resume`** - Resumes paused music.
+--- 
+- **`!lyrics`** - Gets the lyrics of the current playing song.
+    - `lyrics <song name> - Gets the lyrics of the mentioned song.
+--- 
+- **`!disconnect`** - Disconnects the bot from the voice channel it is in.
+---
+<!-- Queue-related commands -->
+- **`!queue`** - Shows the queue. To view different pages, type the command with the specified page number after it
+    - `queue <page>`
+--- 
+- **`!loopqueue`** - Loops the whole queue.
+--- 
+- **`!move`** - Moves a certain song to the first position in the queue, or to a chosen position.	 
+    - `move <old positon> <new position>`
+--- 
+- **`!skipto`** - Skips to a certain position in the queue. 
+    - `skipto <position>`
+--- 
+- **`!shuffle`** -  Shuffles the entire queue. 
 --- 
 - **`!remove`** - Removes a certain entry from the queue.
     - `remove <numbers>`
 ---
-- **`!loopqueue`** - Loops the whole queue.
+- **`!clear`** - Clears the whole queue. 
+    - `clear <@user>` - Clears all songs requested by the mentioned user.
 --- 
-- **`!search`** - Searches YouTube for results of a URL.
-    - `!search <songname>`
+- **`!leavecleanup`** - Removes absent user's songs from the Queue.
+---
+- **`!removedupes`** - Removes duplicate songs from the queue.
 --- 
-- **`!loop`** - Loops the **current** playing song.
---- 
-- **`!donate`** - Gives you information on how to donate and it's perks.
---- 
-- **`!shard`** - Checks the server shard you are in
---- 
-- **`!join`** - Summons the bot to the voice channel you are in.
---- 
-- **`!lyrics`** - Gets the lyrics of the current playing song.
---- 
-- **`!info`** - Info about Rythm!
---- 
-- **`!resume`** - Resume paused music.
---- 
+<!-- Settings-related commands -->
 - **`!settings`** - Use the command format `!settings <option>` to view more info about an option. [More Info](/settings)
 
     - **`prefix`** - Changes Rythm's prefix. [More Info](/settings#prefix)
@@ -78,46 +99,34 @@ title: Commands
     - **`djplaylists`** - Allows only DJs to queue playlists. [More Info](/settings#dj-only-playlists)
     - **`reset`** - Resets Rythm totally. [More Info](/settings#reset)
 --- 
-- **`!move`** - Moves a certain song to the first position in the queue, or to a chosen position.	 
-    - `move <old positon> <new position>`
+<!-- Donators-related commands -->
+- **`!donate`** - Gives you information on how to donate and it's perks.
 --- 
-- **`!forward`** - Forwards by a certain amount in the current track.
-    - `forward <seconds>`
+- **`!effects`** - Shows current audio effects.  [**Donator Only**](https://rythmbot.co/donate?do)
+    - `effects help` - Shows all available audio effects.
+    - `effects clear` - Clears all audio effects.
+---
+- **`!speed`** - Modifies the playback speed.  [**Donator Only**](https://rythmbot.co/donate?do)
+---
+- **`!bass`** - Bass boosts the current song.  [**Donator Only**](https://rythmbot.co/donate?do)
+---
+- **`!nightcore`** - Toggles nightcore effect.  [**Donator Only**](https://rythmbot.co/donate?do)
+---
+- **`!slowed`** - Toggles slowed effect.  [**Donator Only**](https://rythmbot.co/donate?do)
+---
+- **`!volume`** - Outputs the current volume.   [**Donator Only**](https://rythmbot.co/donate?do)
+    - `volume <amount>` - Change the current volume
 --- 
-- **`!skipto`** - Skips to a certain position in the queue. 
-    - `skipto <position>`
---- 
-- **`!clear`** - Clears the whole queue. 
---- 
-- **`!replay`** - Reset the progress of the current song 
---- 
-- **`!prune`** - Deletes the bot's messages and commands.	 
---- 
-- **`!pause`** - Pauses the currently playing track. 
---- 
-- **`!removedupes`** - Removes duplicate songs from the queue.
---- 
-- **`!volume`** - Check or change the current volume. 
-    - `volume <volume>`
---- 
-- **`!rewind`** - Rewinds by a certain amount in the current track. 
-    - `rewind <seconds>`
---- 
-- **`!playtop`** - Like the play command, but queues from the top. 
-    - `playtop <link/query>`
---- 
-- **`!playnow`** - Skips the current song and plays the song you requested.
-    - `playnow <link/query>`
+<!-- Bot-related commands -->
+- **`!prune`** - Deletes the bot's messages and commands.
 --- 
 - **`!invite`** - Rythm's official links! 
 --- 
-- **`!shuffle`** -  Shuffles the entire queue. 
+- **`!info`** - Information about Rythm!
 --- 
-- **`!queue`** - View the queue. To view different pages, type the command with the specified page number after it
-    - `queue <page>`
+- **`!shard`** - Checks the server shard you are in.
 --- 
-- **`!leavecleanup`** - Removes absent user's songs from the Queue.
----
 - **`!ping`** - Checks the bot's response time to Discord.
+---
+- **`!aliases`** - Lists command aliases.
 --- 
-- **`!grab`** - Saves the current playing song to your Direct Messages.

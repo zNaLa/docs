@@ -34,9 +34,9 @@ This only applies to text channels. In order to blacklist voice channels, you mu
 The blacklist setting allows you to control which text channels Rythm is allowed to be used in.
 
 To disallow Rythm from being used within certain text channels, use the following command:<br/>
-`!settings blacklist #channel`
+`!settings blacklist #channels`
 
-You can also provide multiple channels for quicker blacklisting.
+You can provide multiple channels for quicker blacklisting.
 
 **Example**: If you wanted to blacklist channels named `#chat`, `#gaming` and `#international`, use `!settings blacklist #chat #gaming #international`<br/>
 ![Blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
@@ -46,7 +46,7 @@ You can also provide multiple channels for quicker blacklisting.
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate AutoPlay.
 :::
 
-AutoPlay plays a song when there is nothing currently playing. 
+AutoPlay plays a song from a pre-defined playlist when there is nothing currently playing. 
 
 To setup AutoPlay, provide a playlist using the following command:<br/>
 `!settings autoplay playlist-link`
@@ -71,7 +71,7 @@ To enable or disable song announcements, use the following command:<br/>
 This limits how many songs can be in the queue at once.
 
 To change this limit, use the following command:<br/>
-`!settings maxqueuelength 10-10000`
+`!settings maxqueuelength <10-10000>`
 
 You can also set it back to default:<br/>
 `!settings maxqueuelength disable`
@@ -83,7 +83,7 @@ You can also set it back to default:<br/>
 This limits how many songs a user can have in queue at once.
 
 To change this limit, use the following command:<br/>
-`!settings maxusersongs 1-10000`
+`!settings maxusersongs <1-10000>`
 
 You can also set it back to default:<br/>
 `!settings maxusersongs disable`
@@ -105,10 +105,10 @@ To enable or disable this, use the following command:<br/>
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
 
-**This is not the same as `!volume`.** This is for changing the default volume for new listening sessions. If you need to change the volume for the current listening session, use `!volume 0-200`.
+**This is not the same as `!volume`.** This is for changing the default volume for new listening sessions. If you need to change the volume for the current listening session, use `!volume <0-200>`, for example: `!volume 50`
 
 To change the default volume for when you summon Rythm to a voice channel, use the following command:<br/>
-`!settings defaultvolume 0-200`
+`!settings defaultvolume <0-200>`
 
 **Example**: If you wanted the volume to be 25 when someone summons Rythm, use `!settings defaultvolume 25`<br/>
 ![Default volume example](/img/docs/settings/default-volume-example.png)
@@ -147,7 +147,7 @@ Any roles named '<b>DJ</b>' and anyone with the `Manage Channel` permission will
 :::
 
 To change the DJ role, use the following command:<br/>
-`!settings djrole role`
+`!settings djrole role`/`!settings djrole @role`
 
 **Example**: If you want to give a role named `Users` DJ without assigning a new role, use `!settings djrole Users`<br/>
 ![DJ role example](/img/docs/settings/dj-role-example.png)

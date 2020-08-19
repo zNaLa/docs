@@ -3,7 +3,7 @@ id: audio_troubleshooting
 title: Audio Troubleshooting
 ---
 
-As you are using Rythm, you may encounter some issues with the audio that is played. Ths can be due to a few reasons; the Discord voice node you was on could have failed, or it could be a WiFi issue.
+As you are using Rythm, you may encounter some issues with the audio that is played. This can be due to a few reasons; the Discord voice node you are on could have failed, or it could be a WiFi issue.
 
 If you are encountering these issues, there are some steps below that you should follow in order to resolve these issues.
 
@@ -11,7 +11,7 @@ If you are encountering these issues, there are some steps below that you should
 
 **The most common fix is:**
 
-- Disconnect the bot using the **!disconnect** command.
+- Disconnect the bot using the `!disconnect` command.
 
 - Open your server settings.
 
@@ -19,7 +19,7 @@ If you are encountering these issues, there are some steps below that you should
 
 - Select a different server region (*US East works best with Rythm*).
 
-- Summon the bot again using either the !summon, !join or !play commands.
+- Summon the bot again using either the `!summon`, `!join` or `!play` commands.
 
 *Please note that it may take several changes to different server regions to resolve this issue.*
 
