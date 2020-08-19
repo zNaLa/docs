@@ -126,7 +126,7 @@ For a vote skip to take effect, `75%` of the people in the voice chat need to vo
 **__Here's an example:__**
 1. Let's assume there are `10` users in a voice chat.
 2. The threshold for skipping is calculated as `75% of 10 = 7.5`, then rounded down, so `7`.
-3. For the vote skip to take effect, you would then need `7 vote skips.`
+3. For the vote skip to take effect, you would then need `7 vote skips`.
 
 :::caution note
 Vote skip will not be active until there are **3 or more people** in the voice channel.
@@ -159,7 +159,7 @@ These are the current sites that music can be played from.
 ### Can I adjust the volume for everyone on my server for Rythm?
 Yes, if you [donate](https://rythmbot.co/donate?do)
 
-Rythm uses the default volume when using audio streams. In order to change the volume of these audio streams we need to enable encoding. As encoding requiring a lot of compute resources, only donators can access this feature.
+Rythm uses the default volume when using audio streams. In order to change the volume of these audio streams we need to enable encoding. As encoding requires a lot of compute resources, only donators can access this feature.
 
 You may set the local volume of Rythm for yourself:
 1. If you are on PC, you can right-click Rythm in the voice channel and adjust the user volume slider as shown below.
