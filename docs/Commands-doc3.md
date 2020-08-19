@@ -14,39 +14,39 @@ title: Commands
 - **`!join`** - Summons the bot to the voice channel you are in.
 --- 
 - **`!play`** - Plays a song with the given name or url. [More Info](/play_song)
-    - `play <song/link>` 
+    - `!play <song/link>` 
 ---
 - **`!playtop`** - Like the play command, but queues from the top. 
-    - `playtop <link/query>`
+    - `!playtop <link/query>`
 --- 
 - **`!playnow`** - Skips the current song and plays the song you requested.
-    - `playnow <link/query>`
+    - `!playnow <link/query>`
 --- 
 - **`!search`** - Searches YouTube for results of a URL.
     - `!search <song name>`
 --- 
 - **`!soundcloud`** - Searches SoundCloud for a song.
-    - `soundcloud <Search query>`
+    - `!soundcloud <Search query>`
 --- 
 - **`!nowplaying`** - Shows what song the bot is currently playing.
 --- 
 - **`!grab`** - Saves the current playing song to your Direct Messages.
 ---
 - **`!seek`** - Seeks to a certain point in the current track.
-    - `seek <time>`
+    - `!seek <time>`
 --- 
 - **`!rewind`** - Rewinds by a certain amount in the current track. 
-    - `rewind <seconds>`
+    - `!rewind <seconds>`
 --- 
 - **`!forward`** - Forwards by a certain amount in the current track.
-    - `forward <seconds>`
+    - `!forward <seconds>`
 --- 
 - **`!replay`** - Resets the progress of the current song 
 --- 
 - **`!loop`** - Loops the **current** playing song.
 --- 
 - **`!skip`** - Votes to skip the currently playing song.
-    - `skip <number> - Skip a certain amount of songs (Only for users with `DJ` role or `Manage Channels` permission)
+    - `!skip <number>` - Skip a certain amount of songs (Only for users with `DJ` role or `Manage Channels` permission)
 --- 
 - **`!forceskip`** - Skips the currently playing song. (Only for users with `DJ` role or `Manage Channels` permission)
 --- 
@@ -55,29 +55,29 @@ title: Commands
 - **`!resume`** - Resumes paused music.
 --- 
 - **`!lyrics`** - Gets the lyrics of the current playing song.
-    - `lyrics <song name> - Gets the lyrics of the mentioned song.
+    - `!lyrics <song name>` - Gets the lyrics of the mentioned song.
 --- 
 - **`!disconnect`** - Disconnects the bot from the voice channel it is in.
 ---
 <!-- Queue-related commands -->
 - **`!queue`** - Shows the queue. To view different pages, type the command with the specified page number after it
-    - `queue <page>`
+    - `!queue <page>`
 --- 
 - **`!loopqueue`** - Loops the whole queue.
 --- 
 - **`!move`** - Moves a certain song to the first position in the queue, or to a chosen position.	 
-    - `move <old positon> <new position>`
+    - `!move <old positon> <new position>`
 --- 
 - **`!skipto`** - Skips to a certain position in the queue. 
-    - `skipto <position>`
+    - `!skipto <position>`
 --- 
 - **`!shuffle`** -  Shuffles the entire queue. 
 --- 
 - **`!remove`** - Removes a certain entry from the queue.
-    - `remove <numbers>`
+    - `!remove <numbers>`
 ---
 - **`!clear`** - Clears the whole queue. 
-    - `clear <@user>` - Clears all songs requested by the mentioned user.
+    - `!clear <@user>` - Clears all songs requested by the mentioned user.
 --- 
 - **`!leavecleanup`** - Removes absent user's songs from the Queue.
 ---
@@ -103,8 +103,8 @@ title: Commands
 - **`!donate`** - Gives you information on how to donate and it's perks.
 --- 
 - **`!effects`** - Shows current audio effects.  [**Donator Only**](https://rythmbot.co/donate?do)
-    - `effects help` - Shows all available audio effects.
-    - `effects clear` - Clears all audio effects.
+    - `!effects help` - Shows all available audio effects.
+    - `!effects clear` - Clears all audio effects.
 ---
 - **`!speed`** - Modifies the playback speed.  [**Donator Only**](https://rythmbot.co/donate?do)
 ---
@@ -115,7 +115,7 @@ title: Commands
 - **`!slowed`** - Toggles slowed effect.  [**Donator Only**](https://rythmbot.co/donate?do)
 ---
 - **`!volume`** - Outputs the current volume.   [**Donator Only**](https://rythmbot.co/donate?do)
-    - `volume <amount>` - Change the current volume
+    - `!volume <amount>` - Change the current volume
 --- 
 <!-- Bot-related commands -->
 - **`!prune`** - Deletes the bot's messages and commands.
