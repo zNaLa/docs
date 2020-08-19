@@ -211,7 +211,7 @@ Sorry that your issue has not been fixed with the FAQ and Troubleshooting Page.
 
 ### What is Rythm's Discord Server used for?
 Rythm's Discord Server is a place built for everything related to Rythm!
-1. Get help and support form our lovely Support Members!
+1. Get help and support from our lovely Support Members!
 2. You will be informed about Rythm's new features and updates.
 2. Stay Up-to-Date with news and announcements.
 3. Hang out with our amazing growing community members and staff!
