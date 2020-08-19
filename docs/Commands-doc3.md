@@ -41,7 +41,7 @@ title: Commands
 - **`!forward`** - Forwards by a certain amount in the current track.
     - `forward <seconds>`
 --- 
-- **`!replay`** - Reset the progress of the current song 
+- **`!replay`** - Resets the progress of the current song 
 --- 
 - **`!loop`** - Loops the **current** playing song.
 --- 
@@ -52,7 +52,7 @@ title: Commands
 --- 
 - **`!pause`** - Pauses the currently playing track. 
 --- 
-- **`!resume`** - Resume paused music.
+- **`!resume`** - Resumes paused music.
 --- 
 - **`!lyrics`** - Gets the lyrics of the current playing song.
     - `lyrics <song name> - Gets the lyrics of the mentioned song.
@@ -114,8 +114,8 @@ title: Commands
 ---
 - **`!slowed`** - Toggles slowed effect.  [**Donator Only**](https://rythmbot.co/donate?do)
 ---
-- **`!volume`** - Check or change the current volume.   [**Donator Only**](https://rythmbot.co/donate?do)
-    - `volume <amount>`
+- **`!volume`** - Outputs the current volume.   [**Donator Only**](https://rythmbot.co/donate?do)
+    - `volume <amount>` - Change the current volume
 --- 
 <!-- Bot-related commands -->
 - **`!prune`** - Deletes the bot's messages and commands.
@@ -124,7 +124,7 @@ title: Commands
 --- 
 - **`!info`** - Information about Rythm!
 --- 
-- **`!shard`** - Checks the server shard you are in
+- **`!shard`** - Checks the server shard you are in.
 --- 
 - **`!ping`** - Checks the bot's response time to Discord.
 ---
