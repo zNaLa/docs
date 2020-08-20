@@ -59,7 +59,7 @@ If you have changed the Rythm's default prefix to a custom one and now can’t m
 
 **`DJsettings prefix !`**
 
-:::info note:** You must have a role with the `Administrator` or the `Manage Server` permission to be able to change Rythm’s prefix!:::
+:::info Note You must have a role with the `Administrator` or the `Manage Server` permission to be able to change Rythm’s prefix! :::
 
 ## Rythm is responding to commands but not joining the voice channel
 If you find that Rythm is responding to your commands but not joining a voice channel use the following method:
