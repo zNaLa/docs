@@ -91,7 +91,7 @@ Rythm's default prefix is `!`, Rythm 2's prefix is `>`, Rythm Canary's prefix is
 Do you enjoy/love Rythm? You can donate to us today!
 
 - You can donate by [clicking here](https://rythmbot.co/donate?d)
-  + You will get awesome perks such as **Volume control**, , **Audio Effects**, **Autoplay**, **Songs longer than 3 hours**, **Role(s) in our Discord server** and more!
+  + You will get awesome perks such as **Volume control**, **Audio Effects**, **Playing songs longer than 3 hours**, **Roles in our Discord server** and more!
 
 ### How can I change the location of Rythm Announcing Songs?
 Rythm will announce songs in the channel the first command is used.
@@ -143,9 +143,11 @@ Yes! You can invite up to 3 releases by [clicking here](https://rythmbot.co/rele
 ### Can I change Rythm's Profile Picture/Avatar in my server?
 No, Discord does not allow bots to change their profile picture/avatar per server.
 
-### Can Rythm play Spotify?
-Yes! All three Rythm bots support Spotify.
-
+### Can I save or create playlists with Rythm?
+No, unfortunately Rythm doesn't have a built-in feature to store playlists. But wait, there are a few solutions to this:
+    - You can do `!grab` to save the current playing song into Rythm's private messages.
+    - You can save playlists from supported music sites and play them through Rythm. (See List of supported music sites below)
+    
 ### What music sites does Rythm currently support?
 These are the current sites that music can be played from.
 
@@ -173,7 +175,7 @@ For donators, the volume command is `!volume <number>` (Allowed Values: `1 - 200
 - **Example:** `!volume 80`
 
 ### Can I make custom commands for Rythm?
-No, we do not allow custom commands/aliases. You can check any alias avaiable by doing `!aliases`
+No, we do not allow custom commands/aliases. You can check any alias available by doing `!aliases`.
 However, you can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
 
 ### Can Rythm play 24/7 Music?
@@ -194,7 +196,7 @@ See [Understanding Permissions](/permissions) for information on how permissions
 
 ## Settings/Configuration
 ---
-See [Settings & How They Work](/settings) for information on how to use Rythm's settings.
+See [Settings & How They Work](/settings) for information on how to use Rythm's settings. (Max queue length, DJ only mode, ...)
 
 ## Rythm Links
 -----
