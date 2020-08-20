@@ -8,13 +8,13 @@ title: Understanding Rythm's Permissions
 Rythm's built-in permission system can be divided into the following groups:
 
 ### Normal user without any special roles
- - Is able to add songs to the queue but can't remove other user's songs (can remove their own)
+ - Is able to add songs to the queue but can't remove other users' songs (can remove their own)
  - Is able to use commands that don't interfere with other people's music.
    - `lyrics`, `np`, `queue`, etc.
  - Can't skip a song without voting.
  - Doesn't have access to control the music in any way.
 
-### User alone with Rythm, with a `DJ` role or the `Manage Channel` permission
+### User alone with Rythm/User with a `DJ` role or the `Manage Channel` permission
 :::info note
 This includes all other users in the voice chat being deafened.
 :::
@@ -25,7 +25,7 @@ This includes all other users in the voice chat being deafened.
 
 ### User with `Manage Server` permission
  - Is able to change Rythm's settings.
- - Is limited to normal user's music commands, unless they have Manage Channel or the DJ role.
+ - Is limited to normal user's music commands, unless they have `Manage Channel` permission or `DJ` role.
 
 ### User with `Administrator` permission
  - Is able to change Rythm's settings.
