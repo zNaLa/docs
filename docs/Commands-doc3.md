@@ -7,6 +7,8 @@ title: Commands
 ### Always remember the following!
 - The default prefix of Rythm is `!`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forget your prefix, mention Rythm (`@Rythm#3722`). 
 - **Never include `<>` in your messages when using a command!**
+- Time can be in different formats
+   + Example: `100`, `1:50`, `2m30s`
 :::
 
 ---
@@ -36,19 +38,19 @@ title: Commands
     - `!seek <time>`
 --- 
 - **`!rewind`** - Rewinds by a certain amount in the current track. 
-    - `!rewind <seconds>`
+    - `!rewind <time>`
 --- 
 - **`!forward`** - Forwards by a certain amount in the current track.
-    - `!forward <seconds>`
+    - `!forward <time>`
 --- 
-- **`!replay`** - Resets the progress of the current song 
+- **`!replay`** - Resets the progress of the current song.
 --- 
-- **`!loop`** - Loops the **current** playing song.
+- **`!loop`** - Toggles looping for the current playing song.
 --- 
 - **`!skip`** - Votes to skip the currently playing song.
-    - `!skip <number>` - Skip a certain amount of songs (Only for users with `DJ` role or `Manage Channels` permission)
+    - `!skip <number>` - Skip a certain amount of songs (`DJ` role/`Manage Channels` permission required)
 --- 
-- **`!forceskip`** - Skips the currently playing song. (Only for users with `DJ` role or `Manage Channels` permission)
+- **`!forceskip`** - Skips the currently playing song. (`DJ` role/`Manage Channels` permission required)
 --- 
 - **`!pause`** - Pauses the currently playing track. 
 --- 
@@ -60,13 +62,13 @@ title: Commands
 - **`!disconnect`** - Disconnects the bot from the voice channel it is in.
 ---
 <!-- Queue-related commands -->
-- **`!queue`** - Shows the queue. To view different pages, type the command with the specified page number after it
+- **`!queue`** - Shows the queue. To view different pages, type the command with the specified page number after it.
     - `!queue <page>`
 --- 
-- **`!loopqueue`** - Loops the whole queue.
+- **`!loopqueue`** - Toggles looping for the whole queue.
 --- 
-- **`!move`** - Moves a certain song to the first position in the queue, or to a chosen position.	 
-    - `!move <old positon> <new position>`
+- **`!move`** - Moves a certain song to the first position in the queue.	 
+    - `!move <old positon> <new position>` - Move a certain song to a chosen position in the queue.
 --- 
 - **`!skipto`** - Skips to a certain position in the queue. 
     - `!skipto <position>`
@@ -89,18 +91,18 @@ title: Commands
     - **`prefix`** - Changes Rythm's prefix. [More Info](/settings#prefix)
     - **`announcesongs`** - Allows the bot to announce every new song playing. [More Info](/settings#announce-songs)
     - **`preventduplicates`** - Prevents users from adding songs to the queue that are already in the queue. [More Info](/settings#duplicate-song-preventation)
-    - **`djonly`** - Sets the guild to run in DJ only mode. [More Info](/settings#dj-only-mode)
     - **`blacklist`** - Allows you to blacklist channels you **don't** want Rythm to respond in. [More Info](/settings#blacklist)
-    - **`maxqueuelength`** - Limits how many songs the queue can play. Disable it by typing *disable* instead a number. [More Info](/settings#max-queue-length)
-    - **`defaultvolume`** - Sets the default volume that the bot will always start at. [**Donator Only**](https://rythmbot.co/donate?do). [More Info](/settings#default-volume)
+    - **`maxqueuelength`** - Limits how many songs the queue can store. [More Info](/settings#max-queue-length)
+    - **`maxusersongs`** - Limits how many songs the user can queue at one time. [More Info](/settings#max-user-songs)
+    - **`djonly`** - Sets the server to run in DJ only mode. [More Info](/settings#dj-only-mode)
     - **`djrole`** - Changes which role is considered DJ. Roles named `DJ` will still work. [More Info](/settings#dj-role)
-    - **`autoplay`** - Toggles auto-playing songs from playlist when nothing else playing. [**Donator Only**](https://rythmbot.co/donate?do). [More Info](/settings#autoplay)
-    - **`maxusersongs`** - Limits how many songs the user can queue at one time, can be disabled by typing *disable* instead a number. [More Info](/settings#max-user-songs)
     - **`djplaylists`** - Allows only DJs to queue playlists. [More Info](/settings#dj-only-playlists)
+    - **`defaultvolume`** - Sets the default volume that the bot will always start at. [**Donator Only**](https://rythmbot.co/donate?do). [More Info](/settings#default-volume)
+    - **`autoplay`** - Toggles auto-playing songs from playlist when nothing else playing. [**Donator Only**](https://rythmbot.co/donate?do). [More Info](/settings#autoplay)
     - **`reset`** - Resets Rythm totally. [More Info](/settings#reset)
 --- 
 <!-- Donators-related commands -->
-- **`!donate`** - Gives you information on how to donate and it's perks.
+- **`!donate`** - Information about donating to Rythm.
 --- 
 - **`!effects`** - Shows current audio effects.  [**Donator Only**](https://rythmbot.co/donate?do)
     - `!effects help` - Shows all available audio effects.
@@ -115,7 +117,7 @@ title: Commands
 - **`!slowed`** - Toggles slowed effect.  [**Donator Only**](https://rythmbot.co/donate?do)
 ---
 - **`!volume`** - Outputs the current volume.   [**Donator Only**](https://rythmbot.co/donate?do)
-    - `!volume <amount>` - Change the current volume
+    - `!volume <amount>` - Change the current volume. (Allowed Value: 1-200)
 --- 
 <!-- Bot-related commands -->
 - **`!prune`** - Deletes the bot's messages and commands.
