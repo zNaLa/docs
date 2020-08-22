@@ -3,7 +3,7 @@ id: audio_troubleshooting
 title: Audio Troubleshooting
 ---
 
-As you are using Rythm, you may encounter some issues with the audio that is played. This can be due to a few reasons; the Discord voice node you are on could have failed, or it could be a WiFi issue.
+As you are using Rythm, you may encounter some issues with the audio that is played. This can be due to a few reasons the Discord voice node you are on could have failed, or it could be a WiFi issue.
 
 If you are encountering these issues, there are some steps below that you should follow in order to resolve these issues.
 
@@ -37,4 +37,4 @@ If you can't hear Rythm in any servers (including the [official Rythm server](ht
 ![volume off](/img/docs/audio-troubleshooting/volume-off.png)
 ![server muted](/img/docs/audio-troubleshooting/server-muted.png)
 
-If all of these still don't fix your issue, please go to our [#help-desk](https://rythmbot.co/support) channel and select option **6**, and a member of our **Support Team** will assist you further.
+If all of these still don't fix your issue, please go to our [#help-desk](https://rythmbot.co/support) channel and select option **6**, a member of our **Support Team** will assist you further.
