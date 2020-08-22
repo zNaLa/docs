@@ -28,7 +28,8 @@ If you are unable to use the current prefix, you can also use the mention as the
 
 ## Blacklist
 :::caution
-This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
+   - This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
+   - This only prevents music commands. Commands such as `!ping`, `!help` will still be usable in blacklisted channels. To completely block Rythm, follow [here](/permissions#how-can-i-block-music-commands-in-a-specific-text-channel)
 :::
 
 The blacklist setting allows you to control which text channels Rythm is allowed to be used in.
@@ -42,7 +43,7 @@ You can provide multiple channels for quicker blacklisting.
 ![Blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 
 ## AutoPlay\*
-:::info Autoplay is a donator-only feature.
+:::info Note
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate AutoPlay.
 :::
 
@@ -62,7 +63,7 @@ The messages go to where you summon Rythm via `!join` or `!play`.
 :::
 
 To enable or disable song announcements, use the following command:<br/>
-`!settings announcesongs yes/no`
+`!settings announcesongs yes/no` 
 
 **Example**: If you want announcements when a song plays, use `!settings announcesongs yes`<br/>
 ![Announce songs example](/img/docs/settings/announce-songs-example.png) 
@@ -101,7 +102,7 @@ To enable or disable this, use the following command:<br/>
 ![Prevent duplicates example](/img/docs/settings/prevent-duplicates-example.png)
 
 ## Default Volume\*
-:::info note Donator-Only Feature
+:::info Note 
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
 
@@ -143,7 +144,7 @@ To enable or disable DJ only mode, use the following command:<br/>
 This setting allows you to control which role is DJ.
 
 :::caution
-Any roles named '<b>DJ</b>' and anyone with the `Manage Channel` permission will always be able to use Rythm as a DJ regardless of this setting.
+Any roles named '<b>DJ</b>' and anyone with the `Manage Channels` permission will always be able to use Rythm as a DJ regardless of this setting.
 :::
 
 To change the DJ role, use the following command:<br/>
