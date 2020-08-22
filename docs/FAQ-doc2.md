@@ -113,6 +113,11 @@ To remove duplicate songs you can use the command `!removedupes`
 
 Rythm will then remove all duplicates of any songs within your servers queue.
 
+### What are the 3 emojis in `!ping` mean?
+    ⌛ - API response time   
+    ⏱️ - Message response time
+    💓 - Websocket heartbeat
+
 ### Why can some normal users access moderative music commands?
 1. Normal users with no special permissions are only allowed to use the `!play` command to add songs to the queue and the `!remove` command to remove their own songs in the queue.
    They can also use other commands that don't affect the playing music or the queue in any way. Example: `!queue`, `!lyrics`, `!save`.
