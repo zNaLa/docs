@@ -25,7 +25,7 @@ This includes all other users in the voice chat being deafened.
 
 ### User with `Manage Server` permission
  - Is able to change Rythm's settings.
- - Is limited to normal user's music commands, unless they have `Manage Channel` permission or `DJ` role.
+ - Is limited to normal user's music commands, unless they have `Manage Channels` permission or `DJ` role.
 
 ### User with `Administrator` permission
  - Is able to change Rythm's settings.
