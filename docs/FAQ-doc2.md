@@ -114,8 +114,8 @@ To remove duplicate songs you can use the command `!removedupes`
 Rythm will then remove all duplicates of any songs within your servers queue.
 
 ### Why can some normal users access moderative music commands?
-1. Normal users with no special permissions are only allowed to use the `!play` command to add songs to the queue by default.
-   They can also use other commands that don't affect the playing music in any way. Example: `!queue` and `!lyrics`.
+1. Normal users with no special permissions are only allowed to use the `!play` command to add songs to the queue and the `!remove` command to remove their own songs in the queue.
+   They can also use other commands that don't affect the playing music or the queue in any way. Example: `!queue`, `!lyrics`, `!save`.
 2. However, normal users can access ALL music commands when they are alone with Rythm in the voice channel.
    This is because their commands would not affect anyone but themselves.
     + For more information about users command permissions, refer to the **[Permissions](/permissions)** section in this FAQ.
@@ -165,9 +165,12 @@ Rythm uses the default volume when using audio streams. In order to change the v
 
 You may set the local volume of Rythm for yourself:
 1. If you are on PC, you can right-click Rythm in the voice channel and adjust the user volume slider as shown below.
+
 ![VolumeMenu](/img/docs/faq/user-volume.png)
+
 2. If you are on phone, click on the channel you are in then click on the user. A bar will appear at the bottom with their name and role, scroll down and you will see the option to change user volume.
-    <!-- I can't make example of this as I don't have a phone. ):< -->
+
+![PhoneVolumeMenu](/img/docs/faq/phone-user-volume.png)
 
 #### Donators
 For donators, the volume command is `!volume <number>` (Allowed Values: `1 - 200`).
@@ -175,8 +178,8 @@ For donators, the volume command is `!volume <number>` (Allowed Values: `1 - 200
 - **Example:** `!volume 80`
 
 ### Can I make custom commands for Rythm?
-No, we do not allow custom commands/aliases. You can check any alias available by doing `!aliases`.
-However, you can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
+No, we do not allow custom commands/aliases. To check available aliases, just run the command `!aliases`.
+You can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
 
 ### Can Rythm play 24/7 Music?
 No, Rythm is not a 24/7 music bot.
@@ -186,9 +189,9 @@ If you do want a bot that plays music 24/7, you can host one with [Moosic](https
 Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
 
 ### How is it possible for Rythm to be in so many servers all in once?
-Discord allows bots in over `2,000` Servers to use a feature called `Sharding`.
+Discord allows bots in over `2,000` servers to use a feature called `Sharding`.
 In Rythm's case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime.
-For more detail, please [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
+For more detail, please [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discord's Sharding feature.
 
 ## Roles/Permissions
 ---
