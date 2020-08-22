@@ -37,7 +37,8 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
 ![Mention to get prefix](/img/docs/settings/prefix.png)
 - Make sure Rythm has the permissions to read and send messages in the channel.
   - You can give the `Administrator` permission to Rythm to make this easier.
-- Take a look at our [#outages](https://discord.com/channels/231471142685245440/359311833653313546) channel on our official Discord server to see if there are any issues going on.
+- Take a look at our [#outages](https://discord.com/channels/231471142685245440/359311833653313546) channel on our official Rythm Bot Discord server to see if there are any issues going on.
+- If the above methods do not work, please choose option 6 in our [#help-desk](https://discord.com/channels/231471142685245440/359355279004925954) channel on the Rythm Bot Discord server to receive assistance from a member of our Support Team.
 
 [Click here to join the official Rythm Bot Discord server](https://rythmbot.co/support)
 
