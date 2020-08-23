@@ -15,7 +15,7 @@ title: Frequently Asked Questions
 Please [click here](/adding_rythm) to check out our guide on adding Rythm.
 
 ### What are the differences among Rythm, Rythm 2 and Rythm Canary?
-All 3 of our bots work the exact same, meaning they use the same commands which can be found [here](/commands). The only difference is the default prefix. They are here to serve your need of multiple music bots and spice up your server with enthralling "Rythm"
+All 3 of our bots work the exact same, meaning they use the same commands which can be found [here](/commands). The only difference is the default prefix. They are here to serve your need of multiple music bots and spice up your server with enthralling "Rythm"!
 
 <!-- The end of the Introduction Section -->
 
@@ -23,7 +23,7 @@ All 3 of our bots work the exact same, meaning they use the same commands which 
 ## Basic Information
 -----
 ### How can I play a song or a playlist with Rythm?
-When using Rythm you can either play a song or a playlist. To play a song or a playlist with Rythm use the commands below.
+When using Rythm you can either play a song or a playlist. To play a song or a playlist with Rythm, use the commands below:
 
 1. To play a song `!play <Song Name/Song URL>`
     + **Example:** `!play Wanted by OneRepublic`
@@ -48,14 +48,14 @@ Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Privat
 :::
 
 ### How can I change Rythm's Prefix?
-Changing Rythm's prefix is as simple as using a command. You can change the prefix by using the settings command `!settings prefix <New Prefix>`
+Changing Rythm's prefix is as simple as using a command. You can change the prefix by using the settings command `!settings prefix <New Prefix>`.
 - **Example:** `!settings prefix $`
 
 ![SetPrefix](/img/docs/faq/set-prefix.png)
 
 :::caution note
 You must have the permissions `Administrator` or `Manage Server` to change Rythm's Prefix in your server.
-Do **not** include `<>` when setting the prefix
+Do **not** include `<>` when setting the prefix.
 :::
 
 ### But wait! I don't know my prefix!
@@ -91,28 +91,23 @@ Rythm's default prefix is `!`, Rythm 2's prefix is `>`, Rythm Canary's prefix is
 5. Finally you can press `Save` and you're good to go.
 
 ### How can I donate to Support Rythm?
-Do you enjoy/love Rythm? You can donate to us today!
-
-- You can donate by [clicking here](https://rythmbot.co/donate?d)
-  + You will get awesome perks such as **Volume control**, **Audio Effects**, **Playing songs longer than 3 hours**, **Roles in our Discord server** and more!
+Do you enjoy/love Rythm? You can donate to us today by [clicking here](https://rythmbot.co/donate?d)!
+  - You will get awesome perks such as **Volume control**, **Audio Effects**, **Playing songs longer than 3 hours**, **Roles in our Discord server** and more!
 
 ### How can I change the location of Rythm Announcing Songs?
-Rythm will announce songs in the channel the first command is used.
+Rythm will announce songs in the channel where the first command is used.
 
 1. Let's say you used the `!play <Song>` or the `!summon` command in the channel `#music`. Rythm will start announcing songs in that channel.
 2. If you would like to change the location of the song announcements, you can do `!join` the desired channel.
 
 ### How can I view more than one page using the `queue` command?
-You can view more than one queue page by doing the following below.
-
-1. To view more queue pages `!queue <Page Number>`.
-    + **Example:** `!queue 2`
-    + **Example:** `!queue 3`
+You can view more than one queue page by doing `!queue <Page Number>`.
+  - **Example:** `!queue 2`, `!queue 3`
 
 ![QueueNumber](/img/docs/faq/queue-number.png)
 
 ### How can I remove duplicate songs from the queue?
-To remove duplicate songs you can use the command `!removedupes`
+To remove duplicate songs you can use the command `!removedupes`.
 
 Rythm will then remove all duplicates of any songs within your servers queue.
 
@@ -121,13 +116,12 @@ Rythm will then remove all duplicates of any songs within your servers queue.
     ⏱️ - Message response time
     💓 - Websocket heartbeat
 
-You can invite all three releases at https://rythmbot.co/releases.
 ### Why can some normal users access moderative music commands?
 1. Normal users with no special permissions are only allowed to use the `!play` command to add songs to the queue and the `!remove` command to remove their own songs in the queue.
    They can also use other commands that don't affect the playing music or the queue in any way. Example: `!queue`, `!lyrics`, `!save`.
 2. However, normal users can access ALL music commands when they are alone with Rythm in the voice channel.
    This is because their commands would not affect anyone but themselves.
-    + For more information about users command permissions, refer to the **[Permissions](/permissions)** section in this FAQ.
+  - For more information about users command permissions, refer to the **[Permissions](/permissions)** section in this FAQ.
 
 ### How many votes are required for a song to be vote skipped?
 For a vote skip to take effect, `75%` of the people in the voice chat need to vote to skip.
@@ -154,8 +148,8 @@ No, Discord does not allow bots to change their profile picture/avatar per serve
 
 ### Can I save or create playlists with Rythm?
 No, unfortunately Rythm doesn't have a built-in feature to store playlists. But wait, there are a few solutions to this:
-    - You can do `!grab` to save the current playing song into Rythm's private messages.
-    - You can save playlists from supported music sites and play them through Rythm. (See List of supported music sites below)
+  - You can do `!grab` to save the current playing song into Rythm's private messages.
+  - You can save playlists from supported music sites and play them through Rythm. (See List of supported music sites below)
     
 ### What music sites does Rythm currently support?
 These are the current sites that music can be played from.
@@ -213,7 +207,7 @@ See [Settings & How They Work](/settings) for information on how to use Rythm's 
 ## Rythm Links
 -----
 ### I have encountered an issue with Rythm!
-If you have encountered an issue with Rythm, you can use the links below to help you fix any of those issues.
+If you have encountered an issue with Rythm, you can use the links below to help you fix any of those issues:
 + [Basic Troubleshooting](/basic_troubleshooting)
 + [Audio Troubleshooting](/audio_troubleshooting)
 + [Mobile Troubleshooting](/mobile_troubleshooting)
