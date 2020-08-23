@@ -14,6 +14,9 @@ title: Frequently Asked Questions
 ### How can I add Rythm to my Discord Server?
 Please [click here](/adding_rythm) to check out our guide on adding Rythm.
 
+### What are the differences among Rythm, Rythm 2 and Rythm Canary?
+All 3 of our bots work the exact same, meaning they use the same commands which can be found [here](/commands). The only difference is the default prefix. They are here to serve your need of multiple music bots and spice up your server with enthralling "Rythm"
+
 <!-- The end of the Introduction Section -->
 
 <!-- The start of the Basic Information Section -->
@@ -91,7 +94,7 @@ Rythm's default prefix is `!`, Rythm 2's prefix is `>`, Rythm Canary's prefix is
 Do you enjoy/love Rythm? You can donate to us today!
 
 - You can donate by [clicking here](https://rythmbot.co/donate?d)
-  + You will get awesome perks such as **Volume control**, , **Audio Effects**, **Autoplay**, **Songs longer than 3 hours**, **Role(s) in our Discord server** and more!
+  + You will get awesome perks such as **Volume control**, **Audio Effects**, **Playing songs longer than 3 hours**, **Roles in our Discord server** and more!
 
 ### How can I change the location of Rythm Announcing Songs?
 Rythm will announce songs in the channel the first command is used.
@@ -113,9 +116,15 @@ To remove duplicate songs you can use the command `!removedupes`
 
 Rythm will then remove all duplicates of any songs within your servers queue.
 
+### What are the 3 emojis in `!ping` mean?
+    ⌛ - API response time   
+    ⏱️ - Message response time
+    💓 - Websocket heartbeat
+
+You can invite all three releases at https://rythmbot.co/releases.
 ### Why can some normal users access moderative music commands?
-1. Normal users with no special permissions are only allowed to use the `!play` command to add songs to the queue by default.
-   They can also use other commands that don't affect the playing music in any way. Example: `!queue` and `!lyrics`.
+1. Normal users with no special permissions are only allowed to use the `!play` command to add songs to the queue and the `!remove` command to remove their own songs in the queue.
+   They can also use other commands that don't affect the playing music or the queue in any way. Example: `!queue`, `!lyrics`, `!save`.
 2. However, normal users can access ALL music commands when they are alone with Rythm in the voice channel.
    This is because their commands would not affect anyone but themselves.
     + For more information about users command permissions, refer to the **[Permissions](/permissions)** section in this FAQ.
@@ -143,9 +152,11 @@ Yes! You can invite up to 3 releases by [clicking here](https://rythmbot.co/rele
 ### Can I change Rythm's Profile Picture/Avatar in my server?
 No, Discord does not allow bots to change their profile picture/avatar per server.
 
-### Can Rythm play Spotify?
-Yes! All three Rythm bots support Spotify.
-
+### Can I save or create playlists with Rythm?
+No, unfortunately Rythm doesn't have a built-in feature to store playlists. But wait, there are a few solutions to this:
+    - You can do `!grab` to save the current playing song into Rythm's private messages.
+    - You can save playlists from supported music sites and play them through Rythm. (See List of supported music sites below)
+    
 ### What music sites does Rythm currently support?
 These are the current sites that music can be played from.
 
@@ -163,9 +174,12 @@ Rythm uses the default volume when using audio streams. In order to change the v
 
 You may set the local volume of Rythm for yourself:
 1. If you are on PC, you can right-click Rythm in the voice channel and adjust the user volume slider as shown below.
+
 ![VolumeMenu](/img/docs/faq/user-volume.png)
+
 2. If you are on phone, click on the channel you are in then click on the user. A bar will appear at the bottom with their name and role, scroll down and you will see the option to change user volume.
-    <!-- I can't make example of this as I don't have a phone. ):< -->
+
+![PhoneVolumeMenu](/img/docs/faq/phone-user-volume.png)
 
 #### Donators
 For donators, the volume command is `!volume <number>` (Allowed Values: `1 - 200`).
@@ -173,8 +187,8 @@ For donators, the volume command is `!volume <number>` (Allowed Values: `1 - 200
 - **Example:** `!volume 80`
 
 ### Can I make custom commands for Rythm?
-No, we do not allow custom commands/aliases. You can check any alias avaiable by doing `!aliases`
-However, you can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
+No, we do not allow custom commands/aliases. To check available aliases, just run the command `!aliases`.
+You can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
 
 ### Can Rythm play 24/7 Music?
 No, Rythm is not a 24/7 music bot.
@@ -184,9 +198,9 @@ If you do want a bot that plays music 24/7, you can host one with [Moosic](https
 Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
 
 ### How is it possible for Rythm to be in so many servers all in once?
-Discord allows bots in over `2,000` Servers to use a feature called `Sharding`.
+Discord allows bots in over `2,000` servers to use a feature called `Sharding`.
 In Rythm's case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime.
-For more detail, please [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discords Sharding feature.
+For more detail, please [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discord's Sharding feature.
 
 ## Roles/Permissions
 ---
@@ -194,7 +208,7 @@ See [Understanding Permissions](/permissions) for information on how permissions
 
 ## Settings/Configuration
 ---
-See [Settings & How They Work](/settings) for information on how to use Rythm's settings.
+See [Settings & How They Work](/settings) for information on how to use Rythm's settings. (Max queue length, DJ only mode, ...)
 
 ## Rythm Links
 -----

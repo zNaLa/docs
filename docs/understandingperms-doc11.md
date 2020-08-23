@@ -8,13 +8,13 @@ title: Understanding Rythm's Permissions
 Rythm's built-in permission system can be divided into the following groups:
 
 ### Normal user without any special roles
- - Is able to add songs to the queue but can't remove other user's songs (can remove their own)
+ - Is able to add songs to the queue but can't remove other users' songs (can remove their own)
  - Is able to use commands that don't interfere with other people's music.
    - `lyrics`, `np`, `queue`, etc.
  - Can't skip a song without voting.
  - Doesn't have access to control the music in any way.
 
-### User alone with Rythm, with a `DJ` role or the `Manage Channel` permission
+### User alone with Rythm/User with a `DJ` role or the `Manage Channels` permission
 :::info note
 This includes all other users in the voice chat being deafened.
 :::
@@ -25,11 +25,22 @@ This includes all other users in the voice chat being deafened.
 
 ### User with `Manage Server` permission
  - Is able to change Rythm's settings.
- - Is limited to normal user's music commands, unless they have Manage Channel or the DJ role.
+ - Is limited to normal user's music commands, unless they have `Manage Channels` permission or `DJ` role.
 
 ### User with `Administrator` permission
  - Is able to change Rythm's settings.
  - Has full access to all music commands.
+
+## How can I block music commands in a specific text channel?
+You can use `!settings blacklist #channels` to blacklist specific text channels.
+
+<details>
+<summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>
+<img src="/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
+</details><br/>
+
+**Example**: `!settings blacklist #chat #gaming #international...`
+![Blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
 
 ## How can I make Rythm only respond to Admins/specific roles?
 In order to make Rythm commands just available to specific roles, you can do the following:
@@ -69,7 +80,7 @@ To blacklist channels, use the following command:
 ## How can I give all users access to all music commands?
 There is currently no setting that will apply DJ to all users. You will have to either give them the `Manage Channel` permission or the DJ role.
 
-If you do not want users having the `Manage Channel` permission to use commands, you can follow the steps below to give them permissions using a couple of ways.
+If you do not want users having the `Manage Channels` permission to use commands, you can follow the steps below to give them permissions using a couple of ways.
 
 1. Go to **Server Settings** ➠ **Roles** ➠ Make a new role called `DJ`.
 2. You can use the following command to set another DJ Role: `!settings djrole <Role name> / <@Role>`.
@@ -80,35 +91,6 @@ If you do not want users having the `Manage Channel` permission to use commands,
 :::info note
 Users alone in a voice channel with Rythm will be treated as though they have the DJ role until another user joins the voice channel with them even if they have no roles. Members with the `DJ` role will not be able to change any of Rythm's settings.
 :::
-
-## How can I block music commands in a specific text channel?
-You can use `!settings blacklist #channels` to blacklist a specific  text channel.
-
-<details>
-<summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>
-<img src="/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
-</details><br/>
-
-**Example**: `!settings blacklist #chat #gaming #international...`
-![Blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
-
-## How can I limit the number of songs that one user can add to the queue?
-You can use `!settings maxusersongs <1-10000>` to set how many songs that one user can add to a queue.
-
-**Example**: `!settings maxusersongs 1`<br/>
-![Max user songs example](/img/docs/settings/max-user-songs-example.png)
-
-## How can I prevent duplicate songs from being added to the queue?
-You can use `!settings preventduplicates on` to prevent any duplicates from being queued.
-
-**Example**: <br/>
-![Prevent duplicates example](/img/docs/settings/prevent-duplicates-example.png)
-
-## How can I limit the number of songs that can be added to the queue?
-You can use `!settings maxqueuelength <10-10000>` to limit the length of the queue.
-
-**Example**: `!settings maxqueuelength 25`<br/>
-![Max queue length example](/img/docs/settings/max-queue-length-example.png)
 
 ## How do I restrict Rythm from joining a voice channel?
 To disallow Rythm from being used within certain voice channels, you must use the Discord permission system.
