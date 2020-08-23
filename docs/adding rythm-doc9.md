@@ -33,6 +33,8 @@ Once you press the **Authorize** button and complete the Captcha, you should be 
 
 ![A message sent by Rythm upon joining a Discord server](/img/docs/adding/thank-you-message.png)
 
+Now let's get the party started by [playing some songs](/play_song)!
+
 ## Help! I can't find my server in the list!
 
 ### Are you signed into the correct account?
