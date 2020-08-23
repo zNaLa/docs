@@ -14,6 +14,9 @@ title: Frequently Asked Questions
 ### How can I add Rythm to my Discord Server?
 Please [click here](/adding_rythm) to check out our guide on adding Rythm.
 
+### What are the differences among Rythm, Rythm 2 and Rythm Canary?
+All 3 of our bots work the exact same, meaning they use the same commands which can be found [here](/commands). The only difference is the default prefix. They are here to serve your need of multiple music bots and spice up your server with enthralling "Rythm"
+
 <!-- The end of the Introduction Section -->
 
 <!-- The start of the Basic Information Section -->
@@ -117,13 +120,6 @@ Rythm will then remove all duplicates of any songs within your servers queue.
     ⌛ - API response time   
     ⏱️ - Message response time
     💓 - Websocket heartbeat
-
-### What are the differences between Rythm, Rythm 2 and Rythm Canary.
-All 3 of our bots work the exact same, meaning they use the same commands which can be found [here](/commands. The only difference is the default prefix which can be found below.
-
- Rythm !
-:rythm2: Rythm 2 >
-:rythmcanary: Rythm Canary *
 
 You can invite all three releases at https://rythmbot.co/releases.
 ### Why can some normal users access moderative music commands?
