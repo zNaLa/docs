@@ -34,13 +34,13 @@ This includes all other users in the voice chat being deafened.
 ## How can I block music commands in a specific text channel?
 You can use `!settings blacklist #channels` to blacklist specific text channels.
 
+**Example**: `!settings blacklist #chat #gaming #international...`
+![Blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
+
 <details>
 <summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>
 <img src="/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
 </details><br/>
-
-**Example**: `!settings blacklist #chat #gaming #international...`
-![Blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
 
 ## How can I make Rythm only respond to Admins/specific roles?
 In order to make Rythm commands just available to specific roles, you can do the following:
@@ -65,17 +65,17 @@ If someone is alone with Rythm, they are able to use Rythm regardless of having 
             <li>More information on how to do this can be found at <a href="https://support.discord.com/hc/en-us/articles/206029707">Discord's support page.</a></li>
         </ul>
     </details>
- 2. Blacklist all other text channels with Rythm's blacklist function.
+ 2. Blacklist all other text channels with Rythm's blacklist function. To blacklist channels, use the following command: `!settings blacklist #channel #channel2...`
+    **Example**: `!settings blacklist #chat #gaming #international...`<br/>
+
+    ![blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
+    
     <details>
     <summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>
     <img src="/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
     </details>
  
-To blacklist channels, use the following command: 
-`!settings blacklist #channel #channel2...`
 
-**Example**: `!settings blacklist #chat #gaming #international...`<br/>
-![blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
 
 ## How can I give all users access to all music commands?
 There is currently no setting that will apply DJ to all users. You will have to either give them the `Manage Channel` permission or the DJ role.
