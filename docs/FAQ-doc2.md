@@ -211,11 +211,10 @@ If you have encountered an issue with Rythm, you can use the links below to help
 + [Basic Troubleshooting](/basic_troubleshooting)
 + [Audio Troubleshooting](/audio_troubleshooting)
 + [Mobile Troubleshooting](/mobile_troubleshooting)
-+ [Miscellaneous Help Options](/misc_help)
 
 ### None of these solutions solved my problem!
 Sorry that your issue has not been fixed with the FAQ and Troubleshooting Page. 
-+ If you find that your question was not answered by this FAQ Page or the Troubleshooting Page, please visit our support server by [clicking here](https://rythmbot.co/support)!
++ If you find that your question was not answered by this FAQ Page or the Troubleshooting Page, please [click here](/misc_help)!
 
 ### What is Rythm's Discord Server used for?
 Rythm's Discord Server is a place built for everything related to Rythm!
