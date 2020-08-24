@@ -68,4 +68,4 @@ Because Discord caches data into cookies, it retains old account information and
 
 ### I've read everything above but none fixed my issue. What do I do?
 
-In case nothing from the list above has helped you, please [contact us here](https://rythmbot.co/contact).
+In case nothing from the list above has helped you, please go to [here](/misc_help).
