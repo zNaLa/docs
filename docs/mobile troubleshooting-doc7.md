@@ -20,4 +20,4 @@ https://discordapp.com/oauth2/authorize?client_id=235088799074484224&permissions
 
 [Click here](https://support.google.com/chrome/answer/95464) to know how to open an Incognito Tab.
 
-If all of these don't fix your issue, please go to our [#help-desk](https://rythmbot.co/support) channel and select option **6**, a member of our **Support Team** will assist you further.
+If all of these don't fix your issue, please go to [Miscellaneous Help](/misc_help).
