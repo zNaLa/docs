@@ -15,7 +15,7 @@ title: Frequently Asked Questions
 Please [click here](/adding_rythm) to check out our guide on adding Rythm.
 
 ### What are the differences among Rythm, Rythm 2 and Rythm Canary?
-All 3 of our bots work the exact same, meaning they use the same commands which can be found [here](/commands). The only difference is the default prefix. They are here to serve your need of multiple music bots and spice up your server with enthralling "Rythm"!
+You can check out the differences on our [releases page](https://rythmbot.co/releases)
 
 <!-- The end of the Introduction Section -->
 
