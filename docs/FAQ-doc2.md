@@ -225,4 +225,4 @@ Rythm's Discord Server is a place built for everything related to Rythm!
 4. Join and enjoy our events that take place!
 5. Make new feature suggestions for Rythm.
 
-To join our server, click [here](https://rythmbot.co/support)
+To join our server, click [here](https://rythmbot.co/support).
