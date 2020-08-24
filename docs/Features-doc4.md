@@ -18,6 +18,8 @@ When Rythm is playing a song, you are able to get the lyrics for the song. You c
 ## Effects 
 By [donating](https://rythmbot.co/donate?do) to show your appreciation and love, you will get special and fascinating perks including sound effects. You will be able to modify and adjust the playback as you wish, bringing you the ultimate experience with Rythm.
 
+![Effects](/img/docs/features/effects.png)
+
 ## Settings
 Rythm provides a great variety of customizability via the settings panel. For more information about specific settings [click here](/settings)
 
