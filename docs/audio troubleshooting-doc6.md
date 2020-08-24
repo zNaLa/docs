@@ -37,4 +37,4 @@ If you can't hear Rythm in any servers (including the [official Rythm server](ht
 ![volume off](/img/docs/audio-troubleshooting/volume-off.png)
 ![server muted](/img/docs/audio-troubleshooting/server-muted.png)
 
-If all of these still don't fix your issue, please [click here](/misc_help)
+If all of these still don't fix your issue, please [click here](/misc_help).
