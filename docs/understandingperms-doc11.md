@@ -35,6 +35,7 @@ This includes all other users in the voice chat being deafened.
 You can use `!settings blacklist #channels` to blacklist specific text channels.
 
 **Example**: `!settings blacklist #chat #gaming #international...`
+
 ![Blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
 
 <details>
@@ -52,7 +53,7 @@ If someone is alone with Rythm, they are able to use Rythm regardless of having 
 
  1. Give those you want to have access a role named `DJ`
  2. Run `!settings djonly on`
- 
+
 ### Blacklisting Channels
  1. Make a channel that can only be seen by users with the specific role.
     <details>
@@ -69,12 +70,12 @@ If someone is alone with Rythm, they are able to use Rythm regardless of having 
     **Example**: `!settings blacklist #chat #gaming #international...`<br/>
 
     ![blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
-    
+
     <details>
     <summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>
     <img src="/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
     </details>
- 
+
 
 
 ## How can I give all users access to all music commands?

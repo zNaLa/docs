@@ -34,6 +34,7 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
 ## Rythm isn't responding to my commands!
 *If Rythm isn't responding to commands, try the following:*
 - Make sure you're using the correct prefix. You can mention Rythm to get the prefix.<br/>
+
 ![Mention to get prefix](/img/docs/settings/prefix.png)
 - Make sure Rythm has the permissions to read and send messages in the channel.
   - You can give the `Administrator` permission to Rythm to make this easier.
@@ -60,8 +61,8 @@ If you have changed the Rythm's default prefix to a custom one and now can’t m
 
 **`DJsettings prefix !`**
 
-:::info note 
-You must have a role with the `Administrator` or the `Manage Server` permission to be able to change Rythm’s prefix! 
+:::info note
+You must have a role with the `Administrator` or the `Manage Server` permission to be able to change Rythm’s prefix!
 :::
 
 ## Rythm is responding to commands but not joining the voice channel
