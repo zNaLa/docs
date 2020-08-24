@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: [require.resolve('docusaurus-lunr-search')],
   title: 'Rythm',
   tagline: 'Rythm documentation',
   url: 'https://docs.rythmbot.co/',
@@ -7,6 +8,7 @@ module.exports = {
   organizationName: 'Rythm', // Usually your GitHub org/user name.
   projectName: 'Rythm-documentation', // Usually your repo name.
   themeConfig: {
+    sidebarCollapsible: false,
     navbar: {
       title: 'Rythm Documentation',
       logo: {
@@ -37,7 +39,7 @@ module.exports = {
           editUrl: 'https://github.com/Repulser/Rythm-documentation/edit/master/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.css')
         },
       },
     ],

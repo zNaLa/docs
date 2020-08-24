@@ -4,22 +4,46 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+html[data-theme=dark] {
+    --ifm-color-emphasis-0: var(--ifm-color-gray-1000);
+    --ifm-color-emphasis-100: var(--ifm-color-gray-900);
+    --ifm-color-emphasis-200: var(--ifm-color-gray-800);
+    --ifm-color-emphasis-300: var(--ifm-color-gray-700);
+    --ifm-color-emphasis-400: var(--ifm-color-gray-600);
+    --ifm-color-emphasis-500: var(--ifm-color-gray-500);
+    --ifm-color-emphasis-600: var(--ifm-color-gray-400);
+    --ifm-color-emphasis-700: var(--ifm-color-gray-300);
+    --ifm-color-emphasis-800: var(--ifm-color-gray-200);
+    --ifm-color-emphasis-900: var(--ifm-color-gray-100);
+    --ifm-color-emphasis-1000: var(--ifm-color-gray-0);
+    --ifm-blockquote-color: #cfc3c2;
+    --ifm-background-color: #18191a;
+    --ifm-background-surface-color: #242526;
+    --ifm-hover-overlay: hsla(0, 0%, 100%, 0.05);
+    --ifm-color-content-secondary: #fff
+}
+
+/* Make details' summary blocks non-selectable */
+details > summary {
+    user-select: none;
+    cursor: pointer;
+}
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
+    --ifm-color-primary: #25c2a0;
+    --ifm-color-primary-dark: rgb(33, 175, 144);
+    --ifm-color-primary-darker: rgb(31, 165, 136);
+    --ifm-color-primary-darkest: rgb(26, 136, 112);
+    --ifm-color-primary-light: rgb(70, 203, 174);
+    --ifm-color-primary-lighter: rgb(102, 212, 189);
+    --ifm-color-primary-lightest: rgb(146, 224, 208);
+    --ifm-code-font-size: 95%;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+    background-color: rgb(72, 77, 91);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
 }

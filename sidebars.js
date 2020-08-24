@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
-    'Getting Started': ['whatisrythm', 'faq', 'adding_rythm', 'play_song'],
-    'Knowledge Center': ['permissions', 'settings', 'commands', 'features'],
+    'Getting Started': ['start', 'adding_rythm', 'play_song', 'faq'],
+    'Knowledge Center': ['commands', 'features', 'permissions', 'settings'],
     Troubleshooting: ['basic_troubleshooting', 'audio_troubleshooting', 'mobile_troubleshooting', 'misc_help'],
   },
 };
