@@ -42,7 +42,7 @@ You can provide multiple channels for quicker blacklisting.
 **Example**: If you wanted to blacklist channels named `#chat`, `#gaming` and `#international`, use `!settings blacklist #chat #gaming #international`<br/>
 ![Blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 
-## AutoPlay\*
+## AutoPlay
 :::info Note
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate AutoPlay.
 :::
