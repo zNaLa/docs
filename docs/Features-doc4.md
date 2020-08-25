@@ -15,6 +15,9 @@ When Rythm is playing a song, you are able to get the lyrics for the song. You c
 
 ![Lyrics](/img/docs/features/lyrics.png)
 
+## Advanced Music Functionality 
+Not only can you manually play songs through Rythm but also manage the player and the queue: forwarding the track, looping the song, shuffling the queue,... With tons of useful commands, you can control your music like a real DJ!
+
 ## Effects 
 By [donating](https://rythmbot.co/donate?do) to show your appreciation and love, you will get special and fascinating perks including sound effects. You will be able to modify and adjust the playback as you wish, bringing you the ultimate experience with Rythm.
 
