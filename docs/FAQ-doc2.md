@@ -15,7 +15,7 @@ title: Frequently Asked Questions
 Please [click here](/adding_rythm) to check out our guide on adding Rythm.
 
 ### What are the differences among Rythm, Rythm 2 and Rythm Canary?
-You can check out the differences on our [releases page](https://rythmbot.co/releases)
+You can check out the differences on our [releases page](https://rythmbot.co/releases).
 
 <!-- The end of the Introduction Section -->
 
@@ -47,18 +47,7 @@ Make sure that your song is not over **3 hours long** or Rythm will refuse to pl
 Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that specific playlist. Rythm will play up to `500 songs` from a playlist.
 :::
 
-### How can I change Rythm's Prefix?
-Changing Rythm's prefix is as simple as using a command. You can change the prefix by using the settings command `!settings prefix <New Prefix>`.
-- **Example:** `!settings prefix $`
-
-![SetPrefix](/img/docs/faq/set-prefix.png)
-
-:::caution note
-You must have the permissions `Administrator` or `Manage Server` to change Rythm's Prefix in your server.
-Do **not** include `<>` when setting the prefix.
-:::
-
-### But wait! I don't know my prefix!
+### I don't remember Rythm's prefix and now it is irresponsive!
 If you don't know or forget Rythm's prefix, don't stress. We have you covered. You can view the prefix simply by mentioning the bot.
 
 1. For Rythm
@@ -76,9 +65,15 @@ If you don't know or forget Rythm's prefix, don't stress. We have you covered. Y
 
 ![MentionPrefixC](/img/docs/faq/rythm-c.png)
 
+You can also use mention as prefix! 
+
+![MentionAsPrefix](/img/docs/faq/mention-as-prefix.png)
 :::tip note
-Rythm's default prefix is `!`, Rythm 2's prefix is `>`, Rythm Canary's prefix is `*`.
+The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm Canary is `*`.
 :::
+
+### How can I change Rythm's Prefix in my server?
+Head to the [Prefix Settings](/settings#prefix) section to learn more.
 
 ### How can I change Rythm's nickname in my server?
 1. Make sure you have the `Manage Nickname` permission.
@@ -123,6 +118,33 @@ Rythm will then remove all duplicates of any songs within your servers queue.
    This is because their commands would not affect anyone but themselves.
   - For more information about users command permissions, refer to the **[Permissions](/permissions)** section in this FAQ.
 
+### What does DJ role do and how do I set up DJ role for my server?
+
+#### Permission/Access
+You can refer to **[DJ Permission](/permissions#user-alone-with-rythmuser-with-a-dj-role-or-the-manage-channels-permission)** section to learn more about what DJ users can do.
+
+#### Setting up DJ role
+1. **Create a DJ role:**
+    - Go to your server settings and head to `Roles` section.
+    - Create a new role without any special permission and name it `DJ`.
+    - Click on `Save Changes`, and you just create a new DJ role 🎉.
+    ![CreateDJRole](/img/docs/faq/setting-dj.png)
+2. **Assign the DJ role to other users:** You can do it by either:
+    - Right-clicking the name  ➠ Roles ➠ Choosing `DJ` role.
+    ![AssignDJRole](/img/docs/faq/assign-dj.png)
+    - Clicking on the name ➠ Click on `+` ➠ Choosing `DJ` role.
+    ![AssignDJRole](/img/docs/faq/assign-dj-2.png)
+    
+:::caution note 
+You need to have `Manage Roles` permission to create and assign roles.
+:::
+
+#### Other DJ setttings
+Use the links below to go to each setting:
+1. [DJ Role](/settings#dj-role) (Set a role to be considered as DJ)
+2. [DJ Only Mode](/settings#dj-only-mode)
+3. [DJ Only Playlist](/settings#dj-only-playlists)
+
 ### How many votes are required for a song to be vote skipped?
 For a vote skip to take effect, `75%` of the people in the voice chat need to vote to skip.
 
@@ -132,8 +154,9 @@ For a vote skip to take effect, `75%` of the people in the voice chat need to vo
 3. For the vote skip to take effect, you would then need `7 vote skips`.
 
 :::caution note
-Vote skip will not be active until there are **3 or more people** in the voice channel.
+- Vote skip will not be active until there are **3 or more people** in the voice channel.
 (As with one person, insta-skip is enabled and with two the threshold for skipping is 1).
+- If you have the `DJ` role or `Manage Channel` permission, you can do `!forceskip`/`!fs`, which will instantly skip the song without voting.
 :::
 <!-- The end of the Basic Information Section -->
 
@@ -202,7 +225,7 @@ See [Understanding Permissions](/permissions) for information on how permissions
 
 ## Settings/Configuration
 ---
-See [Settings & How They Work](/settings) for information on how to use Rythm's settings. (Max queue length, DJ only mode, ...)
+See [Settings & How They Work](/settings) for information on how to use Rythm's settings. 
 
 ## Rythm Links
 -----
