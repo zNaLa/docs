@@ -78,15 +78,9 @@ If someone is alone with Rythm, they are able to use Rythm regardless of having 
 
 
 ## How can I give all users access to all music commands?
-There is currently no setting that will apply DJ to all users. You will have to either give them the `Manage Channel` permission or the DJ role.
+There is currently no setting that will apply DJ to all users. You will have to either give them the `Manage Channels` permission or the DJ role manually.
 
-If you do not want users having the `Manage Channels` permission to use commands, you can follow the steps below to give them permissions using a couple of ways.
-
-1. Go to **Server Settings** ➠ **Roles** ➠ Make a new role called `DJ`.
-2. You can use the following command to set another DJ Role: `!settings djrole <Role name> / <@Role>`.
-    + **Example:** `!settings djrole NewDJRole`
-    + **Example:** `!settings djrole @NewDJRole`
-3. The DJ role has to be assigned manually to users you want to have extra permissions
+If every member in your server has a common role, you can use the following command to set that role to be DJ Role: `!settings djrole <Role name> / <@Role>`
 
 :::info note
 Users alone in a voice channel with Rythm will be treated as though they have the DJ role until another user joins the voice channel with them even if they have no roles. Members with the `DJ` role will not be able to change any of Rythm's settings.
@@ -96,7 +90,7 @@ Users alone in a voice channel with Rythm will be treated as though they have th
 To disallow Rythm from being used within certain voice channels, you must use the Discord permission system.
 
 1. Go to your server's settings and select `Roles`.
-2. Find Rythm, revoke its `Administrator` permission and grant the `Read Text Channels & See Voice Channels`, `Send Messages`, `Embed Links`, `Connect` and `Speak` permissions.
+2. Find Rythm, revoke its `Administrator` permission and grant the `Read Text Channels & See Voice Channels`, `Send Messages`, `Embed Links`, `Connect`, `Speak` and `Add Reactions` permissions.
    - If you have any other roles Rythm is assigned to, repeat this step for each role.
 3. Save and close out of server settings.
 4. Go to each voice channel you want to restrict Rythm from connecting to.
