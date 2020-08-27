@@ -156,7 +156,7 @@ For a vote skip to take effect, `75%` of the people in the voice chat need to vo
 :::caution note
 - Vote skip will not be active until there are **3 or more people** in the voice channel.
 (As with one person, insta-skip is enabled and with two the threshold for skipping is 1).
-- If you have the `DJ` role or `Manage Channel` permission, you can do `!forceskip`/`!fs`, which will instantly skip the song without voting.
+- If you have the `DJ` role or `Manage Channels` permission, you can do `!forceskip`/`!fs`, which will instantly skip the song without voting.
 :::
 <!-- The end of the Basic Information Section -->
 
