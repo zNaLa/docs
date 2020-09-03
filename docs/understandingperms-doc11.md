@@ -90,7 +90,7 @@ Users alone in a voice channel with Rythm will be treated as though they have th
 To disallow Rythm from being used within certain voice channels, you must use the Discord permission system.
 
 1. Go to your server's settings and select `Roles`.
-2. Find Rythm, revoke its `Administrator` permission and grant the `Read Text Channels & See Voice Channels`, `Send Messages`, `Embed Links`, `Connect`, `Speak` and `Add Reactions` permissions.
+2. Find Rythm, revoke its `Administrator` permission and grant the `Read Text Channels & See Voice Channels`, `Send Messages`, `Manage Messages`, `Embed Links`, `Add Reactions`, `Connect` and `Speak` permissions.
    - If you have any other roles Rythm is assigned to, repeat this step for each role.
 3. Save and close out of server settings.
 4. Go to each voice channel you want to restrict Rythm from connecting to.
