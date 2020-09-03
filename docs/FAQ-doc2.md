@@ -72,7 +72,7 @@ You can also use mention as prefix!
 The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm Canary is `*`.
 :::
 
-### How can I change Rythm's Prefix in my server?
+### How can I change Rythm's prefix in my server?
 Head to the [Prefix Settings](/settings#prefix) section to learn more.
 
 ### How can I change Rythm's nickname in my server?
@@ -129,11 +129,8 @@ You can refer to **[DJ Permission](/permissions#user-alone-with-rythmuser-with-a
     - Create a new role without any special permission and name it `DJ`.
     - Click on `Save Changes`, and you just create a new DJ role 🎉.
     ![CreateDJRole](/img/docs/faq/setting-dj.png)
-2. **Assign the DJ role to other users:** You can do it by either:
-    - Right-clicking the name  ➠ Roles ➠ Choosing `DJ` role.
+2. **Assign the DJ role to other users:** You can do it by **Clicking on the name** ➠ **Clicking on `+`** ➠ **Choosing `DJ` role.**
     ![AssignDJRole](/img/docs/faq/assign-dj.png)
-    - Clicking on the name ➠ Click on `+` ➠ Choosing `DJ` role.
-    ![AssignDJRole](/img/docs/faq/assign-dj-2.png)
     
 :::caution note 
 You need to have `Manage Roles` permission to create and assign roles.
@@ -158,6 +155,9 @@ For a vote skip to take effect, `75%` of the people in the voice chat need to vo
 (As with one person, insta-skip is enabled and with two the threshold for skipping is 1).
 - If you have the `DJ` role or `Manage Channels` permission, you can do `!forceskip`/`!fs`, which will instantly skip the song without voting.
 :::
+
+### How can I remove my vote for song skipping?
+Simply disconnect yourself from the voice channel and join again!
 <!-- The end of the Basic Information Section -->
 
 <!-- The start of the Limitations/Restrictions Section -->
@@ -205,7 +205,7 @@ For donators, the volume command is `!volume <number>` (Allowed Values: `1 - 200
 
 ### Can I make custom commands for Rythm?
 No, we do not allow custom commands/aliases. To check available aliases, just run the command `!aliases`.
-You can suggest any aliases that you can think of in the `#rythm-suggestions` channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
+You can suggest any aliases that you can think of in the [#rythm-suggestions](https://discord.com/channels/231471142685245440/679554693403639835) channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
 
 ### Can Rythm play 24/7 Music?
 No, Rythm is not a 24/7 music bot.
@@ -213,6 +213,9 @@ The reason behind this decision is because music bots require a lot of resources
 So when the bot is by itself, and not being used by anyone, these resources are still being used, leaving less available for other people. 
 If you do want a bot that plays music 24/7, you can host one with [Moosic](https://github.com/Repulser/Moosic).
 Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
+
+### Can Rythm stream the video of the song that is being played?
+No, Discord does not allow bots to use `Go Live` feature.
 
 ### How is it possible for Rythm to be in so many servers all in once?
 Discord allows bots in over `2,000` servers to use a feature called `Sharding`.
