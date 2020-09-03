@@ -149,7 +149,7 @@ To enable or disable DJ only mode, use the following command:<br/>
 This setting allows you to control which role is DJ.
 
 :::caution
-Any roles named '<b>DJ</b>' and anyone with the `Manage Channel` permission will always be able to use Rythm as a DJ regardless of this setting.
+Any roles named '<b>DJ</b>' and anyone with the `Manage Channels` permission will always be able to use Rythm as a DJ regardless of this setting.
 :::
 
 To change the DJ role, use the following command:<br/>
