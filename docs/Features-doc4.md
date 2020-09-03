@@ -12,16 +12,26 @@ Rythm has the ability to play songs in your voice channel from sources such as *
 
 ## Lyrics
 When Rythm is playing a song, you are able to get the lyrics for the song. You can also use the `lyrics` command followed by a song name to manually search for lyrics of a song.
+Now you can sing along or have some karaoke with friends even if you don't remember the lyrics!
 
 ![Lyrics](/img/docs/features/lyrics.png)
 
 ## Advanced Music Functionality 
-Not only can you manually play songs through Rythm but also manage the player and the queue: forwarding the track, looping the song, shuffling the queue,... With tons of useful commands, you can control your music like a real DJ!
 
-## Effects 
+### Player
+While listening to Rythm, you can control the player with lots of useful commands such as `!seek`, `!replay`,... Make yourself a true DJ!
+
+![Player](/img/docs/features/player-feature.png)
+
+#### Effects [Donator Only](https://rythmbot.co/donate?do)
 By [donating](https://rythmbot.co/donate?do) to show your appreciation and love, you will get special and fascinating perks including sound effects. You will be able to modify and adjust the playback as you wish, bringing you the ultimate experience with Rythm.
 
 ![Effects](/img/docs/features/effects.png)
+
+### Queue 
+With the built-in queue feature, you can freely add songs to the queue and manage it. Let's build up a quality music queue and enjoy to the thrilling Rythm!
+
+![Queue](/img/docs/features/queue-feature.png)
 
 ## Settings
 Rythm provides a great variety of customizability via the settings panel. For more information about specific settings [click here](/settings)
