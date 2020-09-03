@@ -17,7 +17,7 @@ Rythm is a Discord music bot focused on one goal: **to deliver the best music ex
      Because our development team is always looking for new ways to improve our service, Rythm is constantly being updated and worked on to bring you the best possible experience.
 
    - ### And is also the most popular music bot on Discord
-     Rythm serves over `10 million` Discord servers and counting!
+     Rythm serves over `11 million` Discord servers and counting!
     
  - # Why wait?
    You can [invite Rythm to your server](https://rythmbot.co/invite) with just a few clicks to liven your time on Discord up; it's that simple! 
