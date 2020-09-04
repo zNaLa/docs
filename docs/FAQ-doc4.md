@@ -121,7 +121,7 @@ Rythm will then remove all duplicates of any songs within your servers queue.
 ### What does DJ role do and how do I set up DJ role for my server?
 
 #### Permission/Access
-You can refer to **[DJ Permission](/permissions#user-alone-with-rythmuser-with-a-dj-role-or-the-manage-channels-permission)** section to learn more about what DJ users can do.
+DJ role grants you more permissions over Rythm. You can refer to **[DJ Permission](/permissions#user-alone-with-rythmuser-with-a-dj-role-or-the-manage-channels-permission)** section to learn more about what DJ users can do.
 
 #### Setting up DJ role
 1. **Create a DJ role:**
@@ -129,9 +129,9 @@ You can refer to **[DJ Permission](/permissions#user-alone-with-rythmuser-with-a
     - Create a new role without any special permission and name it `DJ`.
     - Click on `Save Changes`, and you just create a new DJ role 🎉.
     ![CreateDJRole](/img/docs/faq/setting-dj.png)
-2. **Assign the DJ role to other users:** You can do it by **Clicking on the name** ➠ **Clicking on `+`** ➠ **Choosing `DJ` role.**
+2. **Assign the DJ role to other users:** You can do it by **Clicking on the name** ➠ **Clicking on `+`** ➠ **Choosing `DJ` role.** 
     ![AssignDJRole](/img/docs/faq/assign-dj.png)
-    
+    You are all set! Rythm will automatically recognize the `DJ` role and work perfectly!
 :::caution note 
 You need to have `Manage Roles` permission to create and assign roles.
 :::
