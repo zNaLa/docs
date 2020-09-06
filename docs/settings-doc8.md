@@ -36,7 +36,7 @@ If you are unable to use the current prefix, you can also use the mention as the
 :::
 
 ## Blacklist
-:::caution note
+:::caution 
    - This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
    - This only prevents music commands. Commands such as `!ping`, `!help` will still be usable in blacklisted channels. To completely block Rythm, use Discord's permission system, explained [here](/permissions#how-can-i-block-music-commands-in-a-specific-text-channel)
 :::
@@ -52,7 +52,7 @@ You can provide multiple channels for quicker blacklisting.
 
 ![Blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 
-## AutoPlay\*
+## AutoPlay
 :::info Note
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate AutoPlay.
 :::
@@ -116,7 +116,7 @@ To enable or disable this, use the following command:<br/>
 
 ![Prevent duplicates example](/img/docs/settings/prevent-duplicates-example.png)
 
-## Default Volume\*
+## Default Volume
 :::info Note 
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
