@@ -30,6 +30,11 @@ If you are unable to use the current prefix, you can also use the mention as the
 
 ![Change prefix example](/img/docs/settings/prefix-example.png)
 
+:::caution note
+   - You must have the permissions `Administrator` or `Manage Server` to change Rythm's prefix in your server. 
+   - Do **not** include `<>` when setting the prefix.
+:::
+
 ## Blacklist
 :::caution
    - This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
