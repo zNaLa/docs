@@ -34,7 +34,9 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
 ## Rythm isn't responding to my commands!
 *If Rythm isn't responding to commands, try the following:*
 - Make sure you're using the correct prefix. You can mention Rythm to get the prefix.<br/>
+
 ![Mention to get prefix](/img/docs/settings/prefix.png)
+
 - Make sure Rythm has the permissions to read and send messages in the channel.
   - You can give the `Administrator` permission to Rythm to make this easier.
 - Take a look at our [#outages](https://discord.com/channels/231471142685245440/359311833653313546) channel on our official Rythm Bot Discord server to see if there are any issues going on.
