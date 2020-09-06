@@ -47,7 +47,9 @@ If you can't find your server in the drop-down section, this can be caused by va
 
 If you're **100%** sure that you're signed into the correct account, then you should make sure that you have the correct permissions. In order to add a bot, you need to have a role with the `Manage Server` or `Administrator` permission. If you're the server owner, you have those regardless, of course.
 
-:::tip note If you are able to change the name of the server, you have the required permissions! :::
+:::tip note 
+If you are able to change the name of the server, you have the required permissions!
+:::
 
 ### Open an incognito tab and invite Rythm from there.
 
