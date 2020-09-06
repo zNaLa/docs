@@ -27,14 +27,24 @@ If you are encountering these issues, there are some steps below that you should
 
 If you can't hear Rythm in any servers (including the [official Rythm server](https://rythmbot.co/support)), then it's probably your local audio device settings.
 
-- In Windows, right click the speaker icon and click `Sounds` to open the Sound properties window. In that window, click on the `Playback` tab and check to see if your preferred audio device is set as the default device. (If not, click on your audio device and then click `Set Default`.)
+1. In Discord:
+  - Make sure:
+    - Rythm **is not locally muted**:
+    
+    ![locally muted](/img/docs/audio-troubleshooting/locally-muted.png)
+    
+    - Rythm **is not server muted**:
+      
+    ![server muted](/img/docs/audio-troubleshooting/server-muted.png)
+    
+    - Rythm's user volume **is not on 0%**:
+    
+    ![volume off](/img/docs/audio-troubleshooting/volume-off.png)
 
-- In Discord, check the `Voice & Video` tab under User Settings (the gear icon ⚙️ at the bottom left) to see if your audio device settings are correct. If they're set to `Default`, try setting them specifically to your device.
+  - Check the `Voice & Video` tab under User Settings (the gear icon ⚙️ at the bottom left) to see if your audio device settings are correct. If they're set to `Default`, try setting them specifically to your device.
+ 
+2. In Windows, right click the speaker icon and click `Sounds` to open the Sound properties window. In that window, click on the `Playback` tab and check to see if your preferred audio device is set as the default device. (If not, click on your audio device and then click `Set Default`.)
 
-- If both steps above are fine, make sure you don't have Rythm server/locally muted or the bots user volume on 0%:
+3. Try following [Discord's Voice & Video Troubleshooting Guild](https://support.discord.com/hc/en-us/articles/360045138471-Discord-Voice-and-Video-Troubleshooting-Guide). 
 
-![locally muted](/img/docs/audio-troubleshooting/locally-muted.png)
-![volume off](/img/docs/audio-troubleshooting/volume-off.png)
-![server muted](/img/docs/audio-troubleshooting/server-muted.png)
-
-If all of these still don't fix your issue, please go to [Miscellaneous Help](/misc_help).
+If all of these still don't fix your issue or you are stuggling at any part, go to [Miscellaneous Help](/misc_help).
