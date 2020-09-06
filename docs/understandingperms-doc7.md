@@ -35,6 +35,7 @@ This includes all other users in the voice chat being deafened.
 You can use `!settings blacklist #channels` to blacklist specific text channels.
 
 **Example**: `!settings blacklist #chat #gaming #international...`
+
 ![Blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
 
 <details>
