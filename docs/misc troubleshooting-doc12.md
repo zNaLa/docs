@@ -12,4 +12,4 @@ Please [click here](https://discord.gg/rythm) to join our [Support Server](/faq#
 You can also contact us via email `support@rythmbot.co` and we will reach you as soon as possible.
 
 ### For Business Inquries
-Contact us at `admin@rythmbot.co`
+Contact us at `admin@rythmbot.co`.
