@@ -5,15 +5,18 @@ title: Rythm's Settings and How They Work
 These are the options you can access through Rythm’s settings menu. 
 
 1. To access this menu use the command `!settings`.<br/>
+
    ![Settings](/img/docs/features/settings.png)
 2. Rythm should then display a menu showing the settings that can be changed.
 3. For more information on a setting just type: `!settings <Setting-Name>`.
    - **Example:** `!settings blacklist`<br/>
+   
    ![SettingsBlacklistTest](/img/docs/faq/settings-blacklist-test.png)
 
 ## Prefix
 The prefix is what you use in order to tell Rythm what to do.
 If you ever forget the prefix for your server, you can always mention Rythm to find your prefix.<br/>
+
 ![Mention to get prefix](/img/docs/settings/prefix.png)
 
 ### Changing the Prefix
@@ -24,6 +27,7 @@ If you are unable to use the current prefix, you can also use the mention as the
 `@Rythm#3722 settings prefix <newprefix>`
 
 **Example**: If you wanted to change the prefix to be `$` so it's `$play`, use `!settings prefix $`<br/>
+
 ![Change prefix example](/img/docs/settings/prefix-example.png)
 
 :::caution note
@@ -45,6 +49,7 @@ To disallow Rythm from being used within certain text channels, use the followin
 You can provide multiple channels for quicker blacklisting.
 
 **Example**: If you wanted to blacklist channels named `#chat`, `#gaming` and `#international`, use `!settings blacklist #chat #gaming #international`<br/>
+
 ![Blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 
 ## AutoPlay\*
@@ -58,6 +63,7 @@ To setup AutoPlay, provide a playlist using the following command:<br/>
 `!settings autoplay playlist-link`
 
 **Example**: If you wanted to set autoplay to be your playlist, use `!settings autoplay https://www.youtube.com/playlist?list=PLX0RQHkBDj88WRGrql2OKgVp-aXdPInhe `<br/>
+
 ![Autoplay example](/img/docs/settings/autoplay-example.png)
 
 ## Announce Songs
@@ -71,6 +77,7 @@ To enable or disable song announcements, use the following command:<br/>
 `!settings announcesongs yes/no` 
 
 **Example**: If you want announcements when a song plays, use `!settings announcesongs yes`<br/>
+
 ![Announce songs example](/img/docs/settings/announce-songs-example.png) 
 
 ## Max Queue Length
@@ -83,6 +90,7 @@ You can also set it back to default:<br/>
 `!settings maxqueuelength disable`
 
 **Example**: If you want to limit the queue to 25 songs total, use `!settings maxqueuelength 25`<br/>
+
 ![Max queue length example](/img/docs/settings/max-queue-length-example.png)
 
 ## Max User Songs
@@ -95,6 +103,7 @@ You can also set it back to default:<br/>
 `!settings maxusersongs disable`
 
 **Example**: If you want to limit the amount of songs a user can queue to 1, use `!settings maxusersongs 1`<br/>
+
 ![Max user songs example](/img/docs/settings/max-user-songs-example.png)
 
 ## Duplicate Song Prevention
@@ -104,6 +113,7 @@ To enable or disable this, use the following command:<br/>
 `!settings preventduplicates yes/no`
 
 **Example**: If you want to prevent duplicates of songs from being played, use `!settings preventduplicates yes`<br/>
+
 ![Prevent duplicates example](/img/docs/settings/prevent-duplicates-example.png)
 
 ## Default Volume\*
@@ -117,6 +127,7 @@ To change the default volume for when you summon Rythm to a voice channel, use t
 `!settings defaultvolume <0-200>`
 
 **Example**: If you wanted the volume to be 25 when someone summons Rythm, use `!settings defaultvolume 25`<br/>
+
 ![Default volume example](/img/docs/settings/default-volume-example.png)
 
 ## DJ Only Playlists
@@ -130,6 +141,7 @@ To enable or disable DJ only playlists, use the following command:<br/>
 `!settings djplaylists yes/no`
 
 **Example**: If you want only DJs to queue playlists, use `!settings djplaylists yes`<br/>
+
 ![DJ only playlists example](/img/docs/settings/dj-only-playlists-example.png)
 
 ## DJ Only Mode
@@ -143,6 +155,7 @@ To enable or disable DJ only mode, use the following command:<br/>
 `!settings djonly yes/no`
 
 **Example**: If you want only DJs to use Rythm, use `!settings djonly yes`<br/>
+
 ![DJ only mode example](/img/docs/settings/dj-only-mode-example.png)
 
 ## DJ Role
@@ -156,12 +169,15 @@ To change the DJ role, use the following command:<br/>
 `!settings djrole role`/`!settings djrole @role`
 
 **Example**: If you want to give a role named `Users` DJ without assigning a new role, use `!settings djrole Users`<br/>
+
 ![DJ role example](/img/docs/settings/dj-role-example.png)
 
 ### Resetting your DJ Role
 If you want to reset this setting, use `!settings djrole DJ`. This will reset it back to default regardless of if a role named '**DJ**' exists.<br/>
+
 ![DJ role reset example](/img/docs/settings/dj-role-reset-example.png)
 
 ## Reset
 If you want to reset **all** settings back to their defaults, you can use `@Rythm#3722 settings reset` or `!settings reset`, then reply with `yes` when Rythm prompts you.<br/>
+
 ![Reset example](/img/docs/settings/reset-example.png)
