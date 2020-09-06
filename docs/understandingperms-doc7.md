@@ -81,8 +81,7 @@ If someone is alone with Rythm, they are able to use Rythm regardless of having 
 ## How can I give all users access to all music commands?
 There is currently no setting that will apply DJ to all users. You will have to either give them the `Manage Channels` permission or the DJ role manually.
 
-If every member in your server has a common role, you can use the following command to set that role to be DJ Role: `!settings djrole <Role name> / <@Role>`
-
+If every member in your server has a common role, you can use the following settings command to set that role to be DJ Role: `!settings djrole <Role name> / <@Role>`. To learn more, head to the [DJ role setting section](/settings/#dj-role).
 :::info note
 Users alone in a voice channel with Rythm will be treated as though they have the DJ role until another user joins the voice channel with them even if they have no roles. Members with the `DJ` role will not be able to change any of Rythm's settings.
 :::
