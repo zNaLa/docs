@@ -30,6 +30,11 @@ If you are unable to use the current prefix, you can also use the mention as the
 
 ![Change prefix example](/img/docs/settings/prefix-example.png)
 
+:::caution note
+   - You must have the permissions `Administrator` or `Manage Server` to change Rythm's prefix in your server. 
+   - Do **not** include `<>` when setting the prefix.
+:::
+
 ## Blacklist
 :::caution
    - This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
@@ -111,7 +116,7 @@ To enable or disable this, use the following command:<br/>
 
 ![Prevent duplicates example](/img/docs/settings/prevent-duplicates-example.png)
 
-## Default Volume
+## Default Volume\*
 :::info Note
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
