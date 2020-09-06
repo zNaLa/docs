@@ -47,7 +47,7 @@ Make sure that your song is not over **3 hours long** or Rythm will refuse to pl
 Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that specific playlist. Rythm will play up to `500 songs` from a playlist.
 :::
 
-### I don't remember Rythm's prefix and now it is irresponsive!
+### I don't know Rythm's prefix. What should I do?
 If you don't know or forget Rythm's prefix, don't stress. We have you covered. You can view the prefix simply by mentioning the bot.
 
 1. For Rythm
@@ -68,11 +68,12 @@ If you don't know or forget Rythm's prefix, don't stress. We have you covered. Y
 You can also use mention as prefix! 
 
 ![MentionAsPrefix](/img/docs/faq/mention-as-prefix.png)
+
 :::tip note
 The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm Canary is `*`.
 :::
 
-### How can I change Rythm's prefix in my server?
+### How can I change/reset Rythm's prefix in my server?
 Head to the [Prefix Settings](/settings#prefix) section to learn more.
 
 ### How can I change Rythm's nickname in my server?
@@ -215,7 +216,7 @@ If you do want a bot that plays music 24/7, you can host one with [Moosic](https
 Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
 
 ### Can Rythm stream the video of the song that is being played?
-No, Discord does not allow bots to use `Go Live` feature.
+No, Discord does not allow bots to use the `Go Live` feature.
 
 ### How is it possible for Rythm to be in so many servers all in once?
 Discord allows bots in over `2,000` servers to use a feature called `Sharding`.
