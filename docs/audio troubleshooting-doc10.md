@@ -3,7 +3,7 @@ id: audio_troubleshooting
 title: Audio Troubleshooting
 ---
 
-As you are using Rythm, you may encounter some issues with the audio that is played. This can be due to a few reasons: the Discord voice node you are on could have failed, or it could be a internet connection issue.
+As you are using Rythm, you may encounter some issues with the audio that is played. This can be due to a few reasons: the Discord voice node you are on could have failed, or it could be an internet connection issue.
 
 If you are encountering these issues, there are some steps below that you should follow in order to resolve these issues.
 
