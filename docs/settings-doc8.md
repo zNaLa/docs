@@ -2,7 +2,7 @@
 id: settings
 title: Rythm's Settings and How They Work
 ---
-These are the options you can access through Rythm’s settings menu. 
+These are the options you can access through Rythm’s settings menu.
 
 1. To access this menu use the command `!settings`.<br/>
 
@@ -10,7 +10,7 @@ These are the options you can access through Rythm’s settings menu.
 2. Rythm should then display a menu showing the settings that can be changed.
 3. For more information on a setting just type: `!settings <Setting-Name>`.
    - **Example:** `!settings blacklist`<br/>
-   
+
    ![SettingsBlacklistTest](/img/docs/faq/settings-blacklist-test.png)
 
 ## Prefix
@@ -30,13 +30,8 @@ If you are unable to use the current prefix, you can also use the mention as the
 
 ![Change prefix example](/img/docs/settings/prefix-example.png)
 
-:::caution note
-   - You must have the permissions `Administrator` or `Manage Server` to change Rythm's prefix in your server. 
-   - Do **not** include `<>` when setting the prefix.
-:::
-
 ## Blacklist
-:::caution 
+:::caution
    - This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
    - This only prevents music commands. Commands such as `!ping`, `!help` will still be usable in blacklisted channels. To completely block Rythm, use Discord's permission system, explained [here](/permissions#how-can-i-block-music-commands-in-a-specific-text-channel)
 :::
@@ -57,7 +52,7 @@ You can provide multiple channels for quicker blacklisting.
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate AutoPlay.
 :::
 
-AutoPlay plays a song from a pre-defined playlist when there is nothing currently playing. 
+AutoPlay plays a song from a pre-defined playlist when there is nothing currently playing.
 
 To setup AutoPlay, provide a playlist using the following command:<br/>
 `!settings autoplay playlist-link`
@@ -74,11 +69,11 @@ The messages go to where you summon Rythm via `!join` or `!play`.
 :::
 
 To enable or disable song announcements, use the following command:<br/>
-`!settings announcesongs yes/no` 
+`!settings announcesongs yes/no`
 
 **Example**: If you want announcements when a song plays, use `!settings announcesongs yes`<br/>
 
-![Announce songs example](/img/docs/settings/announce-songs-example.png) 
+![Announce songs example](/img/docs/settings/announce-songs-example.png)
 
 ## Max Queue Length
 This limits how many songs can be in the queue at once.
@@ -117,7 +112,7 @@ To enable or disable this, use the following command:<br/>
 ![Prevent duplicates example](/img/docs/settings/prevent-duplicates-example.png)
 
 ## Default Volume
-:::info Note 
+:::info Note
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
 
