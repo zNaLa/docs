@@ -45,6 +45,6 @@ If you can't hear Rythm in any servers (including the [official Rythm server](ht
  
 2. In Windows, right click the speaker icon and click `Sounds` to open the Sound properties window. In that window, click on the `Playback` tab and check to see if your preferred audio device is set as the default device. (If not, click on your audio device and then click `Set Default`.)
 
-3. Try following [Discord's Voice & Video Troubleshooting Guild](https://support.discord.com/hc/en-us/articles/360045138471-Discord-Voice-and-Video-Troubleshooting-Guide). 
+3. Try following [Discord's Voice & Video Troubleshooting Guide](https://support.discord.com/hc/en-us/articles/360045138471-Discord-Voice-and-Video-Troubleshooting-Guide). 
 
 If all of these still don't fix your issue or you are stuggling at any part, go to [Miscellaneous Help](/misc_help).
