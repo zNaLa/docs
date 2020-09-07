@@ -2,8 +2,8 @@ module.exports = {
   plugins: [require.resolve('docusaurus-lunr-search')],
   title: 'Rythm',
   tagline: 'Docs',
-  url: 'https://rythmbot.co/docs',
-  baseUrl: '/',
+  url: 'https://rythmbot.co',
+  baseUrl: '/docs/',
   favicon: 'img/favicon.ico',
   organizationName: 'Rythm', // Usually your GitHub org/user name.
   projectName: 'Rythm-documentation', // Usually your repo name.
@@ -15,7 +15,7 @@ module.exports = {
         alt: 'rythm-logo',
         src: 'img/logo.svg',
       },
-      links: [],
+      items: [],
     },
     footer: {
       style: 'dark',
@@ -28,7 +28,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          routeBasePath: '',
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/Repulser/Rythm-documentation/edit/master/',
         },
