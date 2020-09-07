@@ -244,8 +244,7 @@ If you have encountered an issue with Rythm, you can use the links below to help
 + [Mobile Troubleshooting](/mobile_troubleshooting)
 
 ### None of these solutions solved my problem!
-Sorry that your issue has not been fixed with the FAQ and Troubleshooting Page. 
-+ If you find that your question was not answered by this FAQ Page or the Troubleshooting Page, please go to [Miscellaneous Help](/misc_help)!
+If you couldn't find an answer to your question in the documentation, please go to [Miscellaneous Help](/misc_help) for further support.
 
 ### What is Rythm's Discord Server used for?
 Rythm's Discord Server is a place built for everything related to Rythm!
