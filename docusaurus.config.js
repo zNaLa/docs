@@ -12,7 +12,7 @@ module.exports = {
     navbar: {
       title: 'Docs',
       logo: {
-        alt: 'rythmlogo',
+        alt: 'rythm-logo',
         src: 'img/logo.svg',
       },
       links: [],
