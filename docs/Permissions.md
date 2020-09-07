@@ -47,7 +47,7 @@ You can use `!settings blacklist #channels` to blacklist specific text channels.
 In order to make Rythm commands just available to specific roles, you can do the following:
 
 ### DJ Only Mode
-:::info
+:::info note
 If someone is alone with Rythm, they are able to use Rythm regardless of having a `DJ` role/`Manage Channel` permission.
 :::
 
