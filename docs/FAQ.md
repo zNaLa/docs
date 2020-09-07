@@ -190,7 +190,7 @@ These are the current sites that music can be played from.
 6. [Spotify](https://www.spotify.com/)
 
 ### Can I adjust the volume for everyone on my server for Rythm?
-Yes, if you [donate](https://rythmbot.co/donate?do)
+Yes, if you [donate](https://rythmbot.co/donate?do).
 
 Rythm uses the default volume when using audio streams. In order to change the volume of these audio streams we need to enable encoding. As encoding requires a lot of compute resources, only donators can access this feature.
 
