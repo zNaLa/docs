@@ -67,6 +67,7 @@ If someone is alone with Rythm, they are able to use Rythm regardless of having 
         </ul>
     </details>
  2. Blacklist all other text channels with Rythm's blacklist function. To blacklist channels, use the following command: `!settings blacklist #channel #channel2...`
+ 
     **Example**: `!settings blacklist #chat #gaming #international...`<br/>
 
     ![blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
