@@ -8,6 +8,9 @@ module.exports = {
   organizationName: 'Rythm', // Usually your GitHub org/user name.
   projectName: 'Rythm-documentation', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
     sidebarCollapsible: false,
     navbar: {
       title: 'Docs',
