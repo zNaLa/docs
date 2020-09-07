@@ -50,6 +50,10 @@ Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Privat
 ### I don't know Rythm's prefix. What should I do?
 If you don't know or forget Rythm's prefix, don't stress. We have you covered. You can view the prefix simply by mentioning the bot.
 
+:::tip
+The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm Canary is `*`.
+:::
+
 1. For Rythm
     + **Example:** `@Rythm#3722` OR `<@!235088799074484224>`
 
@@ -68,10 +72,6 @@ If you don't know or forget Rythm's prefix, don't stress. We have you covered. Y
 You can also use mention as prefix! 
 
 ![MentionAsPrefix](/img/docs/faq/mention-as-prefix.png)
-
-:::tip note
-The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm Canary is `*`.
-:::
 
 ### How can I change/reset Rythm's prefix in my server?
 Head to the [Prefix Settings](/settings#prefix) section to learn more.
