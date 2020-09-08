@@ -50,6 +50,10 @@ Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Privat
 ### I don't know Rythm's prefix. What should I do?
 If you don't know or forget Rythm's prefix, don't stress. We have you covered. You can view the prefix simply by mentioning the bot.
 
+:::tip
+The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm Canary is `*`.
+:::
+
 1. For Rythm
     + **Example:** `@Rythm#3722` OR `<@!235088799074484224>`
 
@@ -68,10 +72,6 @@ If you don't know or forget Rythm's prefix, don't stress. We have you covered. Y
 You can also use mention as prefix! 
 
 ![MentionAsPrefix](/img/docs/faq/mention-as-prefix.png)
-
-:::tip note
-The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm Canary is `*`.
-:::
 
 ### How can I change/reset Rythm's prefix in my server?
 Head to the [Prefix Settings](/settings#prefix) section to learn more.
@@ -125,17 +125,21 @@ Rythm will then remove all duplicates of any songs within your servers queue.
 DJ role grants you more permissions over Rythm. You can refer to **[DJ Permission](/permissions#user-alone-with-rythmuser-with-a-dj-role-or-the-manage-channels-permission)** section to learn more about what DJ users can do.
 
 #### Setting up DJ role
+:::note 
+You need to have `Manage Roles` permission to create and assign roles.
+:::
 1. **Create a DJ role:**
     - Go to your server settings and head to `Roles` section.
     - Create a new role without any special permission and name it `DJ`.
-    - Click on `Save Changes`, and you just create a new DJ role 🎉.
+    - Click on `Save Changes`, and you just created a new DJ role. 🎉<br/>
     ![CreateDJRole](/img/docs/faq/setting-dj.png)
-2. **Assign the DJ role to other users:** You can do it by **Clicking on the name** ➠ **Clicking on `+`** ➠ **Choosing `DJ` role.** 
+2. **Assign the DJ role to other users:**
+    - You can do it by clicking on their name
+    - Clicking on `+`
+    - Choosing `DJ` role.<br/>
     ![AssignDJRole](/img/docs/faq/assign-dj.png)
-    You are all set! Rythm will automatically recognize the `DJ` role and work perfectly!
-:::caution note 
-You need to have `Manage Roles` permission to create and assign roles.
-:::
+    
+You are all set! Rythm will automatically recognize the `DJ` role and work perfectly!
 
 #### Other DJ setttings
 Use the links below to go to each setting:
@@ -186,7 +190,7 @@ These are the current sites that music can be played from.
 6. [Spotify](https://www.spotify.com/)
 
 ### Can I adjust the volume for everyone on my server for Rythm?
-Yes, if you [donate](https://rythmbot.co/donate?do)
+Yes, if you [donate](https://rythmbot.co/donate?do).
 
 Rythm uses the default volume when using audio streams. In order to change the volume of these audio streams we need to enable encoding. As encoding requires a lot of compute resources, only donators can access this feature.
 
@@ -240,8 +244,7 @@ If you have encountered an issue with Rythm, you can use the links below to help
 + [Mobile Troubleshooting](/mobile_troubleshooting)
 
 ### None of these solutions solved my problem!
-Sorry that your issue has not been fixed with the FAQ and Troubleshooting Page. 
-+ If you find that your question was not answered by this FAQ Page or the Troubleshooting Page, please go to [Miscellaneous Help](/misc_help)!
+If you couldn't find an answer to your question in either this FAQ or in the troubleshooting pages, please go to [Miscellaneous Help](/misc_help) for further support.
 
 ### What is Rythm's Discord Server used for?
 Rythm's Discord Server is a place built for everything related to Rythm!

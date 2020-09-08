@@ -2,6 +2,10 @@
 id: settings
 title: Rythm's Settings and How They Work
 ---
+:::info note
+You must have either the `Administrator` or `Manage Server` permissions to change any of Rythm's settings in your server.
+:::
+
 These are the options you can access through Rythm’s settings menu.
 
 1. To access this menu use the command `!settings`.<br/>
@@ -20,25 +24,26 @@ If you ever forget the prefix for your server, you can always mention Rythm to f
 ![Mention to get prefix](/img/docs/settings/prefix.png)
 
 ### Changing the Prefix
+:::info note
+You must have either the `Administrator` or `Manage Server` permissions to change Rythm's prefix in your server.
+:::
+
 To change the prefix to anything you like, use the following command:<br/>
 `!settings prefix <newprefix>`
 
 If you are unable to use the current prefix, you can also use the mention as the prefix:<br/>
 `@Rythm#3722 settings prefix <newprefix>`
 
+Be sure to not include the angle brackets `<>` when setting the prefix, as it'll become part of the prefix.
+
 **Example**: If you wanted to change the prefix to be `$` so it's `$play`, use `!settings prefix $`<br/>
 
 ![Change prefix example](/img/docs/settings/prefix-example.png)
 
-:::caution note
-   - You must have the permissions `Administrator` or `Manage Server` to change Rythm's prefix in your server. 
-   - Do **not** include `<>` when setting the prefix.
-:::
-
 ## Blacklist
 :::caution
-   - This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
-   - This only prevents music commands. Commands such as `!ping`, `!help` will still be usable in blacklisted channels. To completely block Rythm, use Discord's permission system, explained [here](/permissions#how-can-i-block-music-commands-in-a-specific-text-channel)
+   - This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, as explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
+   - This only prevents music commands from being used. To completely disallow Rythm from being used within the channel, use Discord's permission system, as explained [here](/permissions#how-can-i-block-music-commands-in-a-specific-text-channel).
 :::
 
 The blacklist setting allows you to control which text channels Rythm is allowed to be used in.
@@ -69,7 +74,7 @@ To setup AutoPlay, provide a playlist using the following command:<br/>
 ## Announce Songs
 When enabled, sends a message to announce when a song has started playing.
 
-:::caution Note
+:::caution
 The messages go to where you summon Rythm via `!join` or `!play`.
 :::
 
@@ -116,7 +121,7 @@ To enable or disable this, use the following command:<br/>
 
 ![Prevent duplicates example](/img/docs/settings/prevent-duplicates-example.png)
 
-## Default Volume\*
+## Default Volume
 :::info Note
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
