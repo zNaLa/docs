@@ -2,7 +2,7 @@ module.exports = {
   plugins: [require.resolve('docusaurus-lunr-search')],
   title: 'Rythm',
   tagline: 'Docs',
-  url: 'https://staging.rythm.online',
+  url: 'https://rythmbot.co',
   baseUrl: '/docs/',
   favicon: 'img/favicon.ico',
   organizationName: 'Rythm', // Usually your GitHub org/user name.
