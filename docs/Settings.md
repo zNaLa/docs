@@ -57,7 +57,7 @@ You can provide multiple channels for quicker blacklisting.
 
 ![Blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 
-## AutoPlay\*
+## AutoPlay
 :::info Note
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate AutoPlay.
 :::
@@ -121,7 +121,7 @@ To enable or disable this, use the following command:<br/>
 
 ![Prevent duplicates example](/img/docs/settings/prevent-duplicates-example.png)
 
-## Default Volume\*
+## Default Volume
 :::info Note
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
