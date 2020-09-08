@@ -40,7 +40,7 @@ You can use `!settings blacklist #channels` to blacklist specific text channels.
 
 <details>
 <summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>
-<img src="/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
+<img src="/docs/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
 </details><br/>
 
 ## How can I make Rythm only respond to Admins/specific roles?
@@ -59,8 +59,8 @@ If someone is alone with Rythm, they are able to use Rythm regardless of having 
     <details>
         <summary>Click here for how.</summary>
         <ol>
-            <li><img src="/img/docs/perms/role-1.png" alt="role 1"/></li>
-            <li><img src="/img/docs/perms/role-2.png" alt="role 2"/></li>
+            <li><img src="/docs/img/docs/perms/role-1.png" alt="role 1"/></li>
+            <li><img src="/docs/img/docs/perms/role-2.png" alt="role 2"/></li>
         </ol>
         <ul>
             <li>More information on how to do this can be found at <a href="https://support.discord.com/hc/en-us/articles/206029707">Discord's support page.</a></li>
@@ -74,7 +74,7 @@ If someone is alone with Rythm, they are able to use Rythm regardless of having 
 
     <details>
     <summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>
-    <img src="/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
+    <img src="/docs/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
     </details>
 
 
