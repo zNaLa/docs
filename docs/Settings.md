@@ -43,7 +43,7 @@ Be sure to not include the angle brackets `<>` when setting the prefix, as it'll
 ## Blacklist
 :::caution
    - This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, as explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
-   - This only prevents music commands from being used. To completely disallow Rythm from being used within the channel, use Discord's permission system, as explained [here](/permissions#how-can-i-block-music-commands-in-a-specific-text-channel).
+   - This only prevents music commands from being used. To completely disallow Rythm from being used within the channel, use Discord's permission system, as explained [here](/permissions#block-rythm-completely-from-textvoice-channels).
 :::
 
 The blacklist setting allows you to control which text channels Rythm is allowed to be used in.
