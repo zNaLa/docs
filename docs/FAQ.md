@@ -176,7 +176,7 @@ No, Discord does not allow bots to change their profile picture/avatar per serve
 
 ### Can I save or create playlists with Rythm?
 No, unfortunately Rythm doesn't have a built-in feature to store playlists. But wait, there are a few solutions to this:
-  - You can do `!grab` to save the current playing song into Rythm's private messages.
+  - You can do `!grab` to save the current playing song into Rythm's direct messages.
   - You can save playlists from supported music sites and play them through Rythm. (See List of supported music sites below)
     
 ### What music sites does Rythm currently support?
@@ -188,6 +188,13 @@ These are the current sites that music can be played from.
 4. [Vimeo](https://vimeo.com/)
 5. [BandCamp](https://bandcamp.com)
 6. [Spotify](https://www.spotify.com/)
+
+### How is it possible for Rythm to play music from Spotify?
+Unfortunately, it is illegal for any bot to stream or download music from Spotify as this breaks their Terms of Service. 
+
+However, to get around with this, Rythm's Spotify Integration gathers tracks information from the Spotify API, and look up the songs on Youtube.
+
+You can play Spotify song/playlist through Rythm by just simply doing `!play <Song/Playlisr url>`!
 
 ### Can I adjust the volume for everyone on my server for Rythm?
 Yes, if you [donate](https://rythmbot.co/donate?do).
