@@ -3,14 +3,15 @@ id: basic_troubleshooting
 title: Basic Troubleshooting
 ---
 
-## When adding Rythm, I can't see my server in the list!
-### Are you signed into the correct account?
+## Inviting Troubleshooting
+### When adding Rythm, I can't see my server in the list!
+#### Are you signed into the correct account?
 
 If you can't find your server in the drop-down section, this can be caused by various reasons. First, you should make sure that you're signed into the correct account. If you're not, then press the blue **Not you?** button.
 
 ![Signed in as User#5119 Not you?](/img/docs/adding/signed-in-as-example.png)
 
-### Do you have permissions in the server you want to add Rythm to?
+#### Do you have permissions in the server you want to add Rythm to?
 
 If you're **100%** sure that you're signed into the correct account, then you should make sure that you have the correct permissions. In order to add a bot, you need to have a role with the `Manage Server` or `Administrator` permission. If you're the server owner, you have those regardless, of course.
 
@@ -18,7 +19,7 @@ If you're **100%** sure that you're signed into the correct account, then you sh
 If you are able to change the name of the server, you have the required permissions!
 :::
 
-### Open an incognito tab and invite Rythm from there.
+#### Open an incognito tab and invite Rythm from there.
 
 If you're sure that **you're signed into the correct account** and **you have permissions on the server that you'd like to add Rythm to**, then you should open an incognito tab and invite Rythm from there. You can find instructions in the table below, if you don't know how to do that.
   
@@ -31,9 +32,12 @@ If you're sure that **you're signed into the correct account** and **you have pe
 | Explorer | CTRL+Shift+P  | N/A         |
 | Safari   | N/A           | CMD+SHIFT+N |
 
-#### Why is this necessary?
+##### Why is this necessary?
 
 Because Discord caches data into cookies, it retains old account information and glitches out the bot invite screen. By using an incognito/private browsing window, it forces Discord to use a fresh session which fixes the glitch and allows you to select a server from the drop-down menu.
+
+### I can't invite Rythm on my mobile!
+For any issue with inviting Rythm on mobile, see the [Mobile Troubleshooting](https://rythmbot.co/docs/mobile_troubleshooting) section.
 
 ## Rythm won't play my playlist
 Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that specific playlist.
@@ -69,12 +73,12 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
 
   ![Mention to get prefix](/img/docs/settings/prefix.png)
 
-  + If you wish to change the prefix, head to the [Prefix Setting](/settings#prefix) section.
+  + You can learn how to change Rythm's prefix by heading to the [Prefix Setting](/settings#prefix) section!
   
 3. Make sure Rythm has the permissions to read and send messages in the channel.
   + You can give the `Administrator` permission to Rythm to make this easier.
   
-4. Take a look at our [#outages](https://discord.com/channels/231471142685245440/359311833653313546) channel on our official Rythm Bot Discord server to see if there are any issues going on.
+4. Take a look at our [#outages](https://discord.com/channels/231471142685245440/359311833653313546) channel on our [official Rythm Bot Discord server](https://rythmbot.co/support) to see if there are any issues going on.
 
 5. If the above methods do not work, please choose option 6 in our [#help-desk](https://discord.com/channels/231471142685245440/359355279004925954) channel on the Rythm Bot Discord server to receive assistance from a member of our Support Team.
 
