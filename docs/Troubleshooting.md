@@ -95,6 +95,18 @@ If you find that Rythm is responding to your commands but not joining a voice ch
 
 If the above method does not work, try changing the server region of your server or kicking & reinviting Rythm to your Discord server.
 
+## I have donated to Patreon and I haven't received my special perks!
+To get access to donator perks, follow these steps:
+
+1. Go to https://www.patreon.com/settings/apps and connect your Discord Account to Patreon.
+*Note: You will need to redo this if you have joined this server after pledging and connecting your Discord account. If that is all, you may skip step 2.*
+2. Go to https://patreon.com/rythm and become a patron.
+3. Go to your server and type `!id` (or copy your server or user ID)
+4. Go to [#donators](https://discord.com/channels/231471142685245440/323769003409408000) channel on our [Rythm Bot server](https://rythmbot.co/support) and type `!donation` + `your server or user ID` (e.g. `!donation 231471142685245440`)
+
+:::caution Note
+If you cancel your Pledge, you will lose your perks. Rythm charges up-front to prevent fraud. You must also stay in this server to keep your donator perks active.
+:::
 ## I've read everything above but none fixed my issue. What do I do?
 
 In case nothing from the list above has helped you, please go to [Miscellaneous Help](/misc_help).
