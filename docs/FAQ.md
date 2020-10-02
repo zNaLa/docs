@@ -163,6 +163,10 @@ For a vote skip to take effect, `75%` of the people in the voice chat need to vo
 
 ### How can I remove my vote for song skipping?
 Simply disconnect yourself from the voice channel and join again!
+
+### What programming language is Rythm written in?
+Short answer: `Kotlin`
+
 <!-- The end of the Basic Information Section -->
 
 <!-- The start of the Limitations/Restrictions Section -->
@@ -219,13 +223,6 @@ For donators, the volume command is `!volume <number>` (Allowed Values: `1 - 200
 No, we do not allow custom commands/aliases. To check available aliases, just run the command `!aliases`.
 You can suggest any aliases that you can think of in the [#rythm-suggestions](https://discord.com/channels/231471142685245440/679554693403639835) channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
 
-### Can Rythm play 24/7 Music?
-No, Rythm is not a 24/7 music bot.
-The reason behind this decision is because music bots require a lot of resources.
-So when the bot is by itself, and not being used by anyone, these resources are still being used, leaving less available for other people. 
-If you do want a bot that plays music 24/7, you can host one with [Moosic](https://github.com/Repulser/Moosic).
-Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
-
 ### Can Rythm stream the video of the song that is being played?
 No, Discord does not allow bots to use the `Go Live` feature.
 
@@ -233,6 +230,19 @@ No, Discord does not allow bots to use the `Go Live` feature.
 Discord allows bots in over `2,000` servers to use a feature called `Sharding`.
 In Rythm's case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime.
 For more detail, please [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discord's Sharding feature.
+
+### Can Rythm play 24/7 Music?
+No, Rythm is not a 24/7 music bot.
+The reason behind this decision is because music bots require a lot of resources.
+So when the bot is by itself, and not being used by anyone, these resources are still being used, leaving less available for other people. 
+If you do want a bot that plays music 24/7, you can host one with [Moosic](https://github.com/Repulser/Moosic).
+Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
+
+### Is Rythm open-source and can I self-host it?
+Short answer: `No`
+
+### Can Rythm execute commands given by other bots?
+No, Rythm doesn't respond to commands issued by other bots as it can be easily abused. This restriction will not be removed, nor will any exceptions be made.
 
 ## Roles/Permissions
 ---
