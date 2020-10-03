@@ -194,9 +194,7 @@ These are the current sites that music can be played from.
 6. [Spotify](https://www.spotify.com/)
 
 ### How is it possible for Rythm to play music from Spotify?
-Unfortunately, it is illegal for any bot to stream or download music from Spotify as this breaks their Terms of Service. 
-
-However, to get around with this, Rythm's Spotify Integration gathers tracks information from the Spotify API, and look up the songs on Youtube.
+Tt is illegal for any bot to stream or download music from Spotify as this breaks their Terms of Service, so Rythm will find the songs from Youtube and play them.
 
 You can play Spotify song/playlist through Rythm by just simply doing `!play <Song/Playlisr url>`!
 
