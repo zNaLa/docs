@@ -57,6 +57,7 @@ You can provide multiple channels for quicker blacklisting.
 
 ![Blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 
+To unblacklist the channels, run the command again.
 ## AutoPlay
 :::info Note
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate AutoPlay.
