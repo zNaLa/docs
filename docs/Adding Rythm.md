@@ -35,3 +35,4 @@ Once you press the **Authorize** button and complete the Captcha, you should be 
 
 Now let's get the party started by [playing some songs](/play_song)!
 
+For any issues with inviting Rythm, check out the [Invite Troubleshooting](/basic_troubleshooting#inviting-troubleshooting) section.
