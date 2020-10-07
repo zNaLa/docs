@@ -164,9 +164,6 @@ For a vote skip to take effect, `75%` of the people in the voice chat need to vo
 ### How can I remove my vote for song skipping?
 Simply disconnect yourself from the voice channel and join again!
 
-### What programming language is Rythm written in?
-Short answer: `Kotlin`
-
 <!-- The end of the Basic Information Section -->
 
 <!-- The start of the Limitations/Restrictions Section -->
@@ -194,9 +191,9 @@ These are the current sites that music can be played from.
 6. [Spotify](https://www.spotify.com/)
 
 ### How is it possible for Rythm to play music from Spotify?
-Tt is illegal for any bot to stream or download music from Spotify as this breaks their Terms of Service, so Rythm will find the songs from Youtube and play them.
+Rythm finds the songs from Youtube and play them.
 
-You can play Spotify song/playlist through Rythm by just simply doing `!play <Song/Playlisr url>`!
+You can play Spotify song/playlist through Rythm by just simply doing `!play <Song/Playlist url>`!
 
 ### Can I adjust the volume for everyone on my server for Rythm?
 Yes, if you [donate](https://rythmbot.co/donate?do).
@@ -235,9 +232,6 @@ The reason behind this decision is because music bots require a lot of resources
 So when the bot is by itself, and not being used by anyone, these resources are still being used, leaving less available for other people. 
 If you do want a bot that plays music 24/7, you can host one with [Moosic](https://github.com/Repulser/Moosic).
 Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
-
-### Is Rythm open-source and can I self-host it?
-Short answer: `No`
 
 ### Can Rythm execute commands given by other bots?
 No, Rythm doesn't respond to commands issued by other bots as it can be easily abused. This restriction will not be removed, nor will any exceptions be made.
