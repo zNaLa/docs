@@ -191,7 +191,7 @@ These are the current sites that music can be played from.
 6. [Spotify](https://www.spotify.com/)
 
 ### How is it possible for Rythm to play music from Spotify?
-Rythm finds the songs from Youtube and play them.
+Rythm finds the songs from Youtube and plays them.
 
 You can play Spotify song/playlist through Rythm by just simply doing `!play <Song/Playlist url>`!
 
