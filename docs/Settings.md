@@ -100,6 +100,11 @@ You can also set it back to default:<br/>
 ![Max queue length example](/img/docs/settings/max-queue-length-example.png)
 
 ## Max User Songs
+
+:::info note
+Users with `DJ` role or `Manage Channels` permission bypass this restriction.
+:::
+
 This limits how many songs a user can have in queue at once.
 
 To change this limit, use the following command:<br/>
