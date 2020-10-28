@@ -153,10 +153,6 @@ To enable or disable DJ only playlists, use the following command:<br/>
 ## DJ Only Mode
 This setting allows you to control if only DJs can control Rythm, or if everyone can.
 
-:::caution
-Due to how Rythm counts DJ, if someone is alone with Rythm, they are able to use Rythm regardless of having a DJ role.
-:::
-
 To enable or disable DJ only mode, use the following command:<br/>
 `!settings djonly yes/no`
 
