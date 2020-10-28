@@ -36,6 +36,12 @@ If you're sure that **you're signed into the correct account** and **you have pe
 
 Because Discord caches data into cookies, it retains old account information and glitches out the bot invite screen. By using an incognito/private browsing window, it forces Discord to use a fresh session which fixes the glitch and allows you to select a server from the drop-down menu.
 
+### When adding Rythm, Discord asks me to verify my e-mail address.
+
+[Unverified Discord account](/imgs/docs/basic-troubleshooting/unverified.png)
+
+Discord requires you to verify your e-mail account to add bots into your servers. Head to the User Settings and verify your e-mail there.
+
 ### I can't invite Rythm on my mobile!
 For any issue with inviting Rythm on mobile, see the [Mobile Troubleshooting](https://rythmbot.co/docs/mobile_troubleshooting) section.
 
