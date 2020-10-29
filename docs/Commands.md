@@ -48,9 +48,9 @@ title: Commands
 - **`!loop`** - Toggles looping for the current playing song.
 --- 
 - **`!skip`** - Votes to skip the currently playing song.
-    - `!skip <number>` - Skip a certain amount of songs (`DJ` role/`Manage Channels` permission required)
+    - `!skip <number>` - Skip a certain amount of songs.
 --- 
-- **`!forceskip`** - Skips the currently playing song. (`DJ` role/`Manage Channels` permission required)
+- **`!forceskip`** - Skips the currently playing song immediately.
 --- 
 - **`!pause`** - Pauses the currently playing track. 
 --- 
@@ -81,7 +81,7 @@ title: Commands
 - **`!clear`** - Clears the whole queue. 
     - `!clear <@user>` - Clears all songs requested by the mentioned user.
 --- 
-- **`!leavecleanup`** - Removes absent user's songs from the Queue.
+- **`!leavecleanup`** - Removes absent user's songs from the queue.
 ---
 - **`!removedupes`** - Removes duplicate songs from the queue.
 --- 

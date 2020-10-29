@@ -163,6 +163,7 @@ For a vote skip to take effect, `75%` of the people in the voice chat need to vo
 
 ### How can I remove my vote for song skipping?
 Simply disconnect yourself from the voice channel and join again!
+
 <!-- The end of the Basic Information Section -->
 
 <!-- The start of the Limitations/Restrictions Section -->
@@ -176,7 +177,7 @@ No, Discord does not allow bots to change their profile picture/avatar per serve
 
 ### Can I save or create playlists with Rythm?
 No, unfortunately Rythm doesn't have a built-in feature to store playlists. But wait, there are a few solutions to this:
-  - You can do `!grab` to save the current playing song into Rythm's private messages.
+  - You can do `!grab` to save the current playing song into Rythm's direct messages.
   - You can save playlists from supported music sites and play them through Rythm. (See List of supported music sites below)
     
 ### What music sites does Rythm currently support?
@@ -188,6 +189,11 @@ These are the current sites that music can be played from.
 4. [Vimeo](https://vimeo.com/)
 5. [BandCamp](https://bandcamp.com)
 6. [Spotify](https://www.spotify.com/)
+
+### How is it possible for Rythm to play music from Spotify?
+Rythm finds the songs from Youtube and plays them.
+
+You can play Spotify song/playlist through Rythm by just simply doing `!play <Song/Playlist url>`!
 
 ### Can I adjust the volume for everyone on my server for Rythm?
 Yes, if you [donate](https://rythmbot.co/donate?do).
@@ -212,13 +218,6 @@ For donators, the volume command is `!volume <number>` (Allowed Values: `1 - 200
 No, we do not allow custom commands/aliases. To check available aliases, just run the command `!aliases`.
 You can suggest any aliases that you can think of in the [#rythm-suggestions](https://discord.com/channels/231471142685245440/679554693403639835) channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
 
-### Can Rythm play 24/7 Music?
-No, Rythm is not a 24/7 music bot.
-The reason behind this decision is because music bots require a lot of resources.
-So when the bot is by itself, and not being used by anyone, these resources are still being used, leaving less available for other people. 
-If you do want a bot that plays music 24/7, you can host one with [Moosic](https://github.com/Repulser/Moosic).
-Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
-
 ### Can Rythm stream the video of the song that is being played?
 No, Discord does not allow bots to use the `Go Live` feature.
 
@@ -226,6 +225,16 @@ No, Discord does not allow bots to use the `Go Live` feature.
 Discord allows bots in over `2,000` servers to use a feature called `Sharding`.
 In Rythm's case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime.
 For more detail, please [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discord's Sharding feature.
+
+### Can Rythm play 24/7 Music?
+No, Rythm is not a 24/7 music bot.
+The reason behind this decision is because music bots require a lot of resources.
+So when the bot is by itself, and not being used by anyone, these resources are still being used, leaving less available for other people. 
+If you do want a bot that plays music 24/7, you can host one with [Moosic](https://github.com/Repulser/Moosic).
+Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
+
+### Can Rythm execute commands given by other bots?
+No, Rythm doesn't respond to commands issued by other bots as it can be easily abused. This restriction will not be removed, nor will any exceptions be made.
 
 ## Roles/Permissions
 ---

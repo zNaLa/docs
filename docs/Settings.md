@@ -43,7 +43,7 @@ Be sure to not include the angle brackets `<>` when setting the prefix, as it'll
 ## Blacklist
 :::caution
    - This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, as explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
-   - This only prevents music commands from being used. To completely disallow Rythm from being used within the channel, use Discord's permission system, as explained [here](/permissions#how-can-i-block-music-commands-in-a-specific-text-channel).
+   - This only prevents music commands from being used. To completely disallow Rythm from being used within the channel, use Discord's permission system, as explained [here](/permissions#block-rythm-completely-from-textvoice-channels).
 :::
 
 The blacklist setting allows you to control which text channels Rythm is allowed to be used in.
@@ -57,6 +57,7 @@ You can provide multiple channels for quicker blacklisting.
 
 ![Blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 
+To unblacklist the channels, run the command again.
 ## AutoPlay
 :::info Note
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate AutoPlay.
@@ -99,6 +100,11 @@ You can also set it back to default:<br/>
 ![Max queue length example](/img/docs/settings/max-queue-length-example.png)
 
 ## Max User Songs
+
+:::info note
+Users with `DJ` role or `Manage Channels` permission bypass this restriction.
+:::
+
 This limits how many songs a user can have in queue at once.
 
 To change this limit, use the following command:<br/>
@@ -151,10 +157,6 @@ To enable or disable DJ only playlists, use the following command:<br/>
 
 ## DJ Only Mode
 This setting allows you to control if only DJs can control Rythm, or if everyone can.
-
-:::caution
-Due to how Rythm counts DJ, if someone is alone with Rythm, they are able to use Rythm regardless of having a DJ role.
-:::
 
 To enable or disable DJ only mode, use the following command:<br/>
 `!settings djonly yes/no`
