@@ -38,7 +38,7 @@ Because Discord caches data into cookies, it retains old account information and
 
 ### When adding Rythm, Discord asks me to verify my e-mail address.
 
-[Unverified Discord account](/img/docs/basic_troubleshooting/unverified.png)
+[Unverified Discord account](/img/docs/basic-troubleshooting/unverified.png)
 
 Discord requires you to verify your e-mail account to add bots into your servers. Head to the User Settings and verify your e-mail there.
 
