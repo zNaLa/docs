@@ -85,6 +85,16 @@ title: Commands
 ---
 - **`!removedupes`** - Removes duplicate songs from the queue.
 --- 
+<!-- Koodos-related commands -->
+- **`!sotd`** - Shows the song of the day. [More Info](/features#koodos-integration)
+    - `!playsotd` - Queue the song of the day.
+---
+- **`!sotw`** - Shows the songs of the week. [More Info](/features#koodos-integration)
+    - `!playsotd` - Queue the songs of the week.
+---
+- **`!sotm`** - Shows the song of the month. [More Info](/features#koodos-integration)
+    - `!playsotm` - Queue the songs of the month.
+---
 <!-- Settings-related commands -->
 - **`!settings`** - Use the command format `!settings <option>` to view more info about an option. [More Info](/settings)
 
