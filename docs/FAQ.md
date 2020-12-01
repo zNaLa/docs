@@ -107,7 +107,7 @@ To remove duplicate songs you can use the command `!removedupes`.
 
 Rythm will then remove all duplicates of any songs within your servers queue.
 
-### What are the 3 emojis in `!ping` mean?
+### What do the 3 emojis in `!ping` mean?
     ⌛ - API response time   
     ⏱️ - Message response time
     💓 - Websocket heartbeat
