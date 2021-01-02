@@ -5,8 +5,6 @@ WORKDIR /opt/build
 COPY ./ /opt/build
 RUN rm -rf /opt/build/.nginx/
 
-#ENV PUBLIC_URL /docs/
-
 RUN npm install
 RUN npm run build
 
@@ -14,7 +12,7 @@ FROM nginx:stable
 
 COPY ./.nginx/nginx.conf /etc/nginx/templates/default.conf.template
 
-COPY --from=build /opt/build/build /var/www
+COPY --from=build /opt/build/build /var/www/docs
 
 ENV NGINX_PORT 80
 ENV NGINX_HOST rythmbot.co
