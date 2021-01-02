@@ -1,0 +1,20 @@
+kind: pipeline
+type: docker
+name: build
+
+concurrency:
+  limit: 1
+
+steps:
+  - name: docker-build
+    image: plugins/docker
+    settings:
+      dockerfile: ./Dockerfile
+      repo: dock.rythm.online/web/docs
+      registry: dock.rythm.online
+      tags:
+      - ${DRONE_COMMIT_SHA}
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_password
