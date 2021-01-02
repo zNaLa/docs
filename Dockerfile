@@ -4,9 +4,8 @@ WORKDIR /opt/build
 
 COPY ./ /opt/build
 RUN rm -rf /opt/build/.nginx/
-#RUN apt-get update && apt-get install -y dh-autoreconf
 
-ENV PUBLIC_URL /docs/
+#ENV PUBLIC_URL /docs/
 
 RUN npm install
 RUN npm run build
