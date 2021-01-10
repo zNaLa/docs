@@ -10,12 +10,12 @@ These are the options you can access through Rythm’s settings menu.
 
 1. To access this menu use the command `!settings`.<br/>
 
-   ![Settings](/img/docs/features/settings.png)
+   ![Settings](/img/docs/settings/settings.png)
 2. Rythm should then display a menu showing the settings that can be changed.
 3. For more information on a setting just type: `!settings <Setting-Name>`.
    - **Example:** `!settings blacklist`<br/>
 
-   ![SettingsBlacklistTest](/img/docs/faq/settings-blacklist-test.png)
+   ![SettingsBlacklistTest](/img/docs/settings/settings-blacklist-test.png)
 
 ## Prefix
 The prefix is what you use in order to tell Rythm what to do.
@@ -25,25 +25,35 @@ If you ever forget the prefix for your server, you can always mention Rythm to f
 
 ### Changing the Prefix
 :::info note
-You must have either the `Administrator` or `Manage Server` permissions to change Rythm's prefix in your server.
+- You must have either the `Administrator` or `Manage Server` permissions to change Rythm's prefix in your server.
+- Be sure to not include the brackets (`<>`/`[]`/`{}`) when setting the prefix, as they'll become part of the prefix.
 :::
 
-To change the prefix to anything you like, use the following command:<br/>
-`!settings prefix <newprefix>`
+To change the prefix to anything you like, follow the steps below:
+  - Mention Rythm to get its current prefix.
+  - Use the command `!settings prefix <NewPrefix>` (Note: Replace `!` with your current prefix)
+    + **Example 1:** If the current prefix is `!` and you want to change it to `$`, do: <br/>
+    `!settings prefix $`.
 
-If you are unable to use the current prefix, you can also use the mention as the prefix:<br/>
-`@Rythm#3722 settings prefix <newprefix>`
+    ![Change Prefix Example](/img/docs/settings/prefix-example-1.png)
 
-Be sure to not include the angle brackets `<>` when setting the prefix, as it'll become part of the prefix.
+    + **Example 2:** If the current prefix is `>` and you want to change it to `r!`, do: <br/>
+    `>settings prefix r!`.
 
-**Example**: If you wanted to change the prefix to be `$` so it's `$play`, use `!settings prefix $`<br/>
+    ![Change Prefix Example 2](/img/docs/settings/prefix-example-2.png)
 
-![Change prefix example](/img/docs/settings/prefix-example.png)
+If you are unable to use the current prefix (non-ASCII characters, multiple bots having the same prefix,...), you can also use mention as a prefix to change your prefix to something else: `@Rythm#3722 settings prefix <NewPrefix>`
+  - **Example:** `@Rythm#3722 settings prefix -`
+
+  ![Change Prefix Example 3](/img/docs/settings/prefix-example-3.png)
 
 ## Blacklist
 :::caution
-   - This only applies to text channels. In order to blacklist voice channels, you must use Discord's permission system, as explained [here](/permissions#how-do-i-restrict-rythm-from-joining-a-voice-channel).
-   - This only prevents music commands from being used. To completely disallow Rythm from being used within the channel, use Discord's permission system, as explained [here](/permissions#block-rythm-completely-from-textvoice-channels).
+   - This only applies to text channels.
+
+   - This only prevents music commands from being used. Other commands such as `!ping`, `!help` still work normally.
+
+To completely disallow Rythm from being used within the voice channel, or to get rid of those blacklist messages, you have to use the Discord's permission system, as explained [here](/permissions#block-rythm-completely-from-textvoice-channels).
 :::
 
 The blacklist setting allows you to control which text channels Rythm is allowed to be used in.
@@ -73,10 +83,10 @@ To setup AutoPlay, provide a playlist using the following command:<br/>
 ![Autoplay example](/img/docs/settings/autoplay-example.png)
 
 ## Announce Songs
-When enabled, sends a message to announce when a song has started playing.
+When enabled, Rythm will send a message to announce when a song has started playing.
 
 :::caution
-The messages go to where you summon Rythm via `!join` or `!play`.
+The messages go to where your last command is.
 :::
 
 To enable or disable song announcements, use the following command:<br/>
@@ -118,9 +128,9 @@ You can also set it back to default:<br/>
 ![Max user songs example](/img/docs/settings/max-user-songs-example.png)
 
 ## Duplicate Song Prevention
-Prevent duplicates from being played.
+This prevents duplicated songs from being played.
 
-To enable or disable this, use the following command:<br/>
+To enable or disable the setting, use the following command:<br/>
 `!settings preventduplicates yes/no`
 
 **Example**: If you want to prevent duplicates of songs from being played, use `!settings preventduplicates yes`<br/>
@@ -132,10 +142,10 @@ To enable or disable this, use the following command:<br/>
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
 
-**This is not the same as `!volume`.** This is for changing the default volume for new listening sessions. If you need to change the volume for the current listening session, use `!volume <0-200>`, for example: `!volume 50`
+**This is not the same as `!volume`.** This is for changing the default volume for new listening sessions. If you need to change the volume for the current listening session, use `!volume <1-200>`, for example: `!volume 50`
 
 To change the default volume for when you summon Rythm to a voice channel, use the following command:<br/>
-`!settings defaultvolume <0-200>`
+`!settings defaultvolume <1-200>`
 
 **Example**: If you wanted the volume to be 25 when someone summons Rythm, use `!settings defaultvolume 25`<br/>
 
@@ -143,10 +153,6 @@ To change the default volume for when you summon Rythm to a voice channel, use t
 
 ## DJ Only Playlists
 This setting allows you to control if only DJs can queue playlists, or if everyone can.
-
-:::caution
-Due to how Rythm counts DJ, if someone is alone with Rythm, they are able to queue a playlist regardless of having a DJ role.
-:::
 
 To enable or disable DJ only playlists, use the following command:<br/>
 `!settings djplaylists yes/no`
