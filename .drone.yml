@@ -32,3 +32,6 @@ steps:
       container: docs
       repo: dock.rythm.online/web/docs
       tag: ${DRONE_COMMIT_SHA}
+    when:
+      branch:
+      - master
