@@ -86,7 +86,7 @@ To setup AutoPlay, provide a playlist using the following command:<br/>
 When enabled, Rythm will send a message to announce when a song has started playing.
 
 :::caution
-The messages go to where your last command is.
+The messages go to the channel in which the command was used.
 :::
 
 To enable or disable song announcements, use the following command:<br/>
@@ -130,7 +130,7 @@ You can also set it back to default:<br/>
 ## Duplicate Song Prevention
 This prevents duplicated songs from being played.
 
-To enable or disable the setting, use the following command:<br/>
+To enable or disable this setting, use the following command:<br/>
 `!settings preventduplicates yes/no`
 
 **Example**: If you want to prevent duplicates of songs from being played, use `!settings preventduplicates yes`<br/>

@@ -45,7 +45,7 @@ The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm Canary is `*`.
 
 ![MentionPrefixC](/img/docs/faq/rythm-c.png)
 
-You can also use mention as a prefix!
+You can also mention Rythm as a prefix!
 
 ![MentionAsPrefix](/img/docs/faq/mention-as-prefix.png)
 

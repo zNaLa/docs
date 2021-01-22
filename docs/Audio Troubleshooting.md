@@ -5,7 +5,7 @@ title: Audio Troubleshooting
 
 As you are using Rythm, you may encounter some issues with the audio that is played. This can be due to a few reasons: the Discord voice node you are on could have failed, or it could be an internet connection issue.
 
-There are some steps below that you should follow in order to resolve these issues.
+Here are some steps that you can follow to troubleshoot and resolve your issues.
 
 ---
 If you can't hear Rythm or receive distorted sounds from Rythm in your server:
@@ -19,7 +19,7 @@ If you can't hear Rythm or receive distorted sounds from Rythm in your server:
 If you can't hear Rythm or receive distorted sounds in any server (including the [Official Rythm server](https://rythmbot.co/support)), it's probably your local audio device settings.
 
 1. In Discord:
-  - (If you can't hear Rythm) Make sure Rythm is **not locally muted**, **not server muted** and the User Volume **is not on 0%**. Your settings **should not** look like below:
+  - (If you can't hear Rythm) Make sure Rythm is **not locally muted**, **not server muted** and the User Volume **is not on 0%**. Below are pictures of how your settings **should not** be configured:
 
     ![locally muted](/img/docs/audio-troubleshooting/locally-muted.png) ![server muted](/img/docs/audio-troubleshooting/server-muted.png) ![volume off](/img/docs/audio-troubleshooting/volume-off.png)
 

@@ -11,7 +11,7 @@ DJ role grants you more access to Rythm. You can refer to **[here](/permissions#
 
 ## Setting up DJ role
 :::note
-You need `Manage Roles` permission to create and assign roles in your server.
+You need the `Manage Roles` permission to create and assign roles in your server.
 :::
 1. **Create a DJ role:**
     - Go to your server settings.
@@ -19,7 +19,7 @@ You need `Manage Roles` permission to create and assign roles in your server.
     ![OpenSettings](/img/docs/dj-role/server-settings.gif)
 
     - Head to the `Roles` section, create a new role without any special permission and name it `DJ`.
-    - Click on `Save Changes` and 🎉, you just created a new DJ role. <br/>
+    - Click on `Save Changes` and 🎉, you just created your very own DJ role. <br/>
 
     ![CreateDJRole](/img/docs/dj-role/setting-dj.gif)
 

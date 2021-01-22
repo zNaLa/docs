@@ -3,15 +3,14 @@ id: adding_rythm
 title: Adding Rythm
 ---
 
-Ready to invite Rythm into your server? You can add any release of Rythm that you want by going [here](https://rythmbot.co/releases). We have 3 bots for your need so you can add as many as you want!
-
+Ready to start listening with Rythm? You can add any of the Rythm releases by following this link [here](https://rythmbot.co/releases). We currently offer three bots so feel free to add as many as you want!
 ## Step one
 
 Once you've chosen the release of Rythm that you would like to invite from the link above and you are logged into the correct Discord account, you should now see a menu like this:
 
 ![Discord Authorization Screen](/img/docs/adding/discord-oauth2-1.png)
 
-If you press on **Select a server**, a pop-up should appear that will let you select where you'd like to add Rythm. In this case, we'll add the bot to **User's Server**. [If you don't see your server in this drop-down, click here!](/invite_troubleshooting#when-adding-rythm-i-cant-see-my-server-in-the-list)
+If you tap or click the **Select a server** button, a pop-up should appear that will let you select where you'd like to add Rythm. In this case, we'll add the bot to **User's Server**. [If you don't see your server in this drop-down, click here!](/invite_troubleshooting#when-adding-rythm-i-cant-see-my-server-in-the-list)
 
 ![Choose the server that you'd like and continue](/img/docs/adding/discord-oauth2-2.png)
 

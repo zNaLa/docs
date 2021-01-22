@@ -2,7 +2,7 @@
 id: invite_troubleshooting
 title: Invite Troubleshooting
 ---
-Rythm won't join my server!!! Emergency help please!!
+Rythm won't join my server!! This is an emergency what do I do?!
 
 ## When adding Rythm, I can't see my server in the list!
 ### Are you signed into the correct account?
@@ -21,7 +21,7 @@ If you are able to change the name of the server, you have the required permissi
 
 ### Open an incognito tab and invite Rythm from there.
 
-If you're sure that **you're signed into the correct account** and **you have permissions on the server that you'd like to add Rythm to**, then you should open an incognito tab and invite Rythm from there. You can find instructions in the table below, if you don't know how to do that.
+If you're sure that **you're signed into the correct account** and **you have permissions on the server that you'd like to add Rythm to**, then you should open an incognito tab and invite Rythm from there. Below is a table which lists the most common keyboard shortcuts for the most popular browsers:
 
 | Browser  | Windows/Linux | MacOS       |
 |:--------:|:-------------:|:-----------:|
@@ -34,7 +34,7 @@ If you're sure that **you're signed into the correct account** and **you have pe
 
 #### Why is this necessary?
 
-Because Discord caches data into cookies, it retains old account information and glitches out the bot invite screen. By using an incognito/private browsing window, it forces Discord to use a fresh session which fixes the glitch and allows you to select a server from the drop-down menu.
+Because Discord caches data into cookies, it retains old session information which Discord tries to use when inviting bots. By using an incognito/private browsing window, you force Discord to use a fresh session which should allow you to invite the bot without any issues!
 
 ## When adding Rythm, Discord asks me to verify my e-mail address.
 

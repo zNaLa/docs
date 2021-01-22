@@ -32,7 +32,7 @@ Rythm still count you as alone with the bot if all other users are deafened.
  - Has full access to all music commands.
 
 ## How can I make Rythm only respond to Admins/specific roles?
-In order to make Rythm commands just available to specific roles, you can do one of the following:
+In order to lock Rythm's commands to a specific role, you can try one of the following:
 
 ### DJ Only Mode
  1. Give users you want to have access a role named `DJ` or a role which is considered as DJ from the `!settings djrole` command. ([More info on DJ Role setting](/settings#dj-role))
