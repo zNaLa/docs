@@ -18,6 +18,9 @@ steps:
         from_secret: docker_username
       password:
         from_secret: docker_password
+    when:
+      event:
+      - push
   - name: deploy
     image: quay.io/rythm-bot/drone-kubernetes
     settings:
@@ -35,3 +38,5 @@ steps:
     when:
       branch:
       - master
+      event:
+      - push
