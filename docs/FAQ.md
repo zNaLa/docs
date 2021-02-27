@@ -23,49 +23,27 @@ You can check out the differences on our [releases page](https://rythmbot.co/rel
 ## Basic Information
 -----
 
-### I don't know Rythm's prefix. What should I do?
-If you don't know or forget Rythm's prefix, don't stress. We have you covered. You can view the prefix simply by mentioning the bot.
-
-:::tip
-The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm Canary is `*`.
-:::
-
-1. For Rythm:
-    + **Example:** `@Rythm#3722` or `<@235088799074484224>`
-
-![MentionPrefix](/img/docs/faq/rythm-1.png)
-
-2. For Rythm 2:
-    + **Example:** `@Rythm 2#2000` or `<@252128902418268161>`
-
-![MentionPrefix2](/img/docs/faq/rythm-2.png)
-
-3. For Rythm Canary:
-    + **Example:** `@Rythm Canary#8406` or `<@415062217596076033>`
-
-![MentionPrefixC](/img/docs/faq/rythm-c.png)
-
-You can also mention Rythm as a prefix!
-
-![MentionAsPrefix](/img/docs/faq/mention-as-prefix.png)
-
 ### How can I change/reset Rythm's prefix in my server?
 Head to the [Prefix Settings](/settings#prefix) section to learn more.
 
 ### How can I change Rythm's nickname in my server?
-1. Make sure you have the `Manage Nickname` permission.
-2. Then you will have to **Right Click** Rythm's name and press `Change Nickname`
-3. A menu will pop up looking like this:
+:::note note
+Make sure you have the `Manage Nicknames` permission!
+:::
+1. **Right Click** Rythm's name and press `Change Nickname`. A menu will pop up looking like this:
 
 ![NicknameMenu](/img/docs/faq/nickname-menu.png)
 
-4. Type in your desired nickname.
-5. Finally you can press `Save` and you're good to go.
+2. Type in your desired nickname.
+3. Press `Save` and you're good to go.
 
 ### What do the 3 emojis in `!ping` mean?
-    ⌛ - API response time   
-    ⏱️ - Message response time
-    💓 - Websocket heartbeat
+
+| Emoji  | Meaning               |
+|:------:|:---------------------:|
+| ⌛     | API response time     |
+| ⏱️     | Message response time |
+| 💓     | Websocket heartbeat   |
 
 ### Why can some normal users access moderative music commands?
 1. Normal users with no special permissions are only allowed to use the `!play` command to add songs to the queue and the `!remove` command to remove their own songs in the queue.
@@ -115,7 +93,7 @@ Yes, if you [donate](https://rythmbot.co/donate?do).
 Rythm uses the default volume when using audio streams. In order to change the volume of these audio streams we need to enable encoding. As encoding requires a lot of computing resources, only donators can access this feature.
 
 You may set the local volume of Rythm for yourself:
-1. If you are on PC, you can right-click Rythm in the voice channel and adjust the user volume slider as shown below.
+1. If you are on computer, you can right-click Rythm in the voice channel and adjust the user volume slider as shown below.
 
 ![VolumeMenu](/img/docs/faq/user-volume.png)
 
@@ -123,9 +101,8 @@ You may set the local volume of Rythm for yourself:
 
 ![PhoneVolumeMenu](/img/docs/faq/phone-user-volume.png)
 
-#### [Donators](https://rythmbot.co/donate?do)
-For donators, the volume command is `!volume <1-200>`.
-
+#### For [Donators](https://rythmbot.co/donate?do)
+The volume command is `!volume <1-200>`.
 - **Example:** `!volume 80`
 
 ### Can I make custom commands for Rythm?
@@ -138,7 +115,7 @@ No, Discord does not allow bots to use the `Go Live` feature.
 ### How is it possible for Rythm to be in so many servers all in once?
 Discord allows bots in over `2,000` servers to use a feature called `Sharding`.
 In Rythm's case, we are known as the largest music bot on Discord, so we require lots of shards to maintain uptime.
-For more detail, please [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discord's Sharding feature.
+For more detail, [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discord's Sharding feature.
 
 ### Can Rythm play 24/7 Music?
 No, Rythm is not a 24/7 music bot.
@@ -157,7 +134,7 @@ Encounter freaky issues? You can use the links below to help you fix any of thos
 + [Basic Troubleshooting](/basic_troubleshooting)
 + [Audio Troubleshooting](/audio_troubleshooting)
 + [Mobile Troubleshooting](/mobile_troubleshooting)
-
++ [Dashboard Troubleshooting](/dashboard_troubleshooting)
 ### None of these solutions solved my problem!
 If you couldn't find an answer to your question in either this FAQ or in the troubleshooting pages, please go to [Get Support](/get_support) section for further support.
 

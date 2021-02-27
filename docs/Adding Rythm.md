@@ -10,9 +10,13 @@ Once you've chosen the release of Rythm that you would like to invite from the l
 
 ![Discord Authorization Screen](/img/docs/adding/discord-oauth2-1.png)
 
-If you tap or click the **Select a server** button, a pop-up should appear that will let you select where you'd like to add Rythm. In this case, we'll add the bot to **User's Server**. [If you don't see your server in this drop-down, click here!](/invite_troubleshooting#when-adding-rythm-i-cant-see-my-server-in-the-list)
+Tap or click the `Select a server` button. A pop-up should appear that will let you select where you'd like to add Rythm. In this case, we'll add the bot to `Music Lovers ❤`.
 
-![Choose the server that you'd like and continue](/img/docs/adding/discord-oauth2-2.png)
+![Choose the server that you'd like and continue](/img/docs/adding/discord-oauth2-2.gif)
+
+:::note Note
+If you don't see your server in this drop-down, [click here!](/invite_troubleshooting#when-adding-rythm-i-cant-see-my-server-in-the-list)
+:::
 
 ## Step two
 

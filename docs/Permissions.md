@@ -3,7 +3,6 @@ id: permissions
 title: Understanding Rythm's Permissions
 ---
 
-This article will give you a clear view of Rythm's permission system and help you set up Rythm in your server.
 ## What users can use what command?
 
 Rythm's built-in permission system can be divided into the following groups:
@@ -17,11 +16,12 @@ Rythm's built-in permission system can be divided into the following groups:
 
 ### User alone with Rythm/User with a `DJ` role or the `Manage Channels` permission
 :::info note
-Rythm still count you as alone with the bot if all other users are deafened.
+This includes all other users in the voice chat being deafened.
 :::
  - Has full access to all music commands.
- - Bypasses `maxusersongs` setting limit. [**More Info**](/settings#max-user-songs)
  - Can't change Rythm's settings.
+
+**Note**: If there isn't a role named `DJ` in your server, one can be created with no special permissions assigned and they will still be able to access these features.
 
 ### User with `Manage Server` permission
  - Is able to change Rythm's settings.
@@ -32,11 +32,15 @@ Rythm still count you as alone with the bot if all other users are deafened.
  - Has full access to all music commands.
 
 ## How can I make Rythm only respond to Admins/specific roles?
-In order to lock Rythm's commands to a specific role, you can try one of the following:
+In order to make Rythm commands just available to specific roles, you can do the following:
 
 ### DJ Only Mode
- 1. Give users you want to have access a role named `DJ` or a role which is considered as DJ from the `!settings djrole` command. ([More info on DJ Role setting](/settings#dj-role))
- 2. Run `!settings djonly on` ([More info on DJ Only mode](/settings#dj-only-mode))
+:::info note
+If someone is alone with Rythm, they are able to use Rythm regardless of having a `DJ` role/`Manage Channel` permission.
+:::
+
+ 1. Give those you want to have access a role named `DJ`
+ 2. Run `!settings djonly on`
 
 ### Blacklisting Channels
  1. Make a channel that can only be seen by users with the specific role.
@@ -50,12 +54,24 @@ In order to lock Rythm's commands to a specific role, you can try one of the fol
             <li>More information on how to do this can be found at <a href="https://support.discord.com/hc/en-us/articles/206029707">Discord's support page.</a></li>
         </ul>
     </details>
- 2. Blacklist other text channels by following [here](/permissions#how-do-i-restrict-rythm-from-being-used-in-a-specific-textvoice-channel)
+ 2. Blacklist all other text channels with Rythm's blacklist function. To blacklist channels, use the following command: `!settings blacklist #channel #channel2...`
+ 
+    **Example**: `!settings blacklist #chat #gaming #international...`<br/>
+
+    ![blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
+
+    <details>
+    <summary>Alternatively, you can use Discord's permission system if you don't want any blacklisted channel messages.</summary>
+    <img src="/docs/img/docs/perms/deny-rythm.png" alt="deny rythm"/>
+    </details>
 
 ## How can I give all users access to all music commands?
 There is currently no setting that will apply DJ to all users. You will have to either give them the `Manage Channels` permission or the DJ role manually.
 
-If every member in your server has a common role, you can use the following settings command to set that role to be DJ Role: `!settings djrole <Role name> / <@Role>`. To learn more, head to the [DJ Role section](/dj_role).
+If every member in your server has a common role, you can use the following settings command to set that role to be DJ Role: `!settings djrole <Role name> / <@Role>`. To learn more, head to the [DJ role setting section](/settings/#dj-role).
+:::info note
+Users alone in a voice channel with Rythm will be treated as though they have the DJ role until another user joins the voice channel with them even if they have no roles. Members with the `DJ` role will not be able to change any of Rythm's settings.
+:::
 
 ## How do I restrict Rythm from being used in a specific text/voice channel?
 ### Block music commands from specific text channels.
@@ -65,16 +81,14 @@ You can use `!settings blacklist #channels` to blacklist specific text channels.
 
 ![Blacklist example](/img/docs/settings/blacklist-text-channel-example.png)
 
-If you don't want Rythm respond with the blacklist message, you can follow the guide below.
-
 ### Block Rythm completely from text/voice channels.
 To disallow Rythm from being used within certain text/voice channels, you must use the Discord's permission system as described below:
 1. Go to your server's settings and select `Roles`.
 2. Find Rythm, revoke its `Administrator` permission and grant the `Read Text Channels & See Voice Channels`, `Send Messages`, `Manage Messages`, `Embed Links`, `Add Reactions`, `Connect` and `Speak` permissions.
    - If you have any other roles Rythm is assigned to, repeat this step for each role.
 3. Save and close out of server settings.
-4. Go to each text/voice channel settings you want to restrict Rythm from responding (text channel) or connecting (voice channel) to.
-5. Head to the `Permissions` section ➠ Click `+` ➠ `Rythm`
+4. Go to each voice channel you want to restrict Rythm from connecting to.
+5. Click `Edit Channel` ➠ `Permissions` ➠ `Add` ➠ `Rythm`
 6. On the Rythm override:
    - **For text channel:** Deny the `Read Messages` and `Send Messages` permissions.
    - **For voice channel:** Deny the `Connect` permission.

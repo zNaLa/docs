@@ -24,9 +24,9 @@ Everyday, the top song curated by members becomes the “song of the day”.
 
 ## Songs of the week
   - By doing `!sotw`, Rythm will return the songs of the week.
-  - You may also add a date to get previous songs of the week. Example: `!sotw 2 weeks ago`
 
     ![sotw1](/img/docs/koodos/sotw1.png)
+  - You may also add a date to get previous songs of the week. Example: `!sotw 2 weeks ago`
 
     ![sotw2](/img/docs/koodos/sotw2.png)
 
@@ -37,9 +37,10 @@ Everyday, the top song curated by members becomes the “song of the day”.
 
 ## Songs of the month
   - Want more? The command `!sotm` will list 30 songs curated for the month ✨
-  - You may also add a date to get previous songs of the month. Example: `!sotm 1 month ago`
 
     ![sotm1](/img/docs/koodos/sotm1.png)
+    
+  - You may also add a date to get previous songs of the month. Example: `!sotm 1 month ago`
 
     ![sotm2](/img/docs/koodos/sotm2.png)
 

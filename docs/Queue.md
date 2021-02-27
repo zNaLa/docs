@@ -20,7 +20,7 @@ title: Queue
 
     + Use the reactions given to switch between pages.
 
-    ![ViewingQueue3](/img/docs/queue/view-queue-3.png)
+    ![ViewingQueue3](/img/docs/queue/view-queue-3.gif)
 
 ## Managing the Queue
   - You can organize and manage your queue using commands. [Check here](/commands#queue) to view the list of queue commands.

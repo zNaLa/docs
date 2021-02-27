@@ -12,6 +12,7 @@ module.exports = {
       defaultMode: 'dark',
     },
     sidebarCollapsible: true,
+    hideableSidebar: true,
     navbar: {
       title: 'Docs',
       logo: {

@@ -16,7 +16,7 @@ If you can't hear Rythm or receive distorted sounds from Rythm in your server:
 
 ---
 
-If you can't hear Rythm or receive distorted sounds in any server (including the [Official Rythm server](https://rythmbot.co/support)), it's probably your local audio device settings.
+If you can't hear Rythm or receive distorted sounds in any server (including the [Official Rythm server](https://rythmbot.co/support)), it's probably due to your local audio device settings.
 
 1. In Discord:
   - (If you can't hear Rythm) Make sure Rythm is **not locally muted**, **not server muted** and the User Volume **is not on 0%**. Below are pictures of how your settings **should not** be configured:

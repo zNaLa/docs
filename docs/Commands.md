@@ -139,19 +139,22 @@ title: Commands
 ## Settings
 ---
 - **`!settings`** - Use the command format `!settings <option>` to view more info about an option. [More Info](/settings)
+    - **Alias:** `setting`
+    - **List of options:**
+      - [**`prefix`**](/settings#prefix) - Changes Rythm's prefix.
+      - [**`announcesongs`**](/settings#announce-songs) - Allows the bot to announce every new song playing.
+      - [**`preventduplicates`**](/settings#duplicate-song-prevention) - Prevents users from adding songs to the queue that are already in the queue.
+      - [**`blacklist`**](/settings#blacklist)- Allows you to blacklist channels you **don't** want Rythm to respond in.
+      - [**`maxqueuelength`**](/settings#max-queue-length) - Limits how many songs the queue can store.
+      - [**`maxusersongs`**](/settings#max-user-songs) - Limits how many songs the user can queue at one time.
+      - [**`djonly`**](/settings#dj-only-mode) - Sets the server to run in DJ only mode.
+      - [**`djrole`**](/settings#dj-role) - Changes which role is considered DJ. Roles named `DJ` will still work.
+      - [**`djplaylists`**](/settings#dj-only-playlists) - Allows only DJs to queue playlists.
+      - [**`defaultvolume`**](/settings#default-volume) - Sets the default volume that the bot will always start at. [**Donator Only**](https://rythmbot.co/donate?do).
+      - [**`autoplay`**](/settings#autoplay) - Toggles auto-playing songs from playlist when nothing else playing. [**Donator Only**](https://rythmbot.co/donate?do).
+      - [**`reset`**](/settings#reset) - Resets all Rythm settings.
 
-    - **`prefix`** - Changes Rythm's prefix. [More Info](/settings#prefix)
-    - **`announcesongs`** - Allows the bot to announce every new song playing. [More Info](/settings#announce-songs)
-    - **`preventduplicates`** - Prevents users from adding songs to the queue that are already in the queue. [More Info](/settings#duplicate-song-preventation)
-    - **`blacklist`** - Allows you to blacklist channels you **don't** want Rythm to respond in. [More Info](/settings#blacklist)
-    - **`maxqueuelength`** - Limits how many songs the queue can store. [More Info](/settings#max-queue-length)
-    - **`maxusersongs`** - Limits how many songs the user can queue at one time. [More Info](/settings#max-user-songs)
-    - **`djonly`** - Sets the server to run in DJ only mode. [More Info](/settings#dj-only-mode)
-    - **`djrole`** - Changes which role is considered DJ. Roles named `DJ` will still work. [More Info](/settings#dj-role)
-    - **`djplaylists`** - Allows only DJs to queue playlists. [More Info](/settings#dj-only-playlists)
-    - **`defaultvolume`** - Sets the default volume that the bot will always start at. [**Donator Only**](https://rythmbot.co/donate?do). [More Info](/settings#default-volume)
-    - **`autoplay`** - Toggles auto-playing songs from playlist when nothing else playing. [**Donator Only**](https://rythmbot.co/donate?do). [More Info](/settings#autoplay)
-    - **`reset`** - Resets all Rythm settings. [More Info](/settings#reset)
+
 ---
 
 ## [Donators](https://rythmbot.co/donate?do)
