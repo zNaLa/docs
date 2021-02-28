@@ -157,7 +157,7 @@ title: Commands
 
 ---
 
-## [Donators](https://rythmbot.co/donate?do)
+## [Premium](https://rythm.fm/premium)
 ---
 - **`!donate`** - Shows information about donating to Rythm.
     - **Alias:** `patreon`

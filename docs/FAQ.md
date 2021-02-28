@@ -14,9 +14,11 @@ title: Frequently Asked Questions
 ### How can I add Rythm to my Discord Server?
 Please [click here](/adding_rythm) to check out our guide on adding Rythm.
 
-### What are the differences among Rythm, Rythm 2 and Rythm Canary?
-You can check out the differences on our [releases page](https://rythmbot.co/releases).
+### What are the differences among the 5 Rythm bots?
+- Their default prefixes are different.
+- Rythm 1 & 2 are available to public for free, while the other three bots require you to [subscribe Premium](https://rythm.fm/premium).
 
+You may find their default prefixes and their invite links [here](/adding_rythm#rythm-releases)
 <!-- The end of the Introduction Section -->
 
 <!-- The start of the Basic Information Section -->
@@ -51,11 +53,6 @@ Make sure you have the `Manage Nicknames` permission!
 2. However, normal users can access ALL music commands when they are alone with Rythm in the voice channel.
    This is because their commands would not affect anyone but themselves.
   - For more information about users command permissions, refer to the **[Understanding Permissions](/permissions)** section in this documentation.
-
-### How can I donate to Support Rythm?
-Do you ❤️ Rythm? You can donate to us today by [clicking here](https://rythmbot.co/donate?do)!
-  - You will get awesome perks such as **Volume control**, **Audio Effects**, **Playing songs longer than 3 hours**, **Roles in our Discord server** and more!
-
 <!-- The end of the Basic Information Section -->
 
 <!-- The start of the Limitations/Restrictions Section -->
@@ -88,7 +85,7 @@ Rythm finds the songs from Youtube and plays them.
 You can play Spotify song/playlist through Rythm by just simply doing `!play <Song/Playlist url>`!
 
 ### Can I adjust the volume for everyone on my server for Rythm?
-Yes, if you [donate](https://rythmbot.co/donate?do).
+Yes, if you activate [Premium](https://rythmbot.co/premium) for your server.
 
 Rythm uses the default volume when using audio streams. In order to change the volume of these audio streams we need to enable encoding. As encoding requires a lot of computing resources, only donators can access this feature.
 
@@ -101,7 +98,7 @@ You may set the local volume of Rythm for yourself:
 
 ![PhoneVolumeMenu](/img/docs/faq/phone-user-volume.png)
 
-#### For [Donators](https://rythmbot.co/donate?do)
+#### For [Premium Users](https://rythm.fm/premium)
 The volume command is `!volume <1-200>`.
 - **Example:** `!volume 80`
 
@@ -118,11 +115,7 @@ In Rythm's case, we are known as the largest music bot on Discord, so we require
 For more detail, [click here](https://discord.com/developers/docs/topics/gateway#sharding) to view more about Discord's Sharding feature.
 
 ### Can Rythm play 24/7 Music?
-No, Rythm is not a 24/7 music bot.
-The reason behind this decision is because music bots require a lot of resources.
-Therefore, when the bot is by itself, and not being used by anyone, these resources are still in use, leaving less availability for other people.
-If you do want a bot that plays music 24/7, you can host one with [Moosic](https://github.com/Repulser/Moosic).
-Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
+Yes, if you activate [Premium](https://rythm.fm/premium) for your server.
 
 ### Can Rythm execute commands given by other bots?
 No, Rythm doesn't respond to commands issued by other bots as it can be easily abused. This restriction will not be removed, nor will any exceptions be made.
@@ -131,6 +124,7 @@ No, Rythm doesn't respond to commands issued by other bots as it can be easily a
 -----
 ### I have encountered an issue with Rythm!
 Encounter freaky issues? You can use the links below to help you fix any of those issues:
++ [Invite Troubleshooting](/invite_troubleshooting)
 + [Basic Troubleshooting](/basic_troubleshooting)
 + [Audio Troubleshooting](/audio_troubleshooting)
 + [Mobile Troubleshooting](/mobile_troubleshooting)
