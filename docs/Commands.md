@@ -159,9 +159,6 @@ title: Commands
 
 ## [Premium](https://rythm.fm/premium)
 ---
-- **`!donate`** - Shows information about donating to Rythm.
-    - **Alias:** `patreon`
----
 - **`!effects`** - Shows current audio effects.  [**Donator Only**](https://rythmbot.co/donate?do)
     - **Other Usages**:
         - `!effects help` - Shows all available audio effects.
