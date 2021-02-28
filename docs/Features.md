@@ -23,7 +23,7 @@ While listening to Rythm, you can control the player with useful commands such a
 
 ![Player](/img/docs/features/player-feature.png)
 
-#### Effects [Donator Only](https://rythmbot.co/donate?do)
+#### Effects [Premium Only](https://rythm.fm/premium)
 By [donating](https://rythmbot.co/donate?do) to show your appreciation and love, you will get special and fascinating perks including sound effects. You will be able to modify and adjust the playback as you wish, bringing you the ultimate experience with Rythm.
 
 ![Effects](/img/docs/features/effects.png)
