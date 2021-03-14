@@ -5,6 +5,7 @@ title: Invite Troubleshooting
 Rythm won't join my server!! This is an emergency what do I do?!
 
 ## When adding Rythm, I can't see my server in the list!
+---
 ### Are you signed into the correct account?
 
 If you can't find your server in the drop-down section, this can be caused by various reasons. First, you should make sure that you're signed into the correct account. If you're not, then press the blue **Not you?** button.
@@ -37,18 +38,20 @@ If you're sure that **you're signed into the correct account** and **you have pe
 Because Discord caches data into cookies, it retains old session information which Discord tries to use when inviting bots. By using an incognito/private browsing window, you force Discord to use a fresh session which should allow you to invite the bot without any issues!
 
 ## When adding Rythm, Discord asks me to verify my e-mail address.
-
+---
 ![Unverified Discord account](/img/docs/invite-troubleshooting/unverified.png)
 
 Discord requires you to verify your e-mail account to add bots into your servers. Head to the User Settings and verify your e-mail there.
 
 ## I can't invite Rythm on my mobile!
+---
 For any issue with inviting Rythm on mobile, see the [Mobile Troubleshooting](/mobile_troubleshooting) section.
 
 ## I am having other issues with adding Rythm that isn't listed above
+---
 You can:
 - Take a look at [Discord's Status page](https://discordstatus.com/) or our [#outages](https://discord.com/channels/231471142685245440/359311833653313546) channel on our [official Rythm Bot Discord server](https://rythmbot.co/support) to see if there are any issues going on.
 
-- If you don't find anything related to the issue, please choose option 6 in our [#help-desk](https://discord.com/channels/231471142685245440/359355279004925954) channel on the Rythm Bot Discord server to receive assistance from a member of our Support Team.
+- If you don't find anything related to the issue, please mention your issue in our [#help-desk](https://discord.com/channels/231471142685245440/359355279004925954) channel on the Rythm Bot Discord server to receive assistance from a member of our Support Team.
 
 [Click here to join the official Rythm Bot Discord server](https://rythmbot.co/support)

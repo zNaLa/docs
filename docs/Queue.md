@@ -4,17 +4,19 @@ title: Queue
 ---
 
 ## Rythm's Queue
+---
   - If you try to play songs while another song is playing, or you try to play a playlist, Rythm will add those into a waiting queue. The order of the songs in queue is the order as you play them.
 
   ![AddingToQueue](/img/docs/queue/add-to-queue.png)
 
 ## Viewing the Queue
+---
   - To view the queue, simply run `!queue` or `!q`. A nice-looking embed will pop up and list the songs you have added into the queue.
 
   ![ViewingQueue](/img/docs/queue/view-queue.png)
 
   - If there are multiple queue pages, you can either:
-    + Do `!queue <Page Number>` to view that specific page. Example: `!queue 3`
+    + Do `!queue <Page Number>` to view that specific page. Example: `!queue 4`
 
     ![ViewingQueue2](/img/docs/queue/view-queue-2.png)
 

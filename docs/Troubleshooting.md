@@ -3,9 +3,6 @@ id: basic_troubleshooting
 title: Basic Troubleshooting
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 Encountering freaky problems? Look them up here!
 
 ### I don't know Rythm's prefix. What should I do?
@@ -14,19 +11,8 @@ If you don't know or forget Rythm's prefix, don't stress. We have you covered. Y
 :::tip
 The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm 3 is `&`, Rythm 4 is `%`, Rythm 5 is `-`.
 :::
-<Tabs
-  defaultValue="r1"
-  values={[
-    {label: 'Rythm', value: 'r1'},
-    {label: 'Rythm 2', value: 'r2'},
-  ]}>
-  <TabItem value="r1"> To view the current prefix for Rythm, type <code>@Rythm#3722</code> or <code>&lt;@235088799074484224&gt;</code><br/><br/>
-    <img src="/docs/img/docs/basic-troubleshooting/rythm-1.png" alt="example-1"/>
-  </TabItem>
-  <TabItem value="r2"> To view the current prefix for Rythm 2, type <code>@Rythm 2#2000</code> or <code>&lt;@252128902418268161&gt;</code><br/><br/>
-    <img src="/docs/img/docs/basic-troubleshooting/rythm-2.png" alt="example-2"/>
-  </TabItem>
-</Tabs>
+
+![MentionRythm](/img/docs/basic-troubleshooting/mention-rythm.png)
 
 You can also mention Rythm as a prefix!
 
@@ -59,22 +45,27 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
 ## Rythm isn't responding to my commands!
 *If Rythm isn't responding to commands, try the following:*
 
-1. **Make sure Rythm is showing as online.**
+<h3>1. Make sure Rythm is showing as online.</h3>
+
   - If Rythm is offline, try kicking the bot out of your server and inviting it again. If after doing that Rythm is still showing as offline, you may skip to step 4.
 
-2. **Make sure you're using the correct prefix.**
+<h3>2. Make sure you're using the correct prefix.</h3>
+
   - You can mention Rythm to get the current prefix in your server: <br/>
 
   ![Mention to get prefix](/img/docs/basic-troubleshooting/prefix.png) ![Mention to get prefix 2](/img/docs/basic-troubleshooting/prefix-2.png)
 
   - You can learn how to change Rythm's prefix by heading to the [Prefix Setting](/settings#prefix) section!
 
-3. **Make sure Rythm has the permissions to read and send messages in the channel.**
+<h3>3. Make sure Rythm has the permissions to read and send messages in the channel.</h3>
+
   - You can give the `Administrator` permission to Rythm to make this easier.
 
-4. **Take a look at our [#outages](https://discord.com/channels/231471142685245440/359311833653313546) channel on our [official Rythm Bot Discord server](https://rythmbot.co/support) to see if there are any issues going on.**
+<h3>4. Nothing above helped!</h3>
 
-5. **If the above methods do not work, please choose option 6 in our [#help-desk](https://discord.com/channels/231471142685245440/359355279004925954) channel on the Rythm Bot Discord server to receive assistance from a member of our Support Team.**
+  - First, take a look at our [#outage](https://discord.com/channels/231471142685245440/359311833653313546) channel on our [Rythm Bot Discord server](https://rythm.fm/support) to see if there are any issues going on.
+
+  - If nothing there, please mention your issue in our [#help-desk](https://discord.com/channels/231471142685245440/359355279004925954) channel on the Rythm Bot Discord server to receive assistance from a member of our Support Team.
 
 [Click here to join the official Rythm Bot Discord server](https://rythmbot.co/support)
 

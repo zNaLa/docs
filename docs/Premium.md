@@ -9,6 +9,7 @@ import TabItem from '@theme/TabItem';
 
 Do you ❤️ Rythm? Turn your server into a party with Rythm Premium. You can [subscribe today](https://rythm.fm/premium) to get awesome perks such as better audio quality, **3** additional Rythm bots and more! 🔥 🔥
 ## What are the plans and pricing?
+---
 We provide 3 premium packs for you to freely choose which suits you best!
 <Tabs
   defaultValue="personal"
@@ -53,33 +54,35 @@ We provide 3 premium packs for you to freely choose which suits you best!
       <li>⚙️ Ability to change <b>AutoPlay</b> and <b>DefaultVolume</b> settings.</li>
       <li>🌠 A cool role, prioritized support and more in our <a href="https://rythmbot.co/support">Discord server</a>.</li>
       <li>🏅 A shiny badge in our <a href="https://rythm.fm/app">web dashboard.</a></li>
+    </ul>
+    <h3>Extra features:</h3>
+    <ul>
       <li>🕒 Rythm staying in your voice channel 24/7.</li>
       <li>🎀 3 Extra Rythm bots!</li>
     </ul>
   </TabItem>
 </Tabs>
 
+:::tip
+**You can also customize your Premium plan:** Choose how many servers you need and which extra feature(s) you want!
+:::
 ## How to get Rythm Premium perks?
+---
+1. If you haven't, click the button on the upper-right corner of the screen and log in with your correct Discord account.
+
 1. Go to https://rythm.fm/premium#plans and choose your preferred plan.
 
-2. You should now see something like this:
-
-  ![Authorization Process](/img/docs/premium/authorization.png)
-
-  Make sure you are logged into the correct Discord account, then press `Authorize`.
-
-3. A menu will pop up to confirm your premium plan. You can choose to bill monthly, quarterly (10% off) or yearly (25% off).
+3. A menu will pop up to confirm your premium plan. You can choose to bill monthly, quarterly (10% off) or yearly (25% off). **Additionally, you can customize your plan by clicking `Edit`**.
 
   ![Confirm Your Premium Plan](/img/docs/premium/confirm-plan.png)
 
 4. Choose your payment method and fill in the required fields. Once you are done, press `Pay & Subscribe`.
 
   ![Payment](/img/docs/premium/payment.png)
-
 5. Select the server(s) you want to enable Premium perks on, press `Save`. Everything is all done 🎉
 
   ![Choose Your Servers](/img/docs/premium/choose-servers.png)
 
-:::tip
-You will be able to change which servers to have Premium perks and your payment method later.
+:::caution
+Be careful when choosing which server(s) to activate Premium. There will be a 3-day cooldown until you can switch servers again.
 :::

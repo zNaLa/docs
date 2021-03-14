@@ -5,10 +5,12 @@ title: Adding Rythm
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import { Button } from '../Buttons/button';
 
 Ready to start listening with Rythm? We currently offer 2 bots for free and 3 bots for premium users!
 
 ## Rythm releases
+---
 These are all official releases of Rythm Bot:
 
 <Tabs
@@ -25,50 +27,51 @@ These are all official releases of Rythm Bot:
     <h2>Rythm (<code>Rythm#3722</code>)</h2>
     <ul>
       <li>Prefix: <code>!</code></li>
-      <li>Rythm is our main bot used by the most servers. This bot and most of its features are available to the public for free.</li>
+      <li>Rythm is our main bot used by the most servers. This bot and most of its features are available to the public <b>for free</b>.</li>
     </ul>
-    <h1><a href="https://rythm.fm/invite">Invite Rythm</a></h1>
+    <Button onClick = {() => window.open('http://rythm.fm/invite','_blank')}>Invite Rythm</Button>
   </TabItem>
   <TabItem value="r2">
     <img src="/docs/img/docs/adding/rythm-2.png" alt="rythm 2"/><br/>
     <h2>Rythm 2 (<code>Rythm 2#2000</code>)</h2>
     <ul>
       <li>Prefix: <code>&gt;</code></li>
-      <li>Rythm 2 is the secondary Rythm bot, used by the second most number of servers. It is identical in functionality to Rythm 1, the only difference being the prefix.</li>
+      <li>Rythm 2 is the secondary Rythm bot, used by the second most number of servers. It is identical in functionality to Rythm 1, the only difference being the prefix. This bot and most of its features are available to the public <b>for free</b>.</li>
     </ul>
-    <h1><a href="https://rythm.fm/invite2">Invite Rythm 2</a></h1>
+    <Button onClick = {() => window.open('http://rythm.fm/invite2','_blank')}>Invite Rythm 2</Button>
   </TabItem>
   <TabItem value="r3">
     <img src="/docs/img/docs/adding/rythm-3.png" alt="rythm 3"/><br/>
-    <h2>Rythm 3 (<code>Rythm 3#0817</code>)</h2>
+    <h2>Rythm 3 (<code>Rythm 3#0817</code> - <a href="https://rythm.fm/premium"><b>Premium only</b></a>)</h2>
     <ul>
       <li>Prefix: <code>&</code></li>
-      <li>Rythm 3 is the third Rythm bot. This bot is premium only, and requires a subscription to use in your server.</li>
+      <li>Rythm 3 is the third Rythm bot. While you can still invite Rythm 3, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
     </ul>
-    <h1><a href="https://rythm.fm/invite3">Invite Rythm 3</a></h1>
+    <Button onClick = {() => window.open('http://rythm.fm/invite3','_blank')}>Invite Rythm 3</Button>
   </TabItem>
   <TabItem value="r4">
     <img src="/docs/img/docs/adding/rythm-4.png" alt="rythm 4"/><br/>
-    <h2>Rythm 4 (<code>Rythm 4#0952</code>)</h2>
+    <h2>Rythm 4 (<code>Rythm 4#0952</code> - <a href="https://rythm.fm/premium"><b>Premium only</b></a>)</h2>
     <ul>
       <li>Prefix: <code>%</code></li>
-      <li>Rythm 4 is the fourth Rythm bot. This bot is premium only, and requires a subscription to use in your server.</li>
+      <li>Rythm 4 is the fourth Rythm bot. While you can still invite Rythm 4, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
     </ul>
-    <h1><a href="https://rythm.fm/invite4">Invite Rythm 4</a></h1>
+    <Button onClick = {() => window.open('http://rythm.fm/invite4','_blank')}>Invite Rythm 4</Button>
   </TabItem>
   <TabItem value="r5">
     <img src="/docs/img/docs/adding/rythm-5.png" alt="rythm 5"/><br/>
-    <h2>Rythm 5 (<code>Rythm 5#6171</code>)</h2>
+    <h2>Rythm 5 (<code>Rythm 5#6171</code> - <a href="https://rythm.fm/premium"><b>Premium only</b></a>)</h2>
     <ul>
       <li>Prefix: <code>-</code></li>
-      <li>Rythm 5 is the fifth Rythm bot. This bot is premium only, and requires a subscription to use in your server.</li>
+      <li>Rythm 5 is the fifth Rythm bot. While you can still invite Rythm 5, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it</li>
     </ul>
-    <h1><a href="https://rythm.fm/invite5">Invite Rythm 5</a></h1>
+    <Button onClick = {() => window.open('http://rythm.fm/invite5','_blank')}>Invite Rythm 5</Button>
   </TabItem>
 </Tabs>
 
 
 ## The Authorization process
+---
 ### Step one
 
 Once you've chosen the release of Rythm that you would like to invite. and you are logged into the correct Discord account, you should now see a menu like this:

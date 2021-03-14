@@ -4,9 +4,9 @@ title: Get Support
 ---
 
 ## Nothing is working! Help!
-
+---
 ### Discord Server
-Please [click here](https://discord.gg/rythm) to join our [Support Server](/faq#what-is-rythms-discord-server-used-for). Our support team is available 24/7 to help you with Rythm bot
+Please [click here](https://discord.gg/rythm) to join our [Discord Server](/faq#what-is-rythms-discord-server-used-for). Our support team is available 24/7 to help you with Rythm bot
 
 ### Support Email
 You can also contact us via email [`support@rythm.fm`](mailto:support@rythm.fm) and we will respond back to you as soon as possible

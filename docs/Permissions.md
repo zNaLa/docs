@@ -1,4 +1,4 @@
----
+﻿---
 id: permissions
 title: Understanding Rythm's Permissions
 ---
@@ -8,33 +8,31 @@ import TabItem from '@theme/TabItem';
 
 This article will give you a clear view of Rythm's permission system and help you set up Rythm in your server.
 ## What users can use what command?
-
+---
 Rythm's built-in permission system can be divided into the following groups:
 
-### Normal user without any special roles or permissions
- - Is able to add songs to the queue and can only remove their own songs.
- - Is able to use commands that don't interfere with other people's music.
-   - `lyrics`, `np`, `queue`, etc.
- - Can't skip a song without voting.
- - Doesn't have access to control the music in any way.
+### Normal users
+By default, all users can only:
+- Add songs to the queue and remove their own songs.
+- Use commands that don't interfere with the music playing or the queue.
+  - Example: `lyrics`, `queue`, `grab`.
+- Skip a song through voting.
 
-### User with `Manage Server` permission
- - Has the same permissions as a normal user, explained above.
- - Is able to change Rythm's settings.
+### Users with Special Permissions
 
-### User alone with Rythm/User with a `DJ` role or the `Manage Channels` permission
-:::info note
-Rythm still count you as alone with the bot if all other users are deafened.
+| Type of Users                                                                                                                      | Music Control* | Rythm Setting Control  |
+|:-----------------------------------------------------------------------------------------------------------------------------------|:--------------:|:----------------------:|
+| Users with DJ permissions<br/>(Either:<br/>- Listening alone with Rythm<br/>- Have `DJ` role<br/>- Have `Manage Channels` permission)  |       ✅  |                        |
+| Users with `Manage Server` permission                                                                                         |                |         ✅             |
+| Users with `Administrator` permission                                                                                         |      ✅        |        ✅              |
+
+*Also bypass `Max User Songs` setting limit. [**More Info**](/settings#max-user-songs)
+
+:::info Note
+If `DJ Only mode` is enabled, normal users **will not** be able to play songs with Rythm. [**More Info**](/settings#dj-only-mode)
 :::
- - Has full access to all music commands.
- - Bypasses `maxusersongs` setting limit. [**More Info**](/settings#max-user-songs)
- - Can't change Rythm's settings.
-
-### User with `Administrator` permission
- - Has full access to all music commands.
- - Is able to change Rythm's settings.
-
 ## How can I make Rythm only respond to Admins/specific roles?
+---
 In order to lock Rythm's commands to a specific role, you can try one of the following:
 
 ### DJ Only Mode
@@ -45,22 +43,21 @@ In order to lock Rythm's commands to a specific role, you can try one of the fol
  1. Make a channel that can only be seen by users with the specific role.
     <details>
         <summary>Click here for how.</summary>
-        <ol>
-            <li><img src="/docs/img/docs/perms/role-1.png" alt="role 1"/></li>
-            <li><img src="/docs/img/docs/perms/role-2.png" alt="role 2"/></li>
-        </ol>
         <ul>
+            <img src="/docs/img/docs/perms/role.png" alt="role"/>
             <li>More information on how to do this can be found at <a href="https://support.discord.com/hc/en-us/articles/206029707">Discord's support page.</a></li>
         </ul>
     </details>
  2. Blacklist other text channels by following [here](/permissions#how-do-i-restrict-rythm-from-being-used-in-a-specific-textvoice-channel)
 
 ## How can I give all users access to all music commands?
+---
 There is currently no setting that will apply DJ to all users. You will have to either give them the `Manage Channels` permission or the DJ role manually.
 
 If every member in your server has a common role, you can use the following settings command to set that role to be DJ Role: `!settings djrole <Role name> / <@Role>`. To learn more, head to the [DJ Role section](/dj_role).
 
 ## How do I restrict Rythm from being used in a specific text/voice channel?
+---
 ### Block music commands from specific text channels.
 You can use `!settings blacklist #channels` to blacklist specific text channels.
 

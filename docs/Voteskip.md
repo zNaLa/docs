@@ -3,14 +3,14 @@ id: voteskip
 title: Vote Skip
 ---
 
-----
-
 When first running the `!skip` command, Rythm will call out a vote. If received enough votes from other users doing `!skip`, Rythm will skip the current playing song.
 
 ![Vote Skip Example](/img/docs/vote-skip/vote-skip-example.png)
 
 But why does Rythm ask for a different amount of votes each time, and sometimes even instantly skip my favourite song ;-;? This part will clarify your concern.
+
 ## How many votes are required for a song to be vote skipped?
+---
 For a vote skip to take effect, `75%` of the people in the voice channel need to vote to skip.
 
 **__Here's an example:__**
@@ -25,4 +25,5 @@ For a vote skip to take effect, `75%` of the people in the voice channel need to
 :::
 
 ## How can I remove my vote for song skipping?
+---
 Simply disconnect yourself from the voice channel and join again!
