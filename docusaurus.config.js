@@ -39,6 +39,10 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css')
         },
+        sitemap: {
+          changefreq: 'monthly',
+          priority: 0.6,
+        },
       },
     ],
   ],
