@@ -15,7 +15,7 @@ title: Commands
 ---
 <!-- Song-related commands -->
 - **`!join`** - Summons the bot to the voice channel you are in.
-    - **Aliases:** `summon`, `fuckon`
+    - **Aliases:** `summon``
 ---
 - **`!play`** - Plays a song with the given name or url. [More Info](/play_song)
     - **Usage:** `!play <link/query>`
@@ -78,7 +78,7 @@ title: Commands
     - **Aliases:** `l`, `ly`
 ---
 - **`!disconnect`** - Disconnects the bot from the voice channel it is in.
-    - **Aliases:** `dc`, `leave`, `dis`, `fuckoff`
+    - **Aliases:** `dc`, `leave`, `dis`
 ---
 
 ## Queue
