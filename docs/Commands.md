@@ -15,7 +15,7 @@ title: Commands
 ---
 <!-- Song-related commands -->
 - **`!join`** - Summons the bot to the voice channel you are in.
-    - **Aliases:** `summon``
+    - **Aliases:** `summon`
 ---
 - **`!play`** - Plays a song with the given name or url. [More Info](/play_song)
     - **Usage:** `!play <link/query>`
