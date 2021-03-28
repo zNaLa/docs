@@ -45,11 +45,11 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
 ## Rythm isn't responding to my commands!
 *If Rythm isn't responding to commands, try the following:*
 
-<h3>1. Make sure Rythm is showing as online.</h3>
+### 1. Make sure Rythm is showing as online.
 
   - If Rythm is offline, try kicking the bot out of your server and inviting it again. If after doing that Rythm is still showing as offline, you may skip to step 4.
 
-<h3>2. Make sure you're using the correct prefix.</h3>
+### 2. Make sure you're using the correct prefix.
 
   - You can mention Rythm to get the current prefix in your server: <br/>
 
@@ -57,11 +57,11 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
 
   - You can learn how to change Rythm's prefix by heading to the [Prefix Setting](/settings#prefix) section!
 
-<h3>3. Make sure Rythm has the permissions to read and send messages in the channel.</h3>
+### 3. Make sure Rythm has the permissions to read and send messages in the channel.
 
   - You can give the `Administrator` permission to Rythm to make this easier.
 
-<h3>4. Nothing above helped!</h3>
+### 4. Nothing above helped!
 
   - First, take a look at our [#outage](https://discord.com/channels/231471142685245440/359311833653313546) channel on our [Rythm Bot Discord server](https://rythm.fm/support) to see if there are any issues going on.
 
