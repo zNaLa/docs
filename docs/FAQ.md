@@ -58,9 +58,6 @@ Make sure you have the `Manage Nicknames` permission!
 <!-- The start of the Limitations/Restrictions Section -->
 ## Limitations/Restrictions
 -----
-### Can I have more than one Rythm in the same server?
-Yes! You can invite up to 3 releases by [clicking here](https://rythmbot.co/releases).
-
 ### Can I change Rythm's Profile Picture/Avatar in my server?
 No, Discord does not allow bots to change their profile picture/avatar per server.
 
@@ -134,11 +131,11 @@ If you couldn't find an answer to your question in either this FAQ or in the tro
 
 ### What is Rythm's Discord Server used for?
 Rythm's Discord Server is a place built for everything related to Rythm!
-1. Get help and support from our lovely Support Members!
+1. Get help and support from our lovely Staff Members!
 2. You will be informed about Rythm's new features and updates.
-3. Stay Up-to-Date with news and announcements.
-4. Hang out with our amazing growing community members and staff!
-5. Join and enjoy our events that take place!
-6. Make new feature suggestions for Rythm.
+3. Stay up-to-date with news and announcements.
+4. Make new feature suggestions for Rythm.
+5. Hang out with our amazing growing community members and staff!
+6. Join and enjoy our events that take place!
 
 To join our server, click [here](https://rythmbot.co/support).

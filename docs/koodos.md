@@ -1,4 +1,4 @@
----
+﻿---
 id: koodos
 title: koodos intergration
 ---
@@ -6,10 +6,13 @@ title: koodos intergration
 Don't know what to play? We've partnered with [koodos](https://koodos.com/rythm) to bring you the best song curations! 🎉
 
 ## What is koodos?
+---
 koodos is a platform where you share & discover music through ✨ emojis ✨.
 
 Find out more at https://koodos.com/rythm
+
 ## Song of the day
+---
 Everyday, the top song curated by members becomes the “song of the day”.
   - To get the selected song of the day, run the command `!sotd`.
   - You can also do `!sotd` following by a date to get previous songs of the day.
@@ -23,12 +26,10 @@ Everyday, the top song curated by members becomes the “song of the day”.
     ![psotd](/img/docs/koodos/psotd.png)
 
 ## Songs of the week
-  - By doing `!sotw`, Rythm will return the songs of the week.
+---
+  - By doing `!sotw`, Rythm will return the songs of the week. You may also add a date to get previous songs of the week. Example: `!sotw 2 weeks ago`
 
-    ![sotw1](/img/docs/koodos/sotw1.png)
-  - You may also add a date to get previous songs of the week. Example: `!sotw 2 weeks ago`
-
-    ![sotw2](/img/docs/koodos/sotw2.png)
+    ![sotw](/img/docs/koodos/sotw.png)
 
   - To queue all the songs, do `!psotw` or `!psotw <date>`.
     Example: `!psotw 2 weeks ago`
@@ -36,13 +37,11 @@ Everyday, the top song curated by members becomes the “song of the day”.
     ![psotw](/img/docs/koodos/psotw.png)
 
 ## Songs of the month
-  - Want more? The command `!sotm` will list 30 songs curated for the month ✨
+---
+  - Want more? The command `!sotm` will list 30 songs curated for the month ✨<br/>
+      You may also add a date to get previous songs of the month. Example: `!sotm 1 month ago`
 
-    ![sotm1](/img/docs/koodos/sotm1.png)
-    
-  - You may also add a date to get previous songs of the month. Example: `!sotm 1 month ago`
-
-    ![sotm2](/img/docs/koodos/sotm2.png)
+    ![sotm](/img/docs/koodos/sotm.png)
 
   - Same as the other commands, run `!psotm`/`!psotm <date>` to put all the songs into the queue.
     Example: `!psotm 1 month ago`

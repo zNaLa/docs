@@ -15,7 +15,7 @@ title: Commands
 ---
 <!-- Song-related commands -->
 - **`!join`** - Summons the bot to the voice channel you are in.
-    - **Aliases:** `summon`, `fuckon`
+    - **Aliases:** `summon`
 ---
 - **`!play`** - Plays a song with the given name or url. [More Info](/play_song)
     - **Usage:** `!play <link/query>`
@@ -59,9 +59,8 @@ title: Commands
 - **`!loop`** - Toggles looping for the current playing song.
     - **Alias:** `repeat`
 ---
-- **`!skip`** - Votes to skip the current playing song. **[More Info](/voteskip#how-many-votes-are-required-for-a-song-to-be-vote-skipped)**
-    - **Other Usage:** `!skip <number>` - Skip a certain amount of songs.
-    - **Alias:** `voteskip`, `next`, `s`
+- **`!voteskip`** - Votes to skip the current playing song. **[More Info](/voteskip#how-many-votes-are-required-for-a-song-to-be-vote-skipped)**
+    - **Alias:** `skip`, `next`, `s`
 ---
 - **`!forceskip`** - Skips the current playing song immediately.
     - **Other Usage:** `!forceskip <number>` - Skip a certain amount of songs.
@@ -79,7 +78,7 @@ title: Commands
     - **Aliases:** `l`, `ly`
 ---
 - **`!disconnect`** - Disconnects the bot from the voice channel it is in.
-    - **Aliases:** `dc`, `leave`, `dis`, `fuckoff`
+    - **Aliases:** `dc`, `leave`, `dis`
 ---
 
 ## Queue
@@ -150,9 +149,12 @@ title: Commands
       - [**`djonly`**](/settings#dj-only-mode) - Sets the server to run in DJ only mode.
       - [**`djrole`**](/settings#dj-role) - Changes which role is considered DJ. Roles named `DJ` will still work.
       - [**`djplaylists`**](/settings#dj-only-playlists) - Allows only DJs to queue playlists.
-      - [**`defaultvolume`**](/settings#default-volume) - Sets the default volume that the bot will always start at. [**Donator Only**](https://rythmbot.co/donate?do).
-      - [**`autoplay`**](/settings#autoplay) - Toggles auto-playing songs from playlist when nothing else playing. [**Donator Only**](https://rythmbot.co/donate?do).
       - [**`reset`**](/settings#reset) - Resets all Rythm settings.
+    - **[Premium Only](https://rythm.fm/premium):**
+      - [**`defaultvolume`**](/settings#default-volume) - Sets the default volume that the bot will always start at.
+      - [**`autoplay`**](/settings#autoplay) - Toggles auto-playing songs from playlist when nothing else playing. 
+      - [**`alwaysplaying`**](/settings#always-playing) - Sets Rythm to stay in your voice channel 24/7. 
+      
 
 
 ---

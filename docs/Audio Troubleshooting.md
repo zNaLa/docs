@@ -10,7 +10,7 @@ Here are some steps that you can follow to troubleshoot and resolve your issues.
 ---
 If you can't hear Rythm or receive distorted sounds from Rythm in your server:
 
-- The most common fix to change your server regions. See how [here](/server_region).
+- The most common fix to change the voice regions. See how [here](/voice_region).
 
 - Try reloading your client by pressing both `Ctrl` and `R`, or fully close the app and open again.
 

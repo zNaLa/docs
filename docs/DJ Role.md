@@ -3,13 +3,14 @@ id: dj_role
 title: DJ Role
 ---
 
-----
 Your friends have great tastes in music and you want them to host a super funky music event, but they are lacking power to control Rythm. So what now? Luckily, you can create a `DJ` role to give others more permissions over Rythm!
 
 ## What does DJ role do??
+---
 DJ role grants you more access to Rythm. You can refer to **[here](/permissions#user-alone-with-rythmuser-with-a-dj-role-or-the-manage-channels-permission)** to learn more about what DJ users can do.
 
 ## Setting up DJ role
+---
 :::note
 You need the `Manage Roles` permission to create and assign roles in your server.
 :::
@@ -33,6 +34,7 @@ You need the `Manage Roles` permission to create and assign roles in your server
 You are all set! Rythm will automatically recognize the `DJ` role and work perfectly! Now give your friends this special role so they can spice up your server with all the blasting music!
 
 ## Other DJ settings
+---
 Use the links below to go to each setting:
 1. [DJ Role](/settings#dj-role) (Set another role to be considered as DJ)
 2. [DJ Only Mode](/settings#dj-only-mode)
