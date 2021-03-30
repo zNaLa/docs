@@ -96,7 +96,7 @@ You should now see something similar to this:
 
 ### Final Step
 
-Once you press the **Authorize** button and complete the Captcha, you should be redirected [here](https://rythm.fm/app). In addition, you'll also see a message like the one below in your Discord server. **Amazing!**
+Once you press the **Authorize** button and complete the Captcha, you should be redirected [here](https://rythm.fm/app?thanks). In addition, you'll also see a message like the one below in your Discord server. **Amazing!**
 
 ![A message sent by Rythm upon joining a Discord server](/img/docs/adding/thank-you-message.png)
 
