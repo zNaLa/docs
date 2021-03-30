@@ -161,23 +161,23 @@ title: Commands
 
 ## [Premium](https://rythm.fm/premium)
 ---
-- **`!effects`** - Shows current audio effects.  [**Donator Only**](https://rythmbot.co/donate?do)
+- **`!effects`** - Shows current audio effects.  [**Donator Only**](https://rythm.fm/premium?do)
     - **Other Usages**:
         - `!effects help` - Shows all available audio effects.
         - `!effects clear` - Clears all audio effects.
     - **Alias:** `effect`
 ---
-- **`!speed`** - Shows information about the current speed effect.  [**Donator Only**](https://rythmbot.co/donate?do)
+- **`!speed`** - Shows information about the current speed effect.  [**Donator Only**](https://rythm.fm/premium?do)
     - **Other Usage**: `!speed <0.1 - 3>` - Modifies the playback speed.
 ---
-- **`!bass`** - Shows information about the current bass-boost effect.  [**Donator Only**](https://rythmbot.co/donate?do)
+- **`!bass`** - Shows information about the current bass-boost effect.  [**Donator Only**](https://rythm.fm/premium?do)
     - **Other Usage**: `!bass <1 - 5>` - Bass-boosts the current song.
 ---
-- **`!nightcore`** - Toggles nightcore effect.  [**Donator Only**](https://rythmbot.co/donate?do)
+- **`!nightcore`** - Toggles nightcore effect.  [**Donator Only**](https://rythm.fm/premium?do)
 ---
-- **`!slowed`** - Toggles slowed effect.  [**Donator Only**](https://rythmbot.co/donate?do)
+- **`!slowed`** - Toggles slowed effect.  [**Donator Only**](https://rythm.fm/premium?do)
 ---
-- **`!volume`** - Outputs the current volume.   [**Donator Only**](https://rythmbot.co/donate?do)
+- **`!volume`** - Outputs the current volume.   [**Donator Only**](https://rythm.fm/premium?do)
     - **Other Usage:** `!volume <1-200>` - Changes the current volume.
     - **Alias:** `vol`
 ---

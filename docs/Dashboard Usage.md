@@ -4,7 +4,7 @@ title: How to use Dashboard?
 sidebar_label: Usage
 ---
 
-To begin, [click here](https://rythmbot.co/app/r1) to access the dashboard.
+To begin, [click here](https://rythm.fm/app) to access the dashboard.
 
 ## The Authorization Process
 ---

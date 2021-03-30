@@ -19,4 +19,4 @@ Ready? Let's get started by following [here](/dashboard_usage).
 ---
 Find the solutions to your query [here](/dashboard_troubleshooting).
 
-Got any concerns or feedback towards the dashboard? Join our [**Discord Support Server**](https://rythmbot.co/support).
+Got any concerns or feedback towards the dashboard? Join our [**Discord Support Server**](https://discord.com/invite/3r3b99Q4My).
