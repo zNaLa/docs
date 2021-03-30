@@ -82,7 +82,7 @@ Rythm finds the songs from Youtube and plays them.
 You can play Spotify song/playlist through Rythm by just simply doing `!play <Song/Playlist url>`!
 
 ### Can I adjust the volume for everyone on my server for Rythm?
-Yes, if you activate [Premium](https://rythmbot.co/premium) for your server.
+Yes, if you activate [Premium](https://rythm.fm/premium) for your server.
 
 Rythm uses the default volume when using audio streams. In order to change the volume of these audio streams we need to enable encoding. As encoding requires a lot of computing resources, only donators can access this feature.
 
@@ -101,7 +101,7 @@ The volume command is `!volume <1-200>`.
 
 ### Can I make custom commands for Rythm?
 No, we do not allow custom commands/aliases. To check available aliases, just run the command `!aliases`.
-You can suggest any aliases that you can think of in the [#rythm-suggestions](https://discord.com/channels/231471142685245440/679554693403639835) channel on the [Rythm Bot Discord server](https://rythmbot.co/support).
+You can suggest any aliases that you can think of in the [#rythm-suggestions](https://discord.com/channels/231471142685245440/679554693403639835) channel on the [Rythm Bot Discord server](https://rythm.fm/support).
 
 ### Can Rythm stream the video of the song that is being played?
 No, Discord does not allow bots to use the `Go Live` feature.
@@ -138,4 +138,4 @@ Rythm's Discord Server is a place built for everything related to Rythm!
 5. Hang out with our amazing growing community members and staff!
 6. Join and enjoy our events that take place!
 
-To join our server, click [here](https://rythmbot.co/support).
+To join our server, click [here](https://rythm.fm/support).
