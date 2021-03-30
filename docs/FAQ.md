@@ -101,7 +101,7 @@ The volume command is `!volume <1-200>`.
 
 ### Can I make custom commands for Rythm?
 No, we do not allow custom commands/aliases. To check available aliases, just run the command `!aliases`.
-You can suggest any aliases that you can think of in the [#rythm-suggestions](https://discord.com/channels/231471142685245440/679554693403639835) channel on the [Rythm Bot Discord server](https://discord.com/invite/3r3b99Q4My).
+You can suggest any aliases that you can think of in the [#rythm-suggestions](https://discord.com/channels/231471142685245440/679554693403639835) channel on the [Rythm Bot Discord server](https://rythm.fm/support).
 
 ### Can Rythm stream the video of the song that is being played?
 No, Discord does not allow bots to use the `Go Live` feature.
@@ -138,4 +138,4 @@ Rythm's Discord Server is a place built for everything related to Rythm!
 5. Hang out with our amazing growing community members and staff!
 6. Join and enjoy our events that take place!
 
-To join our server, click [here](https://discord.com/invite/3r3b99Q4My).
+To join our server, click [here](https://rythm.fm/support).

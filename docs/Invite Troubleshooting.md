@@ -50,8 +50,8 @@ For any issue with inviting Rythm on mobile, see the [Mobile Troubleshooting](/m
 ## I am having other issues with adding Rythm that isn't listed above
 ---
 You can:
-- Take a look at [Discord's Status page](https://discordstatus.com/) or our [#outages](https://discord.com/channels/231471142685245440/359311833653313546) channel on our [official Rythm Bot Discord server](https://discord.com/invite/3r3b99Q4My) to see if there are any issues going on.
+- Take a look at [Discord's Status page](https://discordstatus.com/) or our [#outages](https://discord.com/channels/231471142685245440/359311833653313546) channel on our [official Rythm Bot Discord server](https://rythm.fm/support) to see if there are any issues going on.
 
 - If you don't find anything related to the issue, please mention your issue in our [#help-desk](https://discord.com/channels/231471142685245440/359355279004925954) channel on the Rythm Bot Discord server to receive assistance from a member of our Support Team.
 
-[Click here to join the official Rythm Bot Discord server](https://discord.com/invite/3r3b99Q4My)
+[Click here to join the official Rythm Bot Discord server](https://rythm.fm/support)
