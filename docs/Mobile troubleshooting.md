@@ -14,7 +14,7 @@ If you are on mobile and you find that you cannot add Rythm because the link to 
 ![AndroidInviting](/img/docs/mobile-troubleshooting/Android-inviting.png)
 
 If you encounter this error when inviting Rythm, try opening an **Incognito Tab** and copy this link into the search bar:
-https://discord.com/oauth2/authorize?client_id=235088799074484224&redirect_uri=https://rythm.fm/app?thankss&response_type=code&scope=bot+applications.commands+identify+guilds+email&permissions=8
+https://discord.com/oauth2/authorize?client_id=235088799074484224&permissions=8&scope=bot&response_type=code&redirect_uri=https%3A%2F%2Frythmbot.co%2Fthanks
 
 [Click here](https://support.google.com/chrome/answer/95464) to learn how to open an Incognito Tab.
 

@@ -53,6 +53,9 @@ Make sure you have the `Manage Nicknames` permission!
 2. However, normal users can access ALL music commands when they are alone with Rythm in the voice channel.
    This is because their commands would not affect anyone but themselves.
   - For more information about users command permissions, refer to the **[Understanding Permissions](/permissions)** section in this documentation.
+
+### Does Rythm save its settings when re-inviting the bot?
+Yes, all Rythm's settings will be saved until you run `!settings reset`.
 <!-- The end of the Basic Information Section -->
 
 <!-- The start of the Limitations/Restrictions Section -->

@@ -22,7 +22,7 @@ Hey, did you know you can install the dashboard too?
       <li>Go to <a href="https://rythm.fm/app">the dashboard</a>.</li>
       <li>On the right of the search bar, you should see a download/install button. Click on it and click <code>Install</code></li><br/>
       <img src="/docs/img/docs/dashboard/db-install-desktop.png" alt="install-rythm-desktop"/>
-      <li>Rythm app should now be installed. You can either check your `Downloads` folder or check if the app is showing on your desktop.</li>
+      <li>Rythm app should now be installed. You can either check your <code>Downloads</code> folder or check if the app is showing on your desktop.</li>
     </ul>
   </TabItem>
   <TabItem value='android'>
