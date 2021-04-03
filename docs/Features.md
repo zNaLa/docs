@@ -31,7 +31,7 @@ With [Rythm Premium](https://rythm.fm/premium), you will get special and fascina
 ![Effects](/img/docs/features/effects.png)
 
 ### Queue
-With the built-in queue feature, you can add songs to the queue and manage it, allowing you to build a music queue and enjoy the tunes!  [**Learn More**](/queue)
+With the built-in queue feature, you can add songs to the queue and manage it, allowing you to build a music queue and enjoy the tunes! [**Learn More**](/queue)
 
 ![Queue](/img/docs/features/queue-feature.png)
 
