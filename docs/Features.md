@@ -25,13 +25,13 @@ While listening to Rythm, you can control the player with useful commands such a
 
 ![Player](/img/docs/features/player-feature.png)
 
-#### Effects [Premium Only](https://rythm.fm/premium)
-By [subscribing to Premium](https://rythm.fm/premium), you will get special and fascinating perks including sound effects. You will be able to modify and adjust the playback as you wish, bringing you the ultimate experience with Rythm.
+#### Effects ([**Premium Only**](https://rythm.fm/premium))
+With [Rythm Premium](https://rythm.fm/premium), you will get special and fascinating perks including sound effects. You will be able to modify and adjust the playback as you wish, bringing you the ultimate experience with Rythm.
 
 ![Effects](/img/docs/features/effects.png)
 
 ### Queue
-With the built-in queue feature, you can add songs to the queue and manage it, allowing you to build a music queue and enjoy the tunes! [**Learn More**](/queue)
+With the built-in queue feature, you can add songs to the queue and manage it, allowing you to build a music queue and enjoy the tunes!  [**Learn More in the Queue section**](/queue).
 
 ![Queue](/img/docs/features/queue-feature.png)
 
@@ -41,6 +41,6 @@ Rythm is now partnered with [**koodos**](https://koodos.com/rythm) to bring you 
 
 ## Settings
 ---
-Rythm provides a great variety of customizability via the settings panel. For more information about specific settings [click here](/settings)
+Rythm provides a great variety of customizability via the settings panel. For more information about specific settings, go to the [Settings](/settings) section.
 
 ![Settings](/img/docs/features/settings.png)

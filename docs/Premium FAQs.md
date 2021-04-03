@@ -1,4 +1,4 @@
----
+﻿---
 id: premium_faq
 title: Premium FAQs
 sidebar_label: FAQs
@@ -37,4 +37,4 @@ If you have enabled Premium perks for your server via the [billing management pa
 
 Rythm Premium audio bitrate is twice as much as normal Rythm's audio bitrate.
 
-Do note that some songs on Youtube (or other platforms) have a lower bitrate than the maximum bitrate Rythm can play, therefore they have lower audio quality than others.
+Do note that some songs on Youtube (or other platforms) have a lower bitrate than the maximum bitrate Rythm can play, therefore they may have lower audio quality than others.
