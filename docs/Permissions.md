@@ -35,7 +35,7 @@ If `DJ Only mode` is enabled, normal users **will not** be able to play songs wi
 ## Why does Rythm ask for `Administrator` permission when I invite it?
 ## What permissions do I need to grant if I don't want the bot to have `Administrator` permission?
 ---
-Upon inviting, Rythm asks for `Administrator` permission because that will make things easier for you to use the bot without any setup required. Make sure Rythm has all of the permissions to work properly if you revoke its `Administrator` permission: `Read Text Channels & See Voice Channels`, `Send Messages`, `Manage Messages`, `Embed Links`, `Add Reactions`, `Use External Emoji`, `Connect`, `Speak`.
+Upon inviting, Rythm asks for `Administrator` permission because it will make things easier for you to use the bot without any setup required. Make sure Rythm has all of these permissions to work properly if you revoke its `Administrator` permission: `Read Text Channels & See Voice Channels`, `Send Messages`, `Manage Messages`, `Embed Links`, `Add Reactions`, `Use External Emoji`, `Connect`, `Speak`.
 
 
 ## How can I make Rythm only respond to Admins/specific roles?
