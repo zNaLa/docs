@@ -67,7 +67,7 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
 
   - If nothing there, please mention your issue in our [#help-desk](https://discord.com/channels/231471142685245440/359355279004925954) channel on the Rythm Bot Discord server to receive assistance from a member of our Support Team.
 
-[Click here to join the official Rythm Bot Discord server](https://rythmbot.co/support)
+[Click here to join the official Rythm Bot Discord server](https://rythm.fm/support)
 
 ## Rythm is responding to commands but not joining the voice channel
 If you find that Rythm is responding to your commands but not joining a voice channel use the following method:

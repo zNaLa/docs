@@ -26,7 +26,7 @@ We provide 3 premium packs for you to freely choose which suits you best!
       <li>⚡ Audio effects.</li>
       <li>⏩ Ability to play songs over 3 hours.</li>
       <li>⚙️ Ability to change <b>AutoPlay</b> and <b>DefaultVolume</b> settings.</li>
-      <li>🌠 A cool role, prioritized support and more in our <a href="https://rythmbot.co/support">Discord server</a>.</li>
+      <li>🌠 A cool role, prioritized support and more in our <a href="https://rythm.fm/support">Discord server</a>.</li>
       <li>🏅 A shiny badge in our <a href="https://rythm.fm/app">web dashboard.</a></li>
     </ul>
   </TabItem>
@@ -39,7 +39,7 @@ We provide 3 premium packs for you to freely choose which suits you best!
       <li>⚡ Audio effects.</li>
       <li>⏩ Ability to play songs over 3 hours.</li>
       <li>⚙️ Ability to change <b>AutoPlay</b> and <b>DefaultVolume</b> settings.</li>
-      <li>🌠 A cool role, prioritized support and more in our <a href="https://rythmbot.co/support">Discord server</a>.</li>
+      <li>🌠 A cool role, prioritized support and more in our <a href="https://rythm.fm/support">Discord server</a>.</li>
       <li>🏅 A shiny badge in our <a href="https://rythm.fm/app">web dashboard.</a></li>
     </ul>
   </TabItem>
@@ -52,7 +52,7 @@ We provide 3 premium packs for you to freely choose which suits you best!
       <li>⚡ Audio effects.</li>
       <li>⏩ Ability to play songs over 3 hours.</li>
       <li>⚙️ Ability to change <b>AutoPlay</b> and <b>DefaultVolume</b> settings.</li>
-      <li>🌠 A cool role, prioritized support and more in our <a href="https://rythmbot.co/support">Discord server</a>.</li>
+      <li>🌠 A cool role, prioritized support and more in our <a href="https://rythm.fm/support">Discord server</a>.</li>
       <li>🏅 A shiny badge in our <a href="https://rythm.fm/app">web dashboard.</a></li>
     </ul>
     <h3>Extra features:</h3>
