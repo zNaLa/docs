@@ -120,6 +120,14 @@ Yes, if you activate [Premium](https://rythm.fm/premium) for your server.
 ### Can Rythm execute commands given by other bots?
 No, Rythm doesn't respond to commands issued by other bots as it can be easily abused. This restriction will not be removed, nor will any exceptions be made.
 
+### Can Rythm play music in Stage Channels?
+Yes, all you need to do is making Rythm a Stage Moderator. All commands work exactly the same when you use Rythm in a normal voice channel.
+
+Rythm will be a Stage Moderator if one of these conditions satisfy:
+1. Rythm has `Administrator` permission.
+2. Rythm has `Manage Channels`, `Mute Members` and `Move Members` permissions.
+3. Rythm is added as a Stage Moderator manually. To make Rythm a Stage Moderator, go to the Stage Channel settings, head to the `Permissions` tab and add Rythm.
+  ![Add Stage Moderator](/img/docs/faq/add-stage-mod.gif)
 ## Rythm Links
 -----
 ### I have encountered an issue with Rythm!
