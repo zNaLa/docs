@@ -3,6 +3,10 @@ id: premium_faq
 title: Premium FAQs
 sidebar_label: FAQs
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 Still got questions about Premium? Look no further!
 
 ## Payment
@@ -23,6 +27,14 @@ After purchasing Rythm premium you will be redirected to the [billing management
 
 To make changes of your current subscription, visit the [billing management page](https://rythm.fm/app/billing).
 
+:::caution
+There will be a 3-day cooldown for **switching Premium servers**. Choose wisely!
+:::
+
+:::info
+If you **cancel your current subscription**, you will still have Premium perks until the end of the period.
+:::
+
 ### What is your refund policy?
 
 If you are unhappy with your subscription or have encountered an issue please contact us at [support@rythm.fm](mailto:support@rythm.fm)
@@ -32,6 +44,9 @@ If you are unhappy with your subscription or have encountered an issue please co
 ### Will Premium perks apply to me only or to all members in my server.
 
 If you have enabled Premium perks for your server via the [billing management page](https://rythm.fm/app/billing), **all members** in your server will have access to Premium perks!
+
+### Can I activate Premium for servers that I don't own?
+Short answer: Yes!
 
 ### How good is the audio quality that Premium provide?
 

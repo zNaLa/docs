@@ -19,9 +19,10 @@ Hey, did you know you can install the dashboard too?
   ]}>
   <TabItem value='desktop'>
     <ul>
-      <li>Go to <a href="https://rythm.fm/app">the dashboard</a>.</li>
+      <li>Open <b>Google Chrome</b>.</li>
+      <li>Go to the dashboard at <a href="https://rythm.fm/app">https://rythm.fm/app</a>.</li>
       <li>On the right of the search bar, you should see a download/install button. Click on it and click <code>Install</code></li><br/>
-      <img src="/docs/img/docs/dashboard/db-install-desktop.png" alt="install-rythm-desktop"/>
+      <img src="/docs/img/docs/dashboard/db-install-desktop.gif" alt="install-rythm-desktop"/>
       <li>Rythm app should now be installed. You can either check your <code>Downloads</code> folder or check if the app is showing on your desktop.</li>
     </ul>
   </TabItem>
