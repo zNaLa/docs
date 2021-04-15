@@ -112,18 +112,24 @@ If you don't see your server in this drop-down, [click here!](/invite_troublesho
 
 ### Step two
 
-Once you've selected the server that you'd like to add Rythm to, you can press the **Continue** button on the bottom right of the menu.
+Once you've selected the server that you'd like to add Rythm to, you can press the `Continue` button on the bottom right of the menu.
 
 You should now see something similar to this:
 
 ![Press authorize and you'll be good to go!](/img/docs/adding/discord-oauth2-3.png)
 
+:::caution Note
+If you want to disable `Administrator` permission from Rythm, make sure you enable all other permissions. They are necessary for Rythm to work properly!
+:::
+
 ### Final Step
 
-Once you press the **Authorize** button and complete the Captcha, you should be redirected [here](https://rythm.fm/app?thanks). In addition, you'll also see a message like the one below in your Discord server. **Amazing!**
+Once you press the `Authorize` button and complete the Captcha, you should be redirected [here](https://rythm.fm/app?thanks). In addition, you'll also see a message like the one below in your Discord server. **Amazing!**
 
 ![A message sent by Rythm upon joining a Discord server](/img/docs/adding/thank-you-message.png)
 
 Now let's get the party started by [playing some songs](/play_song)!
 
+## I have problems with inviting Rythm!
+---
 For any issues with inviting Rythm, check out the [Invite Troubleshooting](/invite_troubleshooting) section.
