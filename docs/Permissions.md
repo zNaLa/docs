@@ -31,6 +31,13 @@ By default, all users can only:
 :::info Note
 If `DJ Only mode` is enabled, normal users **will not** be able to play songs with Rythm. [**More Info**](/settings#dj-only-mode)
 :::
+
+## Why does Rythm ask for `Administrator` permission when I invite it?
+## What permissions do I need to grant if I don't want the bot to have `Administrator` permission?
+---
+Upon inviting, Rythm asks for `Administrator` permission because it will make things easier for you to use the bot without any setup required. Make sure Rythm has all of these permissions to work properly if you revoke its `Administrator` permission: `Read Text Channels & See Voice Channels`, `Send Messages`, `Manage Messages`, `Embed Links`, `Add Reactions`, `Use External Emoji`, `Connect`, `Speak`.
+
+
 ## How can I make Rythm only respond to Admins/specific roles?
 ---
 In order to lock Rythm's commands to a specific role, you can try one of the following:
@@ -50,6 +57,9 @@ In order to lock Rythm's commands to a specific role, you can try one of the fol
     </details>
  2. Blacklist other text channels by following [here](/permissions#how-do-i-restrict-rythm-from-being-used-in-a-specific-textvoice-channel)
 
+:::caution Note   
+WIth this method, users are still able to queue songs via the web dashboard.
+:::
 ## How can I give all users access to all music commands?
 ---
 There is currently no setting that will apply DJ to all users. You will have to either give them the `Manage Channels` permission or the DJ role manually.
@@ -79,7 +89,7 @@ To disallow Rythm from being used within certain text/voice channels, you must u
   <TabItem value="text">
     <ol type="1">
       <li>Go to your server's settings and select <code>Roles</code>.</li>
-      <li>Find Rythm, revoke its <code>Administrator</code> permission and grant the <code>Read Text Channels & See Voice Channels</code>, <code>Send Messages</code>, <code>Manage Messages</code>, <code>Embed Links</code>, <code>Add Reactions</code>, <code>Connect</code> and <code>Speak</code> permissions.
+      <li>Find Rythm, revoke its <code>Administrator</code> permission and grant the <code>Read Text Channels & See Voice Channels</code>, <code>Send Messages</code>, <code>Manage Messages</code>, <code>Embed Links</code>, <code>Add Reactions</code>, <code>Use External Emoji</code>, <code>Connect</code> and <code>Speak</code> permissions.
   <ul><li>If you have any other roles Rythm is assigned to, repeat this step for each role.</li></ul></li>
       <li>Save and close out of server settings.</li>
       <li>Go to each text channel settings you want to restrict Rythm from responding in.</li>

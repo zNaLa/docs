@@ -53,6 +53,9 @@ Make sure you have the `Manage Nicknames` permission!
 2. However, normal users can access ALL music commands when they are alone with Rythm in the voice channel.
    This is because their commands would not affect anyone but themselves.
   - For more information about users command permissions, refer to the **[Understanding Permissions](/permissions)** section in this documentation.
+
+### Does Rythm save its settings when re-inviting the bot?
+Yes, all Rythm's settings will be saved until you run `!settings reset`.
 <!-- The end of the Basic Information Section -->
 
 <!-- The start of the Limitations/Restrictions Section -->
@@ -117,6 +120,14 @@ Yes, if you activate [Premium](https://rythm.fm/premium) for your server.
 ### Can Rythm execute commands given by other bots?
 No, Rythm doesn't respond to commands issued by other bots as it can be easily abused. This restriction will not be removed, nor will any exceptions be made.
 
+### Can Rythm play music in Stage Channels?
+Yes, all you need to do is making Rythm a Stage Moderator. All commands work exactly the same when you use Rythm in a normal voice channel.
+
+Rythm will be a Stage Moderator if one of these conditions satisfy:
+1. Rythm has `Administrator` permission.
+2. Rythm has `Manage Channels`, `Mute Members` and `Move Members` permissions.
+3. Rythm is added as a Stage Moderator manually. To make Rythm a Stage Moderator, go to the Stage Channel settings, head to the `Permissions` tab and add Rythm.
+  ![Add Stage Moderator](/img/docs/faq/add-stage-mod.gif)
 ## Rythm Links
 -----
 ### I have encountered an issue with Rythm!

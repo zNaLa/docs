@@ -105,7 +105,7 @@ To setup AutoPlay, provide a playlist using the following command:<br/>
 When enabled, Rythm will send a message to announce when a song has started playing.
 
 :::caution
-The messages go to the channel in which the command was used.
+The messages go to the channel in which the last command was used before it announces.
 :::
 
 To enable or disable song announcements, use the following command:<br/>

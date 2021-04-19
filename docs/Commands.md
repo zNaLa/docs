@@ -17,7 +17,7 @@ title: Commands
 - **`!join`** - Summons the bot to the voice channel you are in.
     - **Aliases:** `summon`
 ---
-- **`!play`** - Plays a song with the given name or url. [More Info](/play_song)
+- **`!play`** - Plays a song with the given name or url. [**More Info**](/play_song)
     - **Usage:** `!play <link/query>`
     - **Alias:** `p`
 ---
@@ -152,32 +152,32 @@ title: Commands
       - [**`reset`**](/settings#reset) - Resets all Rythm settings.
     - **[Premium Only](https://rythm.fm/premium):**
       - [**`defaultvolume`**](/settings#default-volume) - Sets the default volume that the bot will always start at.
-      - [**`autoplay`**](/settings#autoplay) - Toggles auto-playing songs from playlist when nothing else playing. 
-      - [**`alwaysplaying`**](/settings#always-playing) - Sets Rythm to stay in your voice channel 24/7. 
-      
+      - [**`autoplay`**](/settings#autoplay) - Toggles auto-playing songs from playlist when nothing else playing.
+      - [**`alwaysplaying`**](/settings#always-playing) - Sets Rythm to stay in your voice channel 24/7.
+
 
 
 ---
 
 ## [Premium](https://rythm.fm/premium)
 ---
-- **`!effects`** - Shows current audio effects.  [**Donator Only**](https://rythm.fm/premium?do)
+- **`!effects`** - Shows current audio effects.  [**Premium Only**](https://rythm.fm/premium?do)
     - **Other Usages**:
         - `!effects help` - Shows all available audio effects.
         - `!effects clear` - Clears all audio effects.
     - **Alias:** `effect`
 ---
-- **`!speed`** - Shows information about the current speed effect.  [**Donator Only**](https://rythm.fm/premium?do)
+- **`!speed`** - Shows information about the current speed effect.  [**Premium Only**](https://rythm.fm/premium?do)
     - **Other Usage**: `!speed <0.1 - 3>` - Modifies the playback speed.
 ---
-- **`!bass`** - Shows information about the current bass-boost effect.  [**Donator Only**](https://rythm.fm/premium?do)
+- **`!bass`** - Shows information about the current bass-boost effect.  [**Premium Only**](https://rythm.fm/premium?do)
     - **Other Usage**: `!bass <1 - 5>` - Bass-boosts the current song.
 ---
-- **`!nightcore`** - Toggles nightcore effect.  [**Donator Only**](https://rythm.fm/premium?do)
+- **`!nightcore`** - Toggles nightcore effect.  [**Premium Only**](https://rythm.fm/premium?do)
 ---
-- **`!slowed`** - Toggles slowed effect.  [**Donator Only**](https://rythm.fm/premium?do)
+- **`!slowed`** - Toggles slowed effect.  [**Premium Only**](https://rythm.fm/premium?do)
 ---
-- **`!volume`** - Outputs the current volume.   [**Donator Only**](https://rythm.fm/premium?do)
+- **`!volume`** - Outputs the current volume.   [**Premium Only**](https://rythm.fm/premium?do)
     - **Other Usage:** `!volume <1-200>` - Changes the current volume.
     - **Alias:** `vol`
 ---

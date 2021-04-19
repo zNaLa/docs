@@ -51,7 +51,7 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
 
 ### 2. Make sure you're using the correct prefix.
 
-  - You can mention Rythm to get the current prefix in your server: <br/>
+  - You can mention Rythm to get the current prefix in your server:
 
   ![Mention to get prefix](/img/docs/basic-troubleshooting/prefix.png) ![Mention to get prefix 2](/img/docs/basic-troubleshooting/prefix-2.png)
 
