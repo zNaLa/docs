@@ -3,7 +3,11 @@ import "./styles.css"
 
 const STYLES = [
   "btn--primary--solid",
-  "btn--success-outline"
+  "btn--rythm--1",
+  "btn--rythm--2",
+  "btn--rythm--3",
+  "btn--rythm--4",
+  "btn--rythm--5",
 ]
 
 const SIZES = [
