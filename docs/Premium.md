@@ -1,4 +1,4 @@
----
+﻿---
 id: 'premium'
 title: About Rythm Premium
 sidebar_label: What is Rythm Premium?

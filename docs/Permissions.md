@@ -18,6 +18,10 @@ By default, all users can only:
   - Example: `lyrics`, `queue`, `grab`.
 - Skip a song through voting.
 
+:::info Note
+If `DJ Only mode` is enabled, normal users **will not** be able to play songs with Rythm. [**More Info**](/settings#dj-only-mode)
+:::
+
 ### Users with Special Permissions
 
 | Type of Users                                                                                                                      | Music Control* | Rythm Setting Control  |
@@ -28,8 +32,8 @@ By default, all users can only:
 
 *Also bypass `Max User Songs` setting limit. [**More Info**](/settings#max-user-songs)
 
-:::info Note
-If `DJ Only mode` is enabled, normal users **will not** be able to play songs with Rythm. [**More Info**](/settings#dj-only-mode)
+:::info
+Users deafened in the voice channel are counted as not using Rythm. For instance, if you are in a voice channel with 3 other deafened users, you will have DJ permissions!
 :::
 
 ## Why does Rythm ask for `Administrator` permission when I invite it?
@@ -96,18 +100,20 @@ To disallow Rythm from being used within certain text/voice channels, you must u
       <li>Head to the <code>Permissions</code> section ➠ Click <code>+</code> ➠ <code>Rythm</code></li>
       <li>On the Rythm override, deny the <code>Read Messages</code> and <code>Send Messages</code> permissions.</li>
       <li>Save and close out of channel settings.</li>
+      <li>Repeat step 4 to 7 for other text channels.</li>
     </ol>
   </TabItem>
   <TabItem value="voice">
     <ol type="1">
       <li>Go to your server's settings and select <code>Roles</code>.</li>
-      <li>Find Rythm, revoke its <code>Administrator</code> permission and grant the <code>Read Text Channels & See Voice Channels</code>, <code>Send Messages</code>, <code>Manage Messages</code>, <code>Embed Links</code>, <code>Add Reactions</code>, <code>Connect</code> and <code>Speak</code> permissions.
+      <li>Find Rythm, revoke its <code>Administrator</code> permission and grant the <code>Read Text Channels & See Voice Channels</code>, <code>Send Messages</code>, <code>Manage Messages</code>, <code>Embed Links</code>, <code>Add Reactions</code>, <code>Use External Emoji</code>, <code>Connect</code> and <code>Speak</code> permissions.
   <ul><li>If you have any other roles Rythm is assigned to, repeat this step for each role.</li></ul></li>
       <li>Save and close out of server settings.</li>
       <li>Go to each voice channel settings you want to restrict Rythm from connecting to.</li>
       <li>Head to the <code>Permissions</code> section ➠ Click <code>+</code> ➠ <code>Rythm</code></li>
       <li>On the Rythm override, deny the <code>Connect</code> permissions.</li>
       <li>Save and close out of channel settings.</li>
+      <li>Repeat step 4 to 7 for other voice channels.</li>
     </ol>
   </TabItem>
 </Tabs>

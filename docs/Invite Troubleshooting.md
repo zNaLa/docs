@@ -43,6 +43,7 @@ Because Discord caches data into cookies, it retains old session information whi
 
 Discord requires you to verify your e-mail account to add bots into your servers. Head to the User Settings and verify your e-mail there.
 
+![Verify your email](/img/docs/invite-troubleshooting/verify-email.png)
 ## I can't invite Rythm on my mobile!
 ---
 For any issue with inviting Rythm on mobile, see the [Mobile Troubleshooting](/mobile_troubleshooting) section.

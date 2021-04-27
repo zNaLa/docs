@@ -24,7 +24,7 @@
     footer: {
       logo: {
         alt: 'rythm-logo',
-        src: 'img/logo.svg',
+        src: 'img/logosmall.svg',
       },
       style: 'dark',
       links: [
@@ -54,7 +54,7 @@
             },
             {
               label: "BoD.xyz",
-              to: "https://bots.ondiscord.xyz/bots/2350887990744842244"
+              to: "https://bots.ondiscord.xyz/bots/235088799074484224"
             }
           ],
         },
