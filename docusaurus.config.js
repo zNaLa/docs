@@ -77,7 +77,9 @@
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Rythm. Built with Docusaurus.`,
-
+    },
+    gtag: {
+      trackingID: 'G-R24WK20SNS',
     },
   },
   presets: [
@@ -91,6 +93,10 @@
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
+        },
+        sitemap: {
+          changefreq: 'monthly',
+          priority: 0.6,
         },
       },
     ],
