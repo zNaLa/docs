@@ -25,7 +25,7 @@ If `DJ Only mode` is enabled, normal users **will not** be able to play songs wi
 ### Users with Special Permissions
 
 | Type of Users                                                                                                                      | Music Control* | Rythm Setting Control  |
-|:---------------------------------------------------------------------------------------------------------------------------------- |:--------------:|:----------------------:|
+|:-----------------------------------------------------------------------------------------------------------------------------------|:--------------:|:----------------------:|
 | Users with DJ permissions<br/>(Either:<br/>- Listening alone with Rythm<br/>- Have `DJ` role<br/>- Have `Manage Channels` permission)  |       ✅  |                        |
 | Users with `Manage Server` permission                                                                                         |                |         ✅             |
 | Users with `Administrator` permission                                                                                         |      ✅        |        ✅              |
