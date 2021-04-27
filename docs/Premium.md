@@ -1,4 +1,4 @@
-﻿---
+---
 id: 'premium'
 title: About Rythm Premium
 sidebar_label: What is Rythm Premium?
@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Do you ❤️ Rythm? Turn your server into a party with Rythm Premium. You can [subscribe today](https://rythm.fm/premium) to get awesome perks such as better audio quality, **3** additional Rythm bots and more! 🔥 🔥
 ## What are the plans and pricing?
 ---
-We provide 3 pre-made premium plans for you to freely choose which suits you best!
+We provide 3 pre-made premium packs for you to freely choose which suits you best!
 <Tabs
   defaultValue="personal"
   values={[
@@ -26,7 +26,7 @@ We provide 3 pre-made premium plans for you to freely choose which suits you bes
       <li>⚡ Audio effects.</li>
       <li>⏩ Ability to play songs over 3 hours.</li>
       <li>⚙️ Ability to change <b>AutoPlay</b> and <b>DefaultVolume</b> settings.</li>
-      <li>🌠 Prioritized support in our <a href="https://rythm.fm/support">Discord server</a>.</li>
+      <li>🌠 A cool role, prioritized support and more in our <a href="https://rythm.fm/support">Discord server</a>.</li>
       <li>🏅 A shiny badge in our <a href="https://rythm.fm/app">web dashboard.</a></li>
     </ul>
   </TabItem>
@@ -39,7 +39,7 @@ We provide 3 pre-made premium plans for you to freely choose which suits you bes
       <li>⚡ Audio effects.</li>
       <li>⏩ Ability to play songs over 3 hours.</li>
       <li>⚙️ Ability to change <b>AutoPlay</b> and <b>DefaultVolume</b> settings.</li>
-      <li>🌠 Prioritized support in our <a href="https://rythm.fm/support">Discord server</a>.</li>
+      <li>🌠 A cool role, prioritized support and more in our <a href="https://rythm.fm/support">Discord server</a>.</li>
       <li>🏅 A shiny badge in our <a href="https://rythm.fm/app">web dashboard.</a></li>
     </ul>
   </TabItem>
@@ -52,7 +52,7 @@ We provide 3 pre-made premium plans for you to freely choose which suits you bes
       <li>⚡ Audio effects.</li>
       <li>⏩ Ability to play songs over 3 hours.</li>
       <li>⚙️ Ability to change <b>AutoPlay</b> and <b>DefaultVolume</b> settings.</li>
-      <li>🌠 Prioritized support in our <a href="https://rythm.fm/support">Discord server</a>.</li>
+      <li>🌠 A cool role, prioritized support and more in our <a href="https://rythm.fm/support">Discord server</a>.</li>
       <li>🏅 A shiny badge in our <a href="https://rythm.fm/app">web dashboard.</a></li>
     </ul>
     <h3>Extra features:</h3>

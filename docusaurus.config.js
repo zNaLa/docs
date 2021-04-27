@@ -24,7 +24,7 @@
     footer: {
       logo: {
         alt: 'rythm-logo',
-        src: 'img/logo.svg',
+        src: 'img/logosmall.svg',
       },
       style: 'dark',
       links: [
@@ -54,7 +54,7 @@
             },
             {
               label: "BoD.xyz",
-              to: "https://bots.ondiscord.xyz/bots/2350887990744842244"
+              to: "https://bots.ondiscord.xyz/bots/235088799074484224"
             }
           ],
         },
@@ -77,9 +77,7 @@
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Rythm. Built with Docusaurus.`,
-    },
-    gtag: {
-      trackingID: 'G-R24WK20SNS',
+
     },
   },
   presets: [
@@ -93,10 +91,6 @@
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
-        },
-        sitemap: {
-          changefreq: 'monthly',
-          priority: 0.6,
         },
       },
     ],
