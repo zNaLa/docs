@@ -34,7 +34,7 @@ export const Highlight = ({children, color}) => (
       <ul>
         <h2><Highlight color="#fb0f32">Rythm</Highlight> (<code>Rythm#3722</code>)</h2>
         <li>Prefix: <code>!</code></li>
-        <li>Rythm is our main bot used by the most servers. This bot and most of its features are available to the public <b>for free</b>.</li>
+        <li><b>Rythm</b> is our main bot used by the most servers. This bot and most of its features are available to the public <b>for free</b>.</li>
       </ul>
     </td>
   </tr>
@@ -47,7 +47,7 @@ export const Highlight = ({children, color}) => (
       <ul>
         <h2><Highlight color="#0070ff">Rythm 2</Highlight> (<code>Rythm 2#2000</code>)</h2>
         <li>Prefix: <code>></code></li>
-        <li>Rythm 2 is the secondary Rythm bot, used by the second most number of servers. It is identical in functionality to Rythm 1, the only difference being the prefix. This bot and most of its features are available to the public <b>for free</b>.</li>
+        <li><b>Rythm 2</b> is the secondary Rythm bot, used by the second most number of servers. It is identical in functionality to Rythm 1, the only difference being the prefix. This bot and most of its features are available to the public <b>for free</b>.</li>
       </ul>
     </td>
   </tr>
@@ -60,7 +60,7 @@ export const Highlight = ({children, color}) => (
       <ul>
         <h2><Highlight color="#db00ff">Rythm 3</Highlight> (<code>Rythm 3#0817</code>)</h2>
         <li>Prefix: <code>&</code></li>
-        <li>Rythm 3 is the third Rythm. While you can still invite Rythm 3, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
+        <li><b>Rythm 3</b> is the third Rythm. While you can still invite Rythm 3, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
       </ul>
     </td>
   </tr>
@@ -73,7 +73,7 @@ export const Highlight = ({children, color}) => (
       <ul>
         <h2><Highlight color="#46af2c">Rythm 4</Highlight> (<code>Rythm 4#0952</code>)</h2>
         <li>Prefix: <code>%</code></li>
-        <li>Rythm 4 is the forth Rythm. While you can still invite Rythm 4, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
+        <li><b>Rythm 4</b> is the forth Rythm. While you can still invite Rythm 4, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
       </ul>
     </td>
   </tr>
@@ -86,7 +86,20 @@ export const Highlight = ({children, color}) => (
       <ul>
         <h2><Highlight color="#33bed1">Rythm 5</Highlight> (<code>Rythm 5#6171</code>)</h2>
         <li>Prefix: <code>-</code></li>
-        <li>Rythm 5 is the fifth Rythm. While you can still invite Rythm 5, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
+        <li><b>Rythm 5</b> is the fifth Rythm. While you can still invite Rythm 5, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="/docs/img/docs/adding/rythm-chan.png" alt="rythm-chan"/><br/>
+      <Button onClick = {() => window.open('http://rythm.fm/rythmchan','_blank')} buttonStyle = "btn--rythm--chan">Invite  </Button>
+    </th>
+    <td>
+      <ul>
+        <h2><Highlight color="#fe7f9d">Rythm-chan</Highlight> (<code>Rythm-chan#1001</code>)</h2>
+        <li>Prefix: <code>~</code></li>
+        <li>Behold... Our newest version of Rythm has arrived: <b>Rythm-chan</b>. She is identical in functionality with other Rythm bots but her unique responses make her stand out! While you can still invite Rythm-chan, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use her.</li>
       </ul>
     </td>
   </tr>

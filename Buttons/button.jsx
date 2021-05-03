@@ -8,6 +8,7 @@ const STYLES = [
   "btn--rythm--3",
   "btn--rythm--4",
   "btn--rythm--5",
+  "btn--rythm--chan",
 ]
 
 const SIZES = [

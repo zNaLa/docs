@@ -6,6 +6,7 @@
   --r3: #db00ff;
   --r4: #46af2c;
   --r5: #33bed1;
+  --rchan: #fe7f9d;
 }
 
 .btn {
@@ -51,7 +52,11 @@
   color: var(--white);
   border: none;
 }
-
+.btn--rythm--chan {
+  background-color: var(--rchan);
+  color: var(--white);
+  border: none;
+}
 .btn--large {
   padding: 20px 40px;
   font-size: 35px;
