@@ -40,3 +40,28 @@ steps:
       - master
       event:
       - push
+      
+  - name: wait
+    image: busybox
+    commands:
+      - sleep 30
+    when:
+      branch:
+      - master
+      event:
+      - push
+
+  - name: clear-cache
+    pull: if-not-exists
+    image: 'jetrails/drone-cloudflare-caching'
+    settings:
+      zone_identifier:
+        from_secret: cf_zone_id
+      api_token:
+        from_secret: cf_api_token
+      action: purge_everything
+    when:
+      branch:
+      - master
+      event:
+      - push
