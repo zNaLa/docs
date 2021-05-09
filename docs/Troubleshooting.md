@@ -8,15 +8,20 @@ Encountering freaky problems? Look them up here!
 ### I don't know Rythm's prefix. What should I do?
 If you don't know or forget Rythm's prefix, don't stress. We have you covered. You can view the prefix simply by mentioning the bot.
 
-:::tip
-The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm 3 is `&`, Rythm 4 is `%`, Rythm 5 is `-`.
-:::
-
 ![MentionRythm](/img/docs/basic-troubleshooting/mention-rythm.png)
 
-You can also mention Rythm as a prefix!
+:::tip
+The prefixes in the image above are the bots' default prefixes. You can learn how to change prefix [here](/settings#prefix)
+:::
 
-![MentionAsPrefix](/img/docs/basic-troubleshooting/mention-as-prefix.png)
+You can also mention Rythm as a prefix.
+
+![MentionPrefix](/img/docs/basic-troubleshooting/mention-as-prefix.png)
+
+Or you can use Slash commands. More information about Slash commands can be found [here](https://rythm.fm/docs/slash_commands).
+
+![SlashCommands](/img/docs/slash-commands/slash-commands-example.png)
+
 ## Rythm won't play my playlist
 Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that specific playlist.
 

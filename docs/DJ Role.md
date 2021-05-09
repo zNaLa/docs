@@ -1,5 +1,6 @@
 ---
 id: dj_role
+description: Power up your users with the DJ role.
 title: DJ Role
 ---
 

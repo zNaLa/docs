@@ -20,9 +20,9 @@ If you're **100%** sure that you're signed into the correct account, then you sh
 If you are able to change the name of the server, you have the required permissions!
 :::
 
-### Open an incognito tab and invite Rythm from there.
+### Open an incognito/private tab and invite Rythm from there.
 
-If you're sure that **you're signed into the correct account** and **you have permissions on the server that you'd like to add Rythm to**, then you should open an incognito tab and invite Rythm from there. Below is a table which lists the most common keyboard shortcuts for the most popular browsers:
+If you're sure that **you're signed into the correct account** and **you have permissions on the server that you'd like to add Rythm to**, you should open an incognito/private tab and invite Rythm from there. Below is a table which lists the most common keyboard shortcuts for the most popular browsers on computer:
 
 | Browser  | Windows/Linux | MacOS       |
 |:--------:|:-------------:|:-----------:|
@@ -32,6 +32,8 @@ If you're sure that **you're signed into the correct account** and **you have pe
 | MS Edge  | CTRL+Shift+N  | CMD+Shift+N |
 | Explorer | CTRL+Shift+P  | N/A         |
 | Safari   | N/A           | CMD+SHIFT+N |
+
+And instructions to open incognito/private tab for common browsers on mobile can be found in [this article](https://www.digitaltrends.com/mobile/how-to-turn-on-private-browsing-in-android-and-ios/)
 
 #### Why is this necessary?
 
@@ -48,7 +50,7 @@ Discord requires you to verify your e-mail account to add bots into your servers
 ---
 For any issue with inviting Rythm on mobile, see the [Mobile Troubleshooting](/mobile_troubleshooting) section.
 
-## I am having other issues with adding Rythm that isn't listed above
+## Anything listed above doesn't help. I am still having issues with inviting Rythm!
 ---
 You can:
 - Take a look at [Discord's Status page](https://discordstatus.com/) or our [#outages](https://discord.com/channels/231471142685245440/359311833653313546) channel on our [official Rythm Bot Discord server](https://rythm.fm/support) to see if there are any issues going on.

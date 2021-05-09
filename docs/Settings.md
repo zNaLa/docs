@@ -1,5 +1,6 @@
-﻿---
+---
 id: settings
+description: Confirgure Rythm's settings in your cozy server.
 title: Rythm's Settings and How They Work
 ---
 import Tabs from '@theme/Tabs';
@@ -75,7 +76,7 @@ To disallow Rythm from being used within certain text channels, use the followin
 
 You can provide multiple channels for quicker blacklisting.
 
-**Example**: If you wanted to blacklist channels named `#chat`, `#gaming` and `#international`, use `!settings blacklist #chat #gaming #international`<br/>
+**Example**: If you wanted to blacklist channels named `#chat` and `#share-your-songs`, use `!settings blacklist #chat #share-your-songs`<br/>
 
 ![Blacklist text channel example](/img/docs/settings/blacklist-text-channel-example.png)
 

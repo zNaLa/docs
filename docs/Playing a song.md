@@ -1,12 +1,14 @@
 ---
 id: play_song
+description: Learn how to play songs with Rythm!
 title: Playing a Song
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Now that you have Rythm in your server, you can get the party started! To begin playing songs through Rythm, follow this guide:
+After [inviting Rythm into your server](/adding_rythm), you can get the party started! To begin playing songs through Rythm, follow this guide:
+
 
 ## 1. Join a Voice Channel.
   - You can do that by clicking on the channel with a speaker icon.

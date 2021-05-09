@@ -1,12 +1,13 @@
 ---
 id: server_id
+description:
 title: Obtaining Server ID
 ---
 
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 
-Server ID can be useful for Rythm developers to detect issues with the bot. You can grab your server ID by going through the steps below:
+Server ID can be useful for Rythm developers to detect issues with the bot. You can grab your server ID by going through these simple steps.
 
 ## Enable Developer Mode
 ---

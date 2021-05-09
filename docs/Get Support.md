@@ -1,5 +1,6 @@
 ---
 id: get_support
+description: Seeking for help? We've got your back!
 title: Get Support
 ---
 

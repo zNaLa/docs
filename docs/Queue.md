@@ -1,5 +1,6 @@
 ---
 id: queue
+description: In this section, we will learn about Rythm's queue.
 title: Queue
 ---
 

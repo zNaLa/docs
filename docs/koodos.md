@@ -1,5 +1,6 @@
-﻿---
+---
 id: koodos
+description: Don't know what to play? We've partnered with koodos to bring you the best song curations!
 title: koodos intergration
 ---
 
