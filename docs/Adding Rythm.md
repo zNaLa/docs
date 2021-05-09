@@ -7,7 +7,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import { Button } from '../Buttons/button';
 
-Ready to start listening with Rythm? We currently offer 2 bots for free and 3 bots for premium users!
+Ready to start listening with Rythm? We currently offer 2 bots for free and 4 bots for premium users!
 
 ## Rythm releases
 ---
@@ -73,7 +73,7 @@ export const Highlight = ({children, color}) => (
       <ul>
         <h2><Highlight color="#46af2c">Rythm 4</Highlight> (<code>Rythm 4#0952</code>)</h2>
         <li>Prefix: <code>%</code></li>
-        <li><b>Rythm 4</b> is the forth Rythm. While you can still invite Rythm 4, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
+        <li><b>Rythm 4</b> is the fourth Rythm. While you can still invite Rythm 4, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
       </ul>
     </td>
   </tr>

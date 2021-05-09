@@ -1,5 +1,6 @@
 ---
 id: voteskip
+description: Learn about voteskipping in this article.
 title: Vote Skip
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 id: 'premium'
 title: About Rythm Premium
 sidebar_label: What is Rythm Premium?
@@ -7,7 +7,7 @@ sidebar_label: What is Rythm Premium?
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Do you ❤️ Rythm? Turn your server into a party with Rythm Premium. You can [subscribe today](https://rythm.fm/premium) to get awesome perks such as better audio quality, **3** additional Rythm bots and more! 🔥 🔥
+Do you ❤️ Rythm? Turn your server into a party with Rythm Premium. You can [subscribe today](https://rythm.fm/premium) to get awesome perks such as better audio quality, **4** additional Rythm bots and more! 🔥 🔥
 ## What are the plans and pricing?
 ---
 We provide 3 pre-made premium packs for you to freely choose which suits you best!
@@ -58,7 +58,7 @@ We provide 3 pre-made premium packs for you to freely choose which suits you bes
     <h3>Extra features:</h3>
     <ul>
       <li>🕒 Rythm staying in your voice channel 24/7.</li>
-      <li>🎀 3 Extra Rythm bots!</li>
+      <li>🎀 4 extra Rythm bots!</li>
     </ul>
   </TabItem>
 </Tabs>

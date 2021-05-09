@@ -1,4 +1,4 @@
-﻿module.exports = {
+module.exports = {
   plugins: [require.resolve('docusaurus-lunr-search')],
   title: 'Rythm',
   tagline: 'Docs',

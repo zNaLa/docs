@@ -1,9 +1,8 @@
 ---
 id: faq
+description: Self-serve yourself with the most common questions with Rythm!
 title: Frequently Asked Questions
 ---
-
-
 
 <!-- The start of the Introduction Section -->
 ## Introduction
@@ -14,11 +13,11 @@ title: Frequently Asked Questions
 ### How can I add Rythm to my Discord Server?
 Please [click here](/adding_rythm) to check out our guide on adding Rythm.
 
-### What are the differences among the 5 Rythm bots?
+### What are the differences among the 6 Rythm bots?
 - Their default prefixes are different.
-- Rythm 1 & 2 are available to public for free, while the other three bots require you to [subscribe Premium](https://rythm.fm/premium).
+- Rythm 1 & 2 are available to public for free, while the other four bots require you to [subscribe Premium](https://rythm.fm/premium).
 
-You may find their default prefixes and their invite links [here](/adding_rythm#rythm-releases)
+You may find their default prefixes and their invite links [here](/adding_rythm#rythm-releases).
 <!-- The end of the Introduction Section -->
 
 <!-- The start of the Basic Information Section -->
@@ -128,6 +127,7 @@ Rythm will be a Stage Moderator if one of these conditions satisfy:
 2. Rythm has `Manage Channels`, `Mute Members` and `Move Members` permissions.
 3. Rythm is added as a Stage Moderator manually. To make Rythm a Stage Moderator, go to the Stage Channel settings, head to the `Permissions` tab and add Rythm.
   ![Add Stage Moderator](/img/docs/faq/add-stage-mod.gif)
+
 ## Rythm Links
 -----
 ### I have encountered an issue with Rythm!
@@ -135,8 +135,8 @@ Encounter freaky issues? You can use the links below to help you fix any of thos
 + [Invite Troubleshooting](/invite_troubleshooting)
 + [Basic Troubleshooting](/basic_troubleshooting)
 + [Audio Troubleshooting](/audio_troubleshooting)
-+ [Mobile Troubleshooting](/mobile_troubleshooting)
 + [Dashboard Troubleshooting](/dashboard_troubleshooting)
+
 ### None of these solutions solved my problem!
 If you couldn't find an answer to your question in either this FAQ or in the troubleshooting pages, please go to [Get Support](/get_support) section for further support.
 

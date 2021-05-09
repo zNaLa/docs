@@ -1,5 +1,5 @@
 ---
-id: slash_command
+id: slash_commands
 title: Slash Commands
 ---
 
