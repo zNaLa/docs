@@ -15,11 +15,11 @@ title: Commands
 ## Song
 ---
 <!-- Song-related commands -->
-- **`!join`** - Summons the bot to the voice channel you are in.
+- **`-join`** - Summons the bot to the voice channel you are in.
     - **Aliases:** `summon`
 ---
-- **`!play`** - Plays a song with the given name or url. [**More Info**](/play_song)
-    - **Usage:** `!play <link/query>`
+- **`-play`** - Plays a song with the given name or url. [**More Info**](/play_song)
+    - **Usage:** `-play <link/query>`
     - **Alias:** `p`
 ---
 - **`!playtop`** - Adds a song with the given name/url __on the top of the queue__.
@@ -78,7 +78,7 @@ title: Commands
     - **Other Usage:** `!lyrics <song name>` - Gets the lyrics of the mentioned song.
     - **Aliases:** `l`, `ly`
 ---
-- **`!disconnect`** - Disconnects the bot from the voice channel it is in.
+- **`-disconnect`** - Disconnects the bot from the voice channel it is in.
     - **Aliases:** `dc`, `leave`, `dis`
 ---
 
@@ -100,7 +100,7 @@ title: Commands
     - **Usage:** `!skipto <position>`
     - **Alias:** `st`
 ---
-- **`!shuffle`** -  Shuffles the entire queue.
+- **`-shuffle`** -  Shuffles the entire queue.
     - **Alias:** `random`
 ---
 - **`!remove`** - Removes a certain entry from the queue.
